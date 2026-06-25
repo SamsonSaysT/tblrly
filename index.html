@@ -1,0 +1,1059 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wayfair Board</title>
+<style>
+:root{
+  --bg:#10110e;--panel:#191b16;--panel2:#24271f;--text:#f4f2e8;--muted:#aaa792;
+  --line:rgba(255,255,255,.12);--accent:#b8ff66;--danger:#ff6d6d;--warn:#ffd36a;
+  --shadow:0 24px 80px rgba(0,0,0,.5);--radius:24px
+}
+*{box-sizing:border-box}html,body{min-height:100%}
+body{margin:0;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 0 0,rgba(184,255,102,.14),transparent 35rem),linear-gradient(135deg,#0b0c0a,var(--bg))}
+button,input,textarea,select{font:inherit}
+button,.fileBtn,a.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:.72rem 1rem;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:.4rem;transition:.15s}
+button:hover,.fileBtn:hover,a.btn:hover{transform:translateY(-1px);background:#2d3127}
+button.primary{background:var(--accent);color:#11160c;border-color:transparent;font-weight:900}
+button.danger{background:var(--danger);color:#190909;border-color:transparent;font-weight:900}
+button.icon{width:44px;height:44px;padding:0;font-size:1.35rem}
+button:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.menuBtn{position:fixed;z-index:50;top:16px;left:16px;width:56px;height:56px;padding:0;font-size:1.45rem;background:rgba(25,27,22,.9);backdrop-filter:blur(14px);box-shadow:var(--shadow)}
+.drawer{position:fixed;z-index:80;inset:0 auto 0 0;width:min(520px,calc(100vw - 26px));padding:22px;background:rgba(25,27,22,.97);backdrop-filter:blur(18px);border-right:1px solid var(--line);box-shadow:var(--shadow);transform:translateX(-105%);transition:transform .22s ease;overflow:auto}
+.drawer.open{transform:translateX(0)}
+.drawerHead{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}
+.drawer h1{font-size:1.55rem;letter-spacing:-.04em;margin:0}.drawer p{color:var(--muted);margin:.25rem 0 0;line-height:1.4}
+textarea,input,select{width:100%;border:1px solid var(--line);border-radius:17px;background:rgba(0,0,0,.26);color:var(--text);outline:none;padding:.88rem 1rem}
+textarea:focus,input:focus,select:focus{border-color:rgba(184,255,102,.62)}
+#linkInput,#jsonPaste{min-height:140px;margin:10px 0;resize:vertical}
+#jsonPaste{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86rem;color:var(--accent)}
+.row{display:flex;flex-wrap:wrap;gap:.65rem;margin:.75rem 0}.row>*{flex:0 0 auto}
+.help,.status,.dropzone{border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.04);padding:13px;color:var(--muted);line-height:1.45;margin-top:14px}
+.status{white-space:pre-wrap;max-height:260px;overflow:auto}
+.dropzone{border-style:dashed;text-align:center}
+.dropzone.drag{border-color:var(--accent);background:rgba(184,255,102,.08);color:var(--text)}
+.tabs{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
+.tabBtn{border-radius:999px;padding:.55rem .82rem;font-size:.9rem}
+.tabBtn.active{background:var(--accent);color:#11160c;border-color:transparent;font-weight:900}
+.tabPanel{display:none}.tabPanel.active{display:block}
+.app{width:min(1500px,100%);margin:0 auto;padding:84px clamp(16px,3vw,42px) 42px}
+.topbar{display:flex;gap:1rem;justify-content:space-between;align-items:flex-end;margin-bottom:24px}
+.topbar h2{font-size:clamp(2.2rem,5vw,5rem);letter-spacing:-.09em;line-height:.88;margin:0}
+.subtle{color:var(--muted);font-size:.92rem}.toolbar{display:flex;gap:.75rem;width:min(650px,100%);align-items:center}.toolbar select{max-width:155px}
+.empty{min-height:58vh;display:grid;place-items:center}.empty.hide{display:none}
+.emptyCard{width:min(580px,100%);text-align:center;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:42px 28px}
+.emptyIcon{font-size:4.2rem;color:var(--accent);line-height:1}.emptyCard h3{font-size:1.85rem;margin:12px 0 5px}.emptyCard p{color:var(--muted);line-height:1.45}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:18px}
+.card{border:1px solid var(--line);border-radius:var(--radius);background:rgba(255,255,255,.045);overflow:hidden;cursor:pointer;display:flex;flex-direction:column;min-height:410px;transition:.16s}
+.card:hover{transform:translateY(-3px);border-color:rgba(184,255,102,.48);background:rgba(255,255,255,.065)}
+.cardImg{aspect-ratio:4/3;background:rgba(0,0,0,.3);display:grid;place-items:center;overflow:hidden}
+.cardImg img{width:100%;height:100%;object-fit:cover}.noImg{color:var(--muted)}
+.cardBody{padding:15px;display:flex;flex-direction:column;gap:.62rem;flex:1}.card h3{margin:0;line-height:1.08;letter-spacing:-.035em}
+.price{color:var(--accent);font-weight:950}.dims{color:var(--muted);font-size:.88rem;line-height:1.35}.badge{font-size:.78rem;color:#15170f;background:var(--warn);border-radius:999px;padding:.25rem .5rem;font-weight:900;align-self:flex-start}
+.viewer{position:fixed;z-index:100;inset:0;display:none}.viewer.open{display:block}
+.backdrop{position:absolute;inset:0;background:rgba(0,0,0,.76);backdrop-filter:blur(12px)}
+.viewerCard{position:relative;width:min(1180px,calc(100vw - 22px));height:min(840px,calc(100vh - 22px));margin:11px auto;background:var(--panel);border:1px solid var(--line);border-radius:30px;box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-columns:minmax(360px,1.12fr) minmax(340px,.88fr)}
+.close{position:absolute;z-index:5;right:15px;top:15px;background:rgba(0,0,0,.45)}
+.vImgWrap{background:rgba(0,0,0,.34);display:grid;place-items:center;min-height:0;position:relative}
+.vImgWrap img{width:100%;height:100%;object-fit:contain;display:block}.vNoImg{display:none;color:var(--muted);font-size:1.15rem}
+.nav{position:absolute;z-index:5;top:50%;transform:translateY(-50%);width:54px;height:76px;border-radius:18px;background:rgba(0,0,0,.42);font-size:3rem;padding:0}
+.nav:hover{transform:translateY(-50%) scale(1.04)}.prev{left:15px}.next{right:15px}
+.vInfo{padding:34px;overflow:auto}.vHead{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start}
+.vInfo h2{font-size:clamp(1.7rem,3vw,3.35rem);line-height:.92;letter-spacing:-.065em;margin:.2rem 0}
+.vInfo h3{margin:24px 0 10px;color:var(--accent);font-size:.92rem;text-transform:uppercase;letter-spacing:.13em}
+.vActions{display:flex;flex-direction:column;gap:.55rem;align-items:flex-end;flex-shrink:0}.chips{display:flex;flex-wrap:wrap;gap:.55rem}
+.chip{background:rgba(184,255,102,.11);border:1px solid rgba(184,255,102,.3);border-radius:999px;padding:.5rem .72rem;color:#edffd7;line-height:1.2}
+.desc,.notes{white-space:pre-wrap;color:var(--muted);line-height:1.55}
+.specTable{border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.specRow{display:grid;grid-template-columns:160px 1fr;border-top:1px solid var(--line)}
+.specRow:first-child{border-top:0}.specKey{color:var(--muted);padding:9px 11px;background:rgba(255,255,255,.035)}.specVal{padding:9px 11px}
+.editForm{display:none;border-top:1px solid var(--line);padding-top:18px;margin-top:18px}.editing .editForm{display:block}
+.editForm label{display:block;color:var(--muted);margin:12px 0}.editForm input,.editForm textarea{margin-top:6px}.editForm textarea{min-height:90px;resize:vertical}
+.importLabel input{display:none}
+@media(max-width:880px){
+ .topbar{display:block}.toolbar{margin-top:15px;flex-direction:column}.toolbar select{max-width:none}
+ .viewerCard{grid-template-columns:1fr;overflow:auto}.vImgWrap{min-height:42vh}.vInfo{overflow:visible;padding:24px}.vHead{display:block}.vActions{margin-top:14px;align-items:flex-start;flex-direction:row;flex-wrap:wrap}.nav{top:24%}.specRow{grid-template-columns:1fr}
+}
+
+.authOverlay{
+  position:fixed;
+  z-index:9999;
+  inset:0;
+  display:grid;
+  place-items:center;
+  background:
+    radial-gradient(circle at 20% 10%,rgba(184,255,102,.16),transparent 32rem),
+    rgba(8,9,6,.96);
+  backdrop-filter:blur(18px);
+}
+.authOverlay.hidden{display:none}
+.authBox{
+  width:min(430px,calc(100vw - 32px));
+  border:1px solid var(--line);
+  border-radius:28px;
+  background:rgba(25,27,22,.96);
+  box-shadow:var(--shadow);
+  padding:28px;
+}
+.authBox h1{
+  margin:0 0 8px;
+  font-size:clamp(2rem,8vw,3.2rem);
+  line-height:.9;
+  letter-spacing:-.08em;
+}
+.authBox p{
+  margin:0 0 18px;
+  color:var(--muted);
+  line-height:1.45;
+}
+.authBox input{
+  margin-bottom:12px;
+  font-size:1.25rem;
+  letter-spacing:.18em;
+  text-align:center;
+}
+.authError{
+  color:var(--danger);
+  min-height:20px;
+  margin-top:10px;
+  font-size:.92rem;
+}
+.authFinePrint{
+  margin-top:14px;
+  color:var(--muted);
+  font-size:.82rem;
+  line-height:1.35;
+}
+
+</style>
+</head>
+<body>
+
+<div id="authOverlay" class="authOverlay">
+  <div class="authBox">
+    <h1>Wayfair Board</h1>
+    <p>Enter the password to open the furniture board.</p>
+    <input id="passwordInput" type="password" inputmode="numeric" autocomplete="current-password" placeholder="Password">
+    <button type="button" class="primary" onclick="WB_unlock()">Enter</button>
+    <div id="authError" class="authError"></div>
+    <div class="authFinePrint">This is a simple client-side gate for GitHub Pages. It keeps casual visitors out, but it is not real server security.</div>
+  </div>
+</div>
+
+<button type="button" class="menuBtn" title="Menu" onclick="WB_openDrawer()">☰</button>
+
+<aside id="drawer" class="drawer">
+  <div class="drawerHead">
+    <div>
+      <h1>Wayfair Board</h1>
+      <p>Private GitHub Pages board. Password: 6969. Import JSON from the Chrome extension.</p>
+    </div>
+    <button type="button" class="icon" onclick="WB_closeDrawer()">×</button>
+  </div>
+
+  <div class="tabs">
+    <button type="button" class="tabBtn active" data-tab="import">Import scrape</button>
+    <button type="button" class="tabBtn" data-tab="links">Manual links</button>
+    <button type="button" class="tabBtn" data-tab="manage">Manage</button>
+  </div>
+
+  <section id="tab-import" class="tabPanel active">
+    <div id="dropzone" class="dropzone">
+      Drop full/compact scrape JSON files here
+    </div>
+
+    <div class="help"><strong>Shared folder:</strong> any JSON files committed to <code>/scrapes</code> in this GitHub repo will auto-load for everyone viewing the site.</div>
+
+    <div class="row">
+      <label class="fileBtn importLabel">Choose scrape JSON <input id="scrapeFiles" type="file" accept="application/json,.json" multiple></label>
+      <button type="button" class="primary" onclick="WB_importPastedJson()">Import pasted JSON</button>
+      <button type="button" onclick="WB_importClipboardJson()">Import clipboard</button>
+    </div>
+
+    <textarea id="jsonPaste" placeholder="Paste full scrape or compact scrape JSON here."></textarea>
+
+    <div class="help">
+      Best workflow: open Wayfair page → click the scraper extension → Download full JSON → add that JSON file to the repo’s <strong>/scrapes</strong> folder. This site auto-loads shared scrapes for everyone.
+    </div>
+  </section>
+
+  <section id="tab-links" class="tabPanel">
+    <textarea id="linkInput" placeholder="Paste Wayfair links here. This only creates manual cards. Use the extension JSON for accurate info."></textarea>
+    <div class="row">
+      <button type="button" onclick="WB_addManualLinks()">Add manual link cards</button>
+      <button type="button" onclick="WB_addBlank()">Add blank card</button>
+    </div>
+  </section>
+
+  <section id="tab-manage" class="tabPanel">
+    <div class="row">
+      <button type="button" onclick="WB_exportJson()">Export board JSON</button>
+      <label class="fileBtn importLabel">Import board JSON <input id="boardFile" type="file" accept="application/json,.json"></label>
+    </div>
+    <div class="row">
+      <button type="button" class="danger" onclick="WB_clearBoard()">Clear board</button>
+      <button type="button" onclick="WB_cleanOldStorage()">Clean old storage</button>
+      <button type="button" onclick="WB_refreshSharedScrapes()">Refresh shared scrapes</button>
+      <button type="button" onclick="WB_lock()">Lock site</button>
+    </div>
+  </section>
+
+  <div id="status" class="status">Loading...</div>
+</aside>
+
+<main class="app">
+  <header class="topbar">
+    <div>
+      <h2>Furniture Board</h2>
+      <div id="countText" class="subtle">0 products</div>
+    </div>
+    <div class="toolbar">
+      <input id="searchInput" type="search" placeholder="Search title, notes, dimensions, specs...">
+      <select id="sortSelect">
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </div>
+  </header>
+
+  <section id="emptyState" class="empty">
+    <div class="emptyCard">
+      <div class="emptyIcon">▧</div>
+      <h3>No products yet</h3>
+      <p>Use the extension on a Wayfair page, download the JSON, then import it here.</p>
+      <button type="button" class="primary" onclick="WB_openDrawer()">Import scrape</button>
+    </div>
+  </section>
+
+  <section id="grid" class="grid"></section>
+</main>
+
+<div id="viewer" class="viewer" aria-hidden="true">
+  <div class="backdrop"></div>
+  <article id="viewerCard" class="viewerCard">
+    <button id="viewerClose" type="button" class="close icon">×</button>
+    <button id="prevBtn" type="button" class="nav prev">‹</button>
+    <button id="nextBtn" type="button" class="nav next">›</button>
+
+    <div class="vImgWrap">
+      <img id="viewerImage" alt="">
+      <div id="viewerNoImg" class="vNoImg">No image</div>
+    </div>
+
+    <div class="vInfo">
+      <div class="vHead">
+        <div>
+          <div id="viewerIndex" class="subtle"></div>
+          <h2 id="viewerTitle"></h2>
+          <p id="viewerMeta" class="subtle"></p>
+        </div>
+        <div class="vActions">
+          <a id="viewerLink" class="btn" target="_blank" rel="noreferrer">Open link</a>
+          <button id="editBtn" type="button">Edit</button>
+          <button id="deleteBtn" type="button" class="danger">Delete</button>
+        </div>
+      </div>
+
+      <div id="viewerPrice" class="price"></div>
+
+      <h3>Measurements</h3>
+      <div id="viewerMeasurements" class="chips"></div>
+
+      <h3>Specs</h3>
+      <div id="viewerSpecs" class="specTable"></div>
+
+      <h3>Description</h3>
+      <p id="viewerDescription" class="desc"></p>
+
+      <h3>Notes</h3>
+      <p id="viewerNotes" class="notes"></p>
+
+      <form id="editForm" class="editForm">
+        <label>Title <input id="editTitle"></label>
+        <label>Brand <input id="editBrand"></label>
+        <label>Price <input id="editPrice"></label>
+        <label>Image URL <input id="editImage"></label>
+        <label>Product URL <input id="editUrl"></label>
+        <label>Measurements <textarea id="editMeasurements" placeholder="One measurement per line"></textarea></label>
+        <label>Specs <textarea id="editSpecs" placeholder="One spec per line like Top Material: Faux Marble"></textarea></label>
+        <label>Description <textarea id="editDescription"></textarea></label>
+        <label>Notes <textarea id="editNotes"></textarea></label>
+        <div class="row">
+          <button id="saveEditBtn" type="submit" class="primary">Save</button>
+          <button id="cancelEditBtn" type="button">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </article>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+window.onerror = function(message, source, lineno, colno) {
+  setStatus("JavaScript error:\n" + message + "\nLine: " + lineno + ":" + colno);
+};
+
+const DB_NAME = "wayfair-board-v6-db";
+const STORE = "kv";
+const PRODUCTS_KEY = "products";
+
+let dbPromise = null;
+let products = [];
+let filtered = [];
+let activeIndex = -1;
+let editing = false;
+let wheelLock = false;
+let loaded = false;
+
+const DEFAULT_SHARED_SCRAPE_FILES = [
+  "scrapes/AllModern-Wooden-Table-With-Tiles-Top-Wayfair-full-scrape-2026-06-25T21-00-02.json",
+  "scrapes/Brayden-Studio-Hannie-51-Modern-Luxury-Marble-Coffee-Table-with-Metal-Pedestal-B-full-scrape-2026-06-25T20-45-30.json",
+  "scrapes/Classic-Home-Cypress-Natural-Root-Teak-Wood-Coffee-Table-Reviews-Wayfair-full-scrape-2026-06-25T20-55-17.json",
+  "scrapes/Corrigan-Studio-47-2-Inches-Free-Form-Rustic-Ash-Wood-Veneer-Coffee-Table-For-Sm-full-scrape-2026-06-25T20-53-52.json",
+  "scrapes/Corrigan-Studio-Octagonal-Wood-Veneer-Coffee-Table-Sculptural-Geometric-Center-T-full-scrape-2026-06-25T20-52-13.json",
+  "scrapes/East-Urban-Home-47-24-Modern-Coffee-Table-Safe-Rounded-Corners-Sturdy-Legs-Wayfa-full-scrape-2026-06-25T20-53-20.json",
+  "scrapes/Ebern-Designs-Werts-59-5-Modern-Curved-Chenille-Loveseat-Sofa-Reviews-Wayfair-full-scrape-2026-06-25T20-51-19.json",
+  "scrapes/Ivy-Bronx-Black-Industrial-Coffee-Table-Set-Set-Of-2-With-A-Circular-Nesting-Des-full-scrape-2026-06-25T20-56-25.json",
+  "scrapes/Ivy-Bronx-Pamala-Wood-Coffee-Table-Reviews-Wayfair-full-scrape-2026-06-25T20-52-02.json",
+  "scrapes/Joss-Main-Reyka-Modern-Coffee-Table-Reviews-Wayfair-full-scrape-2026-06-25T20-53-28.json",
+  "scrapes/Latitude-Run-47-Rectangular-Wood-Coffee-Table-With-4-Storage-Drawers-Ripple-Side-full-scrape-2026-06-25T20-58-29.json",
+  "scrapes/Latitude-Run-Coffee-Table---Light-Yellow-Wayfair-full-scrape-2026-06-25T20-58-23.json",
+  "scrapes/Latitude-Run-Round-Faux-Stone-Coffee-Table-with-Unique-Arched-Cutout-Base-Modern-full-scrape-2026-06-25T20-54-49.json",
+  "scrapes/Loon-Peak-Janaan-38-Inch-Coffee-Table-Oblong-Mango-Wood-Top-with-a-Modern-Ball-L-full-scrape-2026-06-25T20-53-36.json",
+  "scrapes/Loon-Peak-Janaan-38-Inch-Coffee-Table-Oblong-Mango-Wood-Top-with-a-Modern-Ball-L-full-scrape-2026-06-25T20-53-43.json",
+  "scrapes/Mercer41-Modern-Nesting-Coffee-Table-Set-of-2-with-Faux-Marble-Top-and-Gold-Meta-full-scrape-2026-06-25T20-54-25.json",
+  "scrapes/Millwood-Pines-Retro-Artistic-Irregular-Walnut-Coffee-Table-With-2-Tier-Storage--full-scrape-2026-06-25T20-59-07.json",
+  "scrapes/Offi-Scando-Coffee-Table-Reviews-Wayfair-full-scrape-2026-06-25T20-55-43.json",
+  "scrapes/Orren-Ellis-Cloud-Coffee-Table-Reviews-Wayfair-full-scrape-2026-06-25T21-00-51.json",
+  "scrapes/Orren-Ellis-Oval-Minimalist-Slate-Coffee-Table-Wayfair-full-scrape-2026-06-25T20-56-31.json",
+  "scrapes/Papella-Life-Model-Coffee-Table-Wayfair-full-scrape-2026-06-25T21-00-45.json"
+];
+const SHARED_LOAD_KEY = "wayfair-board-shared-load-log-v1";
+let sharedLoadedOnce = false;
+
+function repoInfoFromLocation(){
+  const host = location.hostname;
+  if(!host.endsWith(".github.io")) return null;
+  const owner = host.replace(".github.io", "");
+  const parts = location.pathname.split("/").filter(Boolean);
+  const repo = parts.length ? parts[0] : owner + ".github.io";
+  return { owner, repo };
+}
+
+async function listScrapesFromGitHubApi(){
+  const info = repoInfoFromLocation();
+  if(!info) return [];
+  const apiUrl = "https://api.github.com/repos/" + encodeURIComponent(info.owner) + "/" + encodeURIComponent(info.repo) + "/contents/scrapes?ref=main";
+  const response = await fetch(apiUrl, { headers: { "Accept": "application/vnd.github+json" } });
+  if(!response.ok){
+    // Try master if main is not the branch.
+    const apiUrlMaster = "https://api.github.com/repos/" + encodeURIComponent(info.owner) + "/" + encodeURIComponent(info.repo) + "/contents/scrapes?ref=master";
+    const response2 = await fetch(apiUrlMaster, { headers: { "Accept": "application/vnd.github+json" } });
+    if(!response2.ok) throw new Error("GitHub API could not list /scrapes. HTTP " + response.status + " / " + response2.status);
+    const data2 = await response2.json();
+    return data2.filter(x => x.type === "file" && /\.json$/i.test(x.name)).map(x => x.download_url).filter(Boolean);
+  }
+  const data = await response.json();
+  return data.filter(x => x.type === "file" && /\.json$/i.test(x.name)).map(x => x.download_url).filter(Boolean);
+}
+
+async function fetchJsonFile(url){
+  const response = await fetch(url, { cache: "no-store" });
+  if(!response.ok) throw new Error("Could not fetch " + url + " HTTP " + response.status);
+  return await response.json();
+}
+
+function productKey(product){
+  return product.url || product.id || (product.title + "|" + product.price);
+}
+
+async function upsertSharedProducts(incoming){
+  let added = 0, updated = 0;
+  const byKey = new Map();
+  products.forEach((p, index) => byKey.set(productKey(p), { p, index }));
+
+  incoming.forEach(function(p){
+    p = normalizeProduct(p);
+    p.source = p.source || "shared-scrape";
+    const key = productKey(p);
+    const existing = byKey.get(key);
+    if(existing){
+      // Update existing shared/built cards so changed JSON reflects after refresh.
+      if(/^shared-|built-in-scrape|extension-json/.test(existing.p.source || "")){
+        products[existing.index] = Object.assign({}, existing.p, p, { id: existing.p.id || p.id });
+        updated++;
+      }
+    } else {
+      products.unshift(p);
+      byKey.set(key, { p, index: 0 });
+      added++;
+    }
+  });
+
+  if(added || updated){
+    render();
+    await saveProducts();
+  }
+  return { added, updated };
+}
+
+async function loadSharedScrapes(manual){
+  try{
+    const files = new Set(DEFAULT_SHARED_SCRAPE_FILES);
+    let apiFiles = [];
+    try {
+      apiFiles = await listScrapesFromGitHubApi();
+      apiFiles.forEach(f => files.add(f));
+    } catch(apiErr) {
+      if(manual) setStatus("GitHub folder listing failed, but built-in file list will still load:\n" + (apiErr.message || apiErr));
+    }
+
+    const objects = [];
+    const errors = [];
+    for(const file of Array.from(files)){
+      try {
+        const obj = await fetchJsonFile(file);
+        objects.push(obj);
+      } catch(e) {
+        errors.push(file + ": " + (e.message || e));
+      }
+    }
+
+    const incoming = [];
+    objects.forEach(function(obj, idx){
+      try {
+        if(Array.isArray(obj)) obj.forEach(x => incoming.push(parseWayfairScrape(x)));
+        else if(obj.products && Array.isArray(obj.products)) obj.products.forEach(x => incoming.push(normalizeProduct(x)));
+        else incoming.push(parseWayfairScrape(obj));
+      } catch(e) {
+        errors.push("parse item " + (idx+1) + ": " + (e.message || e));
+      }
+    });
+
+    const result = await upsertSharedProducts(incoming);
+    sharedLoadedOnce = true;
+    const msg = "Shared scrapes checked. Files: " + files.size + "\nAdded: " + result.added + "\nUpdated: " + result.updated + (errors.length ? "\n\nSome files had issues:\n- " + errors.slice(0,8).join("\n- ") : "");
+    setStatus(msg);
+    try { sessionStorage.setItem(SHARED_LOAD_KEY, new Date().toISOString()); } catch(e) {}
+  } catch(e) {
+    setStatus("Shared scrape load failed:\n" + (e.stack || e));
+  }
+}
+
+function refreshSharedScrapes(){
+  loadSharedScrapes(true);
+}
+
+
+const SITE_PASSWORD = "6969";
+const AUTH_KEY = "wayfair-board-auth-ok-v1";
+
+function isAuthed(){
+  try { return sessionStorage.getItem(AUTH_KEY) === "yes"; }
+  catch(e) { return false; }
+}
+function setAuthed(value){
+  try {
+    if(value) sessionStorage.setItem(AUTH_KEY, "yes");
+    else sessionStorage.removeItem(AUTH_KEY);
+  } catch(e) {}
+}
+function updateAuthUi(){
+  const overlay = $("authOverlay");
+  if(!overlay) return;
+  overlay.classList.toggle("hidden", isAuthed());
+  if(!isAuthed()){
+    setTimeout(function(){
+      const input = $("passwordInput");
+      if(input) input.focus();
+    }, 50);
+  }
+}
+function unlock(){
+  const input = $("passwordInput");
+  const err = $("authError");
+  const value = input ? input.value.trim() : "";
+  if(value === SITE_PASSWORD){
+    setAuthed(true);
+    if(input) input.value = "";
+    if(err) err.textContent = "";
+    updateAuthUi();
+  } else {
+    if(err) err.textContent = "Wrong password.";
+    if(input){ input.select(); input.focus(); }
+  }
+}
+function lock(){
+  setAuthed(false);
+  updateAuthUi();
+}
+
+
+function $(id){ return document.getElementById(id); }
+function uid(){ return "p_" + Date.now() + "_" + Math.random().toString(16).slice(2); }
+function now(){ return new Date().toISOString(); }
+function clean(v){ return String(v == null ? "" : v).replace(/\u00a0/g," ").replace(/\s+/g," ").trim(); }
+function esc(v){ return String(v == null ? "" : v).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"); }
+function setStatus(msg){ const el=$("status"); if(el) el.textContent=msg || ""; }
+function unique(arr){
+  const out=[]; const seen=new Set();
+  (arr||[]).forEach(function(v){
+    v=clean(v);
+    if(!v) return;
+    const k=v.toLowerCase();
+    if(!seen.has(k)){ seen.add(k); out.push(v); }
+  });
+  return out;
+}
+
+function openDb(){
+  if(dbPromise) return dbPromise;
+  dbPromise = new Promise(function(resolve,reject){
+    const request = indexedDB.open(DB_NAME,1);
+    request.onupgradeneeded = function(event){
+      const db=event.target.result;
+      if(!db.objectStoreNames.contains(STORE)) db.createObjectStore(STORE);
+    };
+    request.onsuccess = event => resolve(event.target.result);
+    request.onerror = () => reject(request.error || new Error("IndexedDB open failed"));
+  });
+  return dbPromise;
+}
+async function idbGet(key){
+  const db=await openDb();
+  return new Promise(function(resolve,reject){
+    const tx=db.transaction(STORE,"readonly");
+    const req=tx.objectStore(STORE).get(key);
+    req.onsuccess=()=>resolve(req.result);
+    req.onerror=()=>reject(req.error || new Error("IndexedDB read failed"));
+  });
+}
+async function idbSet(key,value){
+  const db=await openDb();
+  return new Promise(function(resolve,reject){
+    const tx=db.transaction(STORE,"readwrite");
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>reject(tx.error || new Error("IndexedDB save failed"));
+    tx.objectStore(STORE).put(value,key);
+  });
+}
+async function loadProducts(){
+  try{
+    const saved=await idbGet(PRODUCTS_KEY);
+    products=Array.isArray(saved)?saved.map(normalizeProduct):[];
+    loaded=true; render();
+    setStatus("Ready. Loading shared /scrapes folder...\nStorage: IndexedDB");
+    loadSharedScrapes(false);
+  }catch(e){
+    loaded=true; render();
+    setStatus("Storage failed: "+(e.message||e));
+  }
+}
+async function saveProducts(){
+  try{ await idbSet(PRODUCTS_KEY,products); return true; }
+  catch(e){ setStatus("Save failed:\n"+(e.message||e)+"\nExport board JSON now."); return false; }
+}
+
+function normalizeProduct(p){
+  p=p||{};
+  const specs = normalizeSpecs(p.specs || {});
+  return {
+    id:p.id||uid(),
+    url:p.url||"",
+    title:p.title||"Untitled product",
+    brand:p.brand||"",
+    price:p.price||"",
+    image:p.image||"",
+    measurements:Array.isArray(p.measurements)?p.measurements.filter(Boolean).map(clean):String(p.measurements||"").split(/\n+/).map(clean).filter(Boolean),
+    specs,
+    description:p.description||"",
+    notes:p.notes||"",
+    createdAt:p.createdAt||now(),
+    source:p.source||"manual",
+    rawScrapeSummary:p.rawScrapeSummary||null
+  };
+}
+function normalizeSpecs(specs){
+  if(Array.isArray(specs)){
+    const obj={};
+    specs.forEach(function(line){
+      const i=String(line).indexOf(":");
+      if(i>0) obj[clean(line.slice(0,i))]=clean(line.slice(i+1));
+    });
+    return obj;
+  }
+  if(specs && typeof specs === "object") return Object.assign({}, specs);
+  return {};
+}
+
+function titleFromUrl(url){
+  try{
+    const u=new URL(url);
+    const parts=u.pathname.split("/").filter(Boolean);
+    let best=parts.find(part => /[a-z]/i.test(part) && !/^p\d+$/i.test(part) && !/^\d+$/.test(part)) || parts[parts.length-1] || "Wayfair product";
+    best=decodeURIComponent(best).replace(/[-_]+/g," ").replace(/\b\d{4,}\b/g,"").trim();
+    return best.slice(0,95)||"Wayfair product";
+  }catch{return "Wayfair product";}
+}
+function extractUrls(text){
+  const raw=String(text||"");
+  const found=raw.match(/https?:\/\/[^\s<>"')]+/gi)||[];
+  const also=[];
+  raw.split(/\s+/).forEach(function(piece){
+    piece=piece.trim().replace(/[.,;]+$/,"");
+    if(/^(www\.)?wayfair\./i.test(piece)) also.push("https://"+piece.replace(/^www\./i,"www."));
+  });
+  return Array.from(new Set(found.concat(also).map(u=>u.replace(/[.,;]+$/,""))));
+}
+
+/* Wayfair extension scrape parser */
+function parseWayfairScrape(scrape){
+  if(!scrape || typeof scrape !== "object") throw new Error("Not a JSON object.");
+  if(scrape.schema && scrape.schema.indexOf("wayfair-page-scrape") === -1 && !scrape.page && !scrape.product){
+    throw new Error("This does not look like a Wayfair scrape JSON.");
+  }
+
+  const page = scrape.page || {};
+  const product = scrape.product || {};
+  const dataHints = ((scrape.dom && scrape.dom.dataAttributeHints) || []);
+  const specBlocks = ((scrape.dom && scrape.dom.specBlocks) || []);
+  const images = scrape.images || [];
+
+  const title = extractTitle(scrape);
+  const brand = extractBrand(scrape, title);
+  const price = extractPrimaryPrice(scrape);
+  const image = extractBestImage(scrape, title);
+  const measurements = extractMeasurements(scrape);
+  const specs = extractSpecs(scrape);
+  const description = extractDescription(scrape);
+  const url = page.url || page.canonical || product.url || "";
+
+  return normalizeProduct({
+    id: uid(),
+    url,
+    title,
+    brand,
+    price,
+    image,
+    measurements,
+    specs,
+    description,
+    notes: "Imported from Wayfair extension JSON.",
+    source: "extension-json",
+    createdAt: scrape.capturedAt || now(),
+    rawScrapeSummary: {
+      schema: scrape.schema || "",
+      imageCount: images.length,
+      dataHintCount: dataHints.length,
+      specBlockCount: specBlocks.length,
+      rawVisibleTextLength: scrape.rawVisibleTextLength || 0
+    }
+  });
+}
+function extractTitle(scrape){
+  const page=scrape.page||{}, product=scrape.product||{};
+  let t=clean(page.h1) || clean(product.title) || clean(page.title) || "Wayfair product";
+  t=t.replace(/\s*\|\s*(Wayfair|AllModern|Joss & Main|Birch Lane|Perigold).*$/i,"");
+  t=t.replace(/\s*& Reviews$/i,"");
+  // Remove brand prefix from page title if h1 missing
+  return clean(t);
+}
+function extractBrand(scrape, title){
+  const dataHints=((scrape.dom&&scrape.dom.dataAttributeHints)||[]);
+  for(const h of dataHints){
+    const txt=clean(h.text);
+    if(txt.indexOf("By ")>=0){
+      const m=txt.match(/\bBy\s+(.+?)(?:\s+\d(?:\.\d)?\s*Rated|\s+\$\d|\s+4\.\d|\s+Rated|\s+\$)/);
+      if(m){
+        const b=clean(m[1]);
+        if(b.length>1 && b.length<90) return b;
+      }
+    }
+  }
+  const pt=clean((scrape.page||{}).title);
+  if(title && pt && pt.indexOf(title)>=0){
+    let prefix=clean(pt.split(title)[0]);
+    prefix=prefix.replace(/[|\-–—]+$/,"").trim();
+    if(prefix && prefix.length<90) return prefix;
+  }
+  return clean((scrape.product||{}).brand);
+}
+function extractPrimaryPrice(scrape){
+  const hints=((scrape.dom&&scrape.dom.dataAttributeHints)||[]);
+  for(const h of hints){
+    const attrs=h.attrs||{};
+    const txt=clean(h.text);
+    if(attrs["data-test-id"]==="StandardPricingPrice-PRIMARY" && /^\$[\d,]+(?:\.\d{2})?$/.test(txt)) return txt;
+  }
+  for(const h of hints){
+    const attrs=h.attrs||{};
+    const txt=clean(h.text);
+    if(attrs["data-name-id"]==="PriceDisplay" && /^\$[\d,]+(?:\.\d{2})?$/.test(txt)) return txt;
+  }
+  const productPrice=clean((scrape.product||{}).price);
+  if(/^\$[\d,]+(?:\.\d{2})?$/.test(productPrice)){
+    // Avoid obvious non-price values like $100 from Weight Capacity by checking hints first already happened.
+    const n=Number(productPrice.replace(/[$,]/g,""));
+    if(n>20) return productPrice;
+  }
+  const cands=((scrape.candidates&&scrape.candidates.priceCandidates)||[]);
+  for(const c of cands){
+    const s=clean(c);
+    if(/^\$[\d,]+(?:\.\d{2})?$/.test(s)){
+      const n=Number(s.replace(/[$,]/g,""));
+      if(n>20) return s;
+    }
+  }
+  return "";
+}
+function imageScore(img,title){
+  const alt=clean(img.alt).toLowerCase();
+  const src=String(img.src||"");
+  let score=0;
+  const t=clean(title).toLowerCase();
+  if(t && alt.indexOf(t)>=0) score+=10000;
+  const words=t.split(/\s+/).filter(w=>w.length>3).slice(0,8);
+  words.forEach(w=>{ if(alt.indexOf(w)>=0) score+=50; });
+  score += Math.min(Number(img.naturalWidth)||0,2400)/4;
+  score += Math.min(Number(img.naturalHeight)||0,2400)/8;
+  score += Math.min(Number(img.renderedWidth)||0,1400)/2;
+  if(/resize-h800|compr-r85\/3124/.test(src)) score+=200;
+  if(/sponsored|slider|chair|console|pads/i.test(alt) && t.indexOf(alt)<0) score-=700;
+  return score;
+}
+function extractBestImage(scrape,title){
+  const images=scrape.images||[];
+  if(images.length){
+    const sorted=images.slice().filter(i=>i.src).sort((a,b)=>imageScore(b,title)-imageScore(a,title));
+    if(sorted[0]) return sorted[0].src;
+  }
+  return clean((scrape.product||{}).image);
+}
+function splitStructuredDimensions(text){
+  let s=clean(text);
+  const labels=["Other Dimensions","Overall Dimensions","Overall Product Weight","Product Dimensions"];
+  labels.forEach(lab=>{
+    s=s.replace(new RegExp(escapeReg(lab),"g"),"|||"+lab+"|||");
+  });
+  const parts=s.split("|||");
+  const out=[];
+  for(let i=1;i<parts.length-1;i+=2){
+    const key=clean(parts[i]);
+    const val=clean(parts[i+1]);
+    if(key!=="Other Dimensions" && /\d/.test(val)) out.push(key+": "+val);
+  }
+  return out;
+}
+function extractMeasurements(scrape){
+  const out=[];
+  const hints=((scrape.dom&&scrape.dom.dataAttributeHints)||[]);
+  for(const h of hints){
+    const attrs=h.attrs||{};
+    const txt=clean(h.text);
+    if(attrs["data-name"]==="StructuredDimensions") out.push(...splitStructuredDimensions(txt));
+  }
+  out.push(...(((scrape.product||{}).measurements)||[]));
+  out.push(...(((scrape.candidates&&scrape.candidates.dimensionLines)||[])));
+  return unique(out).filter(v=>/\d/.test(v) && v.length<240 && !/Eye-catching|Warranty Length$|Overall Shape$/i.test(v)).slice(0,30);
+}
+function escapeReg(s){ return String(s).replace(/[.*+?^${}()|[\]\\]/g,"\\$&"); }
+function parseSpecsText(text){
+  const labels=[
+    "Product Type","Table Top Shape","Top Color","Top Material","Base Material","Gloss Finish",
+    "Table Base Type","Weight Capacity","Storage Included","Shelves Included","Set Type","Imported",
+    "Durability","Number of Tables Included","Base Type","General Features","Assembly Required",
+    "Commercial Warranty","Product Warranty","Full or Limited Warranty","Warranty Length","Warranty Details"
+  ];
+  let s=clean(text);
+  labels.forEach(lab=>{ s=s.replace(new RegExp(escapeReg(lab),"g"),"|||"+lab+"|||"); });
+  const parts=s.split("|||");
+  const specs={};
+  for(let i=1;i<parts.length-1;i+=2){
+    const key=clean(parts[i]);
+    const val=clean(parts[i+1]);
+    if(labels.includes(key) && val && val.length<240) specs[key]=val;
+  }
+  return specs;
+}
+function extractSpecs(scrape){
+  const specs={};
+  const hints=((scrape.dom&&scrape.dom.dataAttributeHints)||[]);
+  hints.forEach(function(h){
+    const name=(h.attrs||{})["data-name"] || "";
+    const txt=clean(h.text);
+    if(["SpecificationsDetails","SpecificationsAssembly","SpecificationsWarranty"].includes(name)){
+      Object.assign(specs, parseSpecsText(txt));
+    }
+  });
+  return specs;
+}
+function extractDescription(scrape){
+  const raw=clean(scrape.rawVisibleText||"");
+  const productDesc=clean((scrape.product||{}).description);
+  const marker="About This Product";
+  const idx=raw.indexOf(marker);
+  if(idx>=0){
+    let chunk=raw.slice(idx+marker.length, idx+marker.length+1800);
+    chunk=chunk.split(" Features ")[0] || chunk;
+    chunk=chunk.split(" Show More ")[0] || chunk;
+    chunk=clean(chunk);
+    if(chunk.length>80) return chunk;
+  }
+  return productDesc;
+}
+
+/* UI / board */
+function currentSearch(){ const el=$("searchInput"); return el ? el.value.trim().toLowerCase() : ""; }
+function sortList(list){
+  const mode=($("sortSelect")&&$("sortSelect").value)||"newest";
+  return list.slice().sort(function(a,b){
+    if(mode==="title") return (a.title||"").localeCompare(b.title||"");
+    const ad=new Date(a.createdAt||0).getTime(), bd=new Date(b.createdAt||0).getTime();
+    return mode==="oldest"?ad-bd:bd-ad;
+  });
+}
+function getFiltered(){
+  const q=currentSearch();
+  let list=products;
+  if(q){
+    list=products.filter(p=>[p.title,p.brand,p.price,p.url,p.description,p.notes,p.source,JSON.stringify(p.specs||{})].concat(p.measurements||[]).join(" ").toLowerCase().includes(q));
+  }
+  return sortList(list);
+}
+function render(){
+  filtered=getFiltered();
+  $("countText").textContent=products.length+" product"+(products.length===1?"":"s")+(filtered.length!==products.length?" · "+filtered.length+" shown":"");
+  $("emptyState").classList.toggle("hide",products.length>0);
+  const grid=$("grid");
+  grid.innerHTML=filtered.map(function(p,i){
+    const dims=(p.measurements||[]).slice(0,2).join(" · ");
+    const editable=!p.image && !(p.measurements||[]).length;
+    return '<article class="card" data-index="'+i+'">'+
+      '<div class="cardImg">'+(p.image?'<img src="'+esc(p.image)+'" alt="">':'<div class="noImg">No image</div>')+'</div>'+
+      '<div class="cardBody">'+
+      (editable?'<div class="badge">Needs edit</div>':'')+
+      '<div class="subtle">'+esc(p.brand||p.source||"Wayfair item")+'</div>'+
+      '<h3>'+esc(p.title)+'</h3>'+
+      (p.price?'<div class="price">'+esc(p.price)+'</div>':'')+
+      '<div class="dims">'+esc(dims||"Click to add measurements / image / notes")+'</div>'+
+      '</div></article>';
+  }).join("");
+  Array.prototype.forEach.call(grid.querySelectorAll(".card"), card=>{
+    card.addEventListener("click",()=>openViewer(Number(card.getAttribute("data-index"))));
+  });
+}
+async function addProducts(incoming){
+  const existing=new Set(products.map(p=>p.url).filter(Boolean));
+  const added=[];
+  incoming.map(normalizeProduct).forEach(function(p){
+    if(p.url && existing.has(p.url)) return;
+    if(p.url) existing.add(p.url);
+    added.push(p);
+  });
+  products=added.concat(products);
+  render();
+  await saveProducts();
+  return added.length;
+}
+async function importScrapeObjects(objects){
+  const incoming=[];
+  const errors=[];
+  objects.forEach(function(obj,idx){
+    try{
+      if(Array.isArray(obj)) obj.forEach(x=>incoming.push(parseWayfairScrape(x)));
+      else if(obj.products && Array.isArray(obj.products)) obj.products.forEach(x=>incoming.push(normalizeProduct(x)));
+      else incoming.push(parseWayfairScrape(obj));
+    }catch(e){ errors.push("Item "+(idx+1)+": "+(e.message||e)); }
+  });
+  const added=await addProducts(incoming);
+  setStatus("Imported "+added+" product"+(added===1?"":"s")+" from scrape JSON."+(errors.length?"\n\nErrors:\n- "+errors.join("\n- "):""));
+}
+async function importFiles(files){
+  const objects=[];
+  for(const file of Array.from(files||[])){
+    try{ objects.push(JSON.parse(await file.text())); }
+    catch(e){ setStatus("Could not read "+file.name+": "+(e.message||e)); }
+  }
+  if(objects.length) await importScrapeObjects(objects);
+}
+async function importPastedJson(){
+  const text=$("jsonPaste").value.trim();
+  if(!text){ setStatus("Paste scrape JSON first."); return; }
+  try{
+    const obj=JSON.parse(text);
+    await importScrapeObjects([obj]);
+    $("jsonPaste").value="";
+  }catch(e){ setStatus("Pasted JSON import failed:\n"+(e.stack||e)); }
+}
+async function importClipboardJson(){
+  try{
+    const text=await navigator.clipboard.readText();
+    $("jsonPaste").value=text;
+    await importPastedJson();
+  }catch(e){ setStatus("Clipboard import failed. Paste JSON into the box instead."); }
+}
+async function addManualLinks(){
+  const urls=extractUrls($("linkInput").value);
+  if(!urls.length){ setStatus("No links found."); return; }
+  const incoming=urls.map(url=>normalizeProduct({url,title:titleFromUrl(url),source:"manual-link",notes:"Manual card from pasted link."}));
+  const added=await addProducts(incoming);
+  $("linkInput").value="";
+  setStatus("Added "+added+" manual link card"+(added===1?"":"s")+".");
+}
+async function addBlank(){
+  const p=normalizeProduct({title:"New product",notes:"Fill this in manually.",source:"manual"});
+  products.unshift(p); render(); await saveProducts(); openViewer(0); startEditing();
+}
+function exportJson(){
+  const blob=new Blob([JSON.stringify({schema:"wayfair-board-v6",exportedAt:now(),products},null,2)],{type:"application/json"});
+  const url=URL.createObjectURL(blob); const a=document.createElement("a");
+  a.href=url; a.download="wayfair-board-"+new Date().toISOString().slice(0,10)+".json";
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+}
+async function importBoardFile(file){
+  if(!file) return;
+  try{
+    const obj=JSON.parse(await file.text());
+    const arr=Array.isArray(obj)?obj:(obj.products||[]);
+    if(!Array.isArray(arr)) throw new Error("Board JSON should contain a products array.");
+    const added=await addProducts(arr);
+    setStatus("Imported "+added+" board product"+(added===1?"":"s")+".");
+  }catch(e){ setStatus("Board import failed: "+(e.message||e)); }
+  $("boardFile").value="";
+}
+async function clearBoard(){
+  if(!products.length) return;
+  if(!confirm("Clear the whole board?")) return;
+  if(!confirm("For real? This removes the saved board from this browser.")) return;
+  products=[]; render(); await saveProducts(); closeViewer(); setStatus("Board cleared.");
+}
+function cleanOldStorage(){
+  let removed=[];
+  try{
+    const keys=[];
+    for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(k && k.indexOf("wayfair-board")===0) keys.push(k); }
+    keys.forEach(k=>{ localStorage.removeItem(k); removed.push(k); });
+    setStatus(removed.length?"Cleaned old localStorage:\n- "+removed.join("\n- "):"No old Wayfair localStorage found.");
+  }catch(e){ setStatus("Clean failed: "+(e.message||e)); }
+}
+
+function productIndexById(id){ return products.findIndex(p=>p.id===id); }
+function activeProduct(){ return filtered[activeIndex]||null; }
+function openViewer(i){ if(i<0||i>=filtered.length)return; activeIndex=i; editing=false; $("viewer").classList.add("open"); $("viewer").setAttribute("aria-hidden","false"); renderViewer(); }
+function closeViewer(){ activeIndex=-1; editing=false; $("viewer").classList.remove("open"); $("viewer").setAttribute("aria-hidden","true"); $("viewerCard").classList.remove("editing"); }
+function specsToLines(specs){ return Object.entries(specs||{}).map(([k,v])=>k+": "+v).join("\n"); }
+function renderViewer(){
+  const p=activeProduct(); if(!p) return closeViewer();
+  $("viewerCard").classList.toggle("editing",editing);
+  $("viewerIndex").textContent=(activeIndex+1)+" of "+filtered.length;
+  $("viewerTitle").textContent=p.title||"Untitled product";
+  $("viewerMeta").textContent=[p.brand,p.source].filter(Boolean).join(" · ");
+  if(p.url){ $("viewerLink").href=p.url; $("viewerLink").style.display=""; } else $("viewerLink").style.display="none";
+  $("viewerPrice").textContent=p.price||"";
+  if(p.image){ $("viewerImage").src=p.image; $("viewerImage").style.display="block"; $("viewerNoImg").style.display="none"; }
+  else { $("viewerImage").removeAttribute("src"); $("viewerImage").style.display="none"; $("viewerNoImg").style.display="block"; }
+  $("viewerMeasurements").innerHTML=(p.measurements||[]).length?p.measurements.map(d=>'<span class="chip">'+esc(d)+'</span>').join(""):'<span class="subtle">No measurements yet.</span>';
+  const specEntries=Object.entries(p.specs||{});
+  $("viewerSpecs").innerHTML=specEntries.length?specEntries.map(([k,v])=>'<div class="specRow"><div class="specKey">'+esc(k)+'</div><div class="specVal">'+esc(v)+'</div></div>').join(""):'<div class="specRow"><div class="specVal subtle">No specs yet.</div></div>';
+  $("viewerDescription").textContent=p.description||"No description yet.";
+  $("viewerNotes").textContent=p.notes||"No notes yet.";
+  $("editTitle").value=p.title||""; $("editBrand").value=p.brand||""; $("editPrice").value=p.price||""; $("editImage").value=p.image||""; $("editUrl").value=p.url||"";
+  $("editMeasurements").value=(p.measurements||[]).join("\n"); $("editSpecs").value=specsToLines(p.specs); $("editDescription").value=p.description||""; $("editNotes").value=p.notes||"";
+}
+function go(delta){ if(!filtered.length||activeIndex<0)return; activeIndex=(activeIndex+delta+filtered.length)%filtered.length; editing=false; renderViewer(); }
+function startEditing(){ editing=true; renderViewer(); setTimeout(()=>$("editTitle").focus(),50); }
+function cancelEditing(){ editing=false; renderViewer(); }
+async function saveEdit(e){
+  if(e) e.preventDefault();
+  const p=activeProduct(); if(!p)return;
+  const idx=productIndexById(p.id); if(idx<0)return;
+  products[idx]=normalizeProduct(Object.assign({},p,{
+    title:$("editTitle").value.trim(), brand:$("editBrand").value.trim(), price:$("editPrice").value.trim(),
+    image:$("editImage").value.trim(), url:$("editUrl").value.trim(),
+    measurements:$("editMeasurements").value.split(/\n+/).map(clean).filter(Boolean),
+    specs:$("editSpecs").value.split(/\n+/).map(clean).filter(Boolean),
+    description:$("editDescription").value.trim(), notes:$("editNotes").value.trim()
+  }));
+  await saveProducts(); editing=false; render(); filtered=getFiltered(); activeIndex=Math.max(0,filtered.findIndex(x=>x.id===p.id)); renderViewer();
+}
+async function deleteActive(){
+  const p=activeProduct(); if(!p)return;
+  if(!confirm('Delete "'+p.title+'"?')) return;
+  products=products.filter(x=>x.id!==p.id); render(); await saveProducts(); filtered=getFiltered();
+  if(!filtered.length) closeViewer(); else { activeIndex=Math.min(activeIndex,filtered.length-1); renderViewer(); }
+}
+function onViewerWheel(e){
+  if(!$("viewer").classList.contains("open")||editing)return;
+  if(Math.abs(e.deltaY)<30)return;
+  e.preventDefault(); if(wheelLock)return;
+  wheelLock=true; go(e.deltaY>0?1:-1); setTimeout(()=>wheelLock=false,250);
+}
+function setupTabs(){
+  document.querySelectorAll(".tabBtn").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      document.querySelectorAll(".tabBtn").forEach(b=>b.classList.remove("active"));
+      document.querySelectorAll(".tabPanel").forEach(p=>p.classList.remove("active"));
+      btn.classList.add("active");
+      $("tab-"+btn.dataset.tab).classList.add("active");
+    });
+  });
+}
+function setupDropzone(){
+  const dz=$("dropzone");
+  ["dragenter","dragover"].forEach(ev=>dz.addEventListener(ev,e=>{e.preventDefault();dz.classList.add("drag");}));
+  ["dragleave","drop"].forEach(ev=>dz.addEventListener(ev,e=>{e.preventDefault();dz.classList.remove("drag");}));
+  dz.addEventListener("drop",e=>importFiles(e.dataTransfer.files));
+}
+window.WB_openDrawer=()=>{ $("drawer").classList.add("open"); };
+window.WB_closeDrawer=()=>{ $("drawer").classList.remove("open"); };
+window.WB_importPastedJson=importPastedJson;
+window.WB_importClipboardJson=importClipboardJson;
+window.WB_addManualLinks=addManualLinks;
+window.WB_addBlank=addBlank;
+window.WB_exportJson=exportJson;
+window.WB_clearBoard=clearBoard;
+window.WB_cleanOldStorage=cleanOldStorage;
+window.WB_refreshSharedScrapes=refreshSharedScrapes;
+window.WB_unlock=unlock;
+window.WB_lock=lock;
+
+function wire(){
+  setupTabs(); setupDropzone();
+  $("scrapeFiles").addEventListener("change",e=>importFiles(e.target.files));
+  $("boardFile").addEventListener("change",e=>importBoardFile(e.target.files[0]));
+  $("searchInput").addEventListener("input",render);
+  $("sortSelect").addEventListener("change",render);
+  $("viewerClose").addEventListener("click",closeViewer);
+  $("prevBtn").addEventListener("click",()=>go(-1));
+  $("nextBtn").addEventListener("click",()=>go(1));
+  $("editBtn").addEventListener("click",startEditing);
+  $("cancelEditBtn").addEventListener("click",cancelEditing);
+  $("editForm").addEventListener("submit",saveEdit);
+  $("deleteBtn").addEventListener("click",deleteActive);
+  $("viewer").addEventListener("wheel",onViewerWheel,{passive:false});
+  document.addEventListener("keydown",function(e){
+    if($("drawer").classList.contains("open") && e.key==="Escape"){ WB_closeDrawer(); return; }
+    if(!$("viewer").classList.contains("open")) return;
+    if(e.key==="Escape") editing?cancelEditing():closeViewer();
+    else if(!editing && e.key==="ArrowRight") go(1);
+    else if(!editing && e.key==="ArrowLeft") go(-1);
+  });
+}
+wire();
+const passwordInput = $("passwordInput");
+if(passwordInput){
+  passwordInput.addEventListener("keydown", function(e){
+    if(e.key === "Enter") unlock();
+  });
+}
+updateAuthUi();
+render();
+loadProducts();
+})();
+</script>
+</body>
+</html>
