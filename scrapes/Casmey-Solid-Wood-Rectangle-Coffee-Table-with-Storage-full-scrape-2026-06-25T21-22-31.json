@@ -1,0 +1,2754 @@
+{
+  "candidates": {
+    "dimensionLines": [
+      "40.25\" L x 20.5\" W x 15\" H"
+    ],
+    "priceCandidates": [
+      "$100",
+      "$314.99",
+      "$329.99",
+      "$20",
+      "$162.79",
+      "$15.75",
+      "$89.99",
+      "$52.99",
+      "$10.60"
+    ]
+  },
+  "capturedAt": "2026-06-25T21:22:31.039Z",
+  "dom": {
+    "dataAttributeHints": [
+      {
+        "attrs": {},
+        "className": "darkreader darkreader--invert",
+        "id": "",
+        "tag": "style",
+        "text": ".jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^=\"https://www.gstatic.com/images/branding/googlelogo\"], span[data-href^=\"https://www.hcaptcha.com/\"] > #icon, img.Wirisformula, a[data-testid=\"headerMediumLogo\"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container, div.mc-ip-hide[style*=\"background: rgb(255, 255, 255) !important\"], [style*=\"color: rgb(0, 0, 1) !important;\"] { filter: invert(100%) hue-rotate(180deg) contrast(90%) !important; }"
+      },
+      {
+        "attrs": {},
+        "className": "darkreader darkreader--inline",
+        "id": "",
+        "tag": "style",
+        "text": "[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inline-bgcolor) !important; } [data-darkreader-inline-bgimage] { background-image: var(--darkreader-inline-bgimage) !important; } [data-darkreader-inline-border] { border-color: var(--darkreader-inline-border) !important; } [data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkreader-inline-border-bottom) !important; } [data-darkreader-inline-border-left] { border-left-color: var(--darkreader-inline-border-left) !important; } [data-darkreader-inline-border-right] { border-right-color: var(--darkreader-inline-border-right) !important; } [data-darkreader-inl"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "(self.__next_s=self.__next_s||[]).push([0,{\"children\":\"\\nwindow.__locale__ = \\\"en-US\\\";\\nwindow.__transactionID__ = \\\"ae+jPEYFSN6iVXRxK60Rxg==\\\";\\nwindow.__anchorPageViewID__ = window.__anchorPageViewID__ || \\\"MDAzZGMwNWUtYWNlNS00OA==\\\";\\nwindow.__pageViewID__ = \\\"MDAzZGMwNWUtYWNlNS00OA==\\\";\\nwindow.__hasSession__ = true;\\nwindow.__FETCH_DATA__ = {\\\"application\\\":{\\\"name\\\":\\\"@wayfair/sf-ui-core-funnel\\\",\\\"version\\\":\\\"3112f4261b261c429e95ccb29ff24a2a5ff4829b\\\"},\\\"storeURL\\\":\\\"https://www.wayfair.com\\\",\\\"pageName\\\":\\\"product-details\\\",\\\"isBot\\\":false,\\\"featureToggles\\\":{\\\"enableAuthTokenRefresh\\\":true,\\\"enableDebugLogs\\\":true,\\\"enableErrorLogs\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "(self.__next_s=self.__next_s||[]).push([0,{\"children\":\"window.__preHydrationConfig__ = {\\\"fireImpression\\\":true,\\\"pageViewID\\\":\\\"MDAzZGMwNWUtYWNlNS00OA==\\\",\\\"storeID\\\":49,\\\"scribeHost\\\":\\\"https://s.wayfair.com\\\",\\\"storeDomain\\\":\\\"wayfair.com\\\",\\\"pageType\\\":\\\"ProductOptionSku\\\",\\\"enableScribe1\\\":true,\\\"suppressInView\\\":true,\\\"suppressPageView\\\":true,\\\"firePageView\\\":true,\\\"datacenter\\\":\\\"dsm1\\\",\\\"platform\\\":\\\"WEB\\\",\\\"deviceType\\\":\\\"Desktop\\\",\\\"locale\\\":\\\"en-US\\\",\\\"currentURL\\\":\\\"https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188\\\",\\\"originURL\\\":\\\"h"
+      },
+      {
+        "attrs": {
+          "data-cy-id": "px-noscript"
+        },
+        "className": "",
+        "id": "",
+        "tag": "noscript",
+        "text": "<div style=\"position:fixed;top:0;left:0;display:none;width:1px;height:1px\"><img src=\"https://prx.wayfair.com/px/xhr/api/v1/collector/noScript.gif?appId=PX3Vk96I6i\"/></div>"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "fetch-patch-data",
+        "tag": "script",
+        "text": "window.__locale__ = \"en-US\"; window.__transactionID__ = \"ae+jPEYFSN6iVXRxK60Rxg==\"; window.__anchorPageViewID__ = window.__anchorPageViewID__ || \"MDAzZGMwNWUtYWNlNS00OA==\"; window.__pageViewID__ = \"MDAzZGMwNWUtYWNlNS00OA==\"; window.__hasSession__ = true; window.__FETCH_DATA__ = {\"application\":{\"name\":\"@wayfair/sf-ui-core-funnel\",\"version\":\"3112f4261b261c429e95ccb29ff24a2a5ff4829b\"},\"storeURL\":\"https://www.wayfair.com\",\"pageName\":\"product-details\",\"isBot\":false,\"featureToggles\":{\"enableAuthTokenRefresh\":true,\"enableDebugLogs\":true,\"enableErrorLogs\":true,\"enableFatalLogs\":true,\"enableInfoLogs\":false,\"enableWarnLogs\":true},\"sharedHeaders\":{\"wf-l"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "pre-hydration-tracking-config",
+        "tag": "script",
+        "text": "window.__preHydrationConfig__ = {\"fireImpression\":true,\"pageViewID\":\"MDAzZGMwNWUtYWNlNS00OA==\",\"storeID\":49,\"scribeHost\":\"https://s.wayfair.com\",\"storeDomain\":\"wayfair.com\",\"pageType\":\"ProductOptionSku\",\"enableScribe1\":true,\"suppressInView\":true,\"suppressPageView\":true,\"firePageView\":true,\"datacenter\":\"dsm1\",\"platform\":\"WEB\",\"deviceType\":\"Desktop\",\"locale\":\"en-US\",\"currentURL\":\"https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188\",\"originURL\":\"https://www.wayfair.com/furniture/sb2/coffee-tables-under-600-c414602-a1234567890~2147483646-p3730~0~600.ht"
+      },
+      {
+        "attrs": {
+          "data-file": "src/phone-number-button.$BRAND.css.js",
+          "data-package": "@wayfair/storefront-phone-number"
+        },
+        "className": "",
+        "id": "",
+        "tag": "style",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "FluidImage-wrapper"
+        },
+        "className": "_6o3atz14b _6o3atzld",
+        "id": "",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "",
+          "data-hb-id": "FluidImage"
+        },
+        "className": "b32ygh0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "a",
+        "text": "Free Assembly Grills"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "a",
+        "text": "Lightweight Quilts"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "a",
+        "text": "Speak with a Specialist"
+      },
+      {
+        "attrs": {
+          "data-enable-page-view": "true",
+          "data-pre-hydration-tracking": "true",
+          "data-tracking-metadata": "{\"displaySku\":\"W110562214\",\"displayChoiceIds\":\"1949757955,1993679188,\"}"
+        },
+        "className": "",
+        "id": "PreHydrationTrackingConfig",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderProductDetailsFixedWebExperience::97909_1949757955,1993679188__R_lbav5tb5vsmdb_"
+        },
+        "className": "_6o3atze1 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214 Casmey Solid Wood Rectangle Coffee Table with Storage By Wade Logan® 3.8 Rated 3.8 out of 5 stars. 130 Reviews $314.99 was $329.99 5% Off or {BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power Open Box Available Buy From $162.79 Size: 48\" 40\" 48\" Color: Pecan Wirebrush FREE Fast Delivery Get it by Tue, Jun 30 to 48236 Add to Cart Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atz158 _6o3atzhp _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214 Casmey Solid Wood Rectangle Coffee Table with Storage By Wade Logan® 3.8 Rated 3.8 out of 5 stars. 130 Reviews $314.99 was $329.99 5% Off or {BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power Open Box Available Buy From $162.79 Size: 48\" 40\" 48\" Color: Pecan Wirebrush FREE Fast Delivery Get it by Tue, Jun 30 to 48236 Add to Cart Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atz158 _6o3atzct _6o3atzf9 _6o3atze1 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214"
+      },
+      {
+        "attrs": {
+          "data-name": "Breadcrumbs"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderBreadcrumbs::58758__R_9blbav5tb5vsmdbH1_",
+          "data-tracking-metadata": "{\"metadata\":{\"categoryIDList\":[45974,45982,214994,414602,\"SKU: W110562214\"],\"linkTextList\":[\"Furniture\",\"Living Room Furniture\",\"Coffee Tables & End Tables\",\"Coffee Tables\",\"SKU: W110562214\"]},\"index\":-1,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz13e _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214"
+      },
+      {
+        "attrs": {
+          "aria-label": "Breadcrumbs",
+          "data-hb-id": "Breadcrumbs"
+        },
+        "className": "sfhse66 sfhse69",
+        "id": "",
+        "tag": "nav",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "breadcrumbList"
+        },
+        "className": "sfhse63 sfhse61",
+        "id": "",
+        "tag": "ol",
+        "text": "Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "li",
+        "text": "SKU: W110562214"
+      },
+      {
+        "attrs": {
+          "data-test-id": "breadcrumbs-crumb-4"
+        },
+        "className": "",
+        "id": "",
+        "tag": "span",
+        "text": "SKU: W110562214"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atz158 _6o3atzct _6o3atzf9 _6o3atze1 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Casmey Solid Wood Rectangle Coffee Table with Storage By Wade Logan® 3.8 Rated 3.8 out of 5 stars. 130 Reviews $314.99 was $329.99 5% Off or {BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power Open Box Available Buy From $162.79 Size: 48\" 40\" 48\" Color: Pecan Wirebrush FREE Fast Delivery Get it by Tue, Jun 30 to 48236 Add to Cart Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more Services Professional"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atz14x _6o3atz15j _6o3atz9r _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Casmey Solid Wood Rectangle Coffee Table with Storage By Wade Logan® 3.8 Rated 3.8 out of 5 stars. 130 Reviews $314.99 was $329.99 5% Off or {BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power Open Box Available Buy From $162.79 Size: 48\" 40\" 48\" Color: Pecan Wirebrush FREE Fast Delivery Get it by Tue, Jun 30 to 48236 Add to Cart Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more Services Professional"
+      },
+      {
+        "attrs": {
+          "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage, Pecan Wirebrush, 48\"",
+          "data-hb-id": "FluidImage"
+        },
+        "className": "_6o3atzxl b32ygh0 _1f33b0a0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage, Pecan Wirebrush, 48\"",
+          "data-hb-id": "FluidImage"
+        },
+        "className": "b32ygh0 _1f33b0a0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "aria-label": "Open full product image, Casmey Solid Wood Rectangle Coffee Table with Storage-1949757955-1993679188, 1 of 3"
+        },
+        "className": "y4m0pb0",
+        "id": "",
+        "tag": "button",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage-1949757955-1993679188",
+          "data-hb-id": "FixedImage"
+        },
+        "className": "_1f33b0a0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "aria-label": "Open full product image, Casmey Solid Wood Rectangle Coffee Table with Storage-1949757955-1993679188, 2 of 3"
+        },
+        "className": "y4m0pb0",
+        "id": "",
+        "tag": "button",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "aria-label": "Open full product image, Casmey Solid Wood Rectangle Coffee Table with Storage-1949757955-1993679188, 3 of 3"
+        },
+        "className": "y4m0pb0",
+        "id": "",
+        "tag": "button",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atzct _6o3atze1 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Casmey Solid Wood Rectangle Coffee Table with Storage By Wade Logan® 3.8 Rated 3.8 out of 5 stars. 130 Reviews $314.99 was $329.99 5% Off or {BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power Open Box Available Buy From $162.79 Size: 48\" 40\" 48\" Color: Pecan Wirebrush FREE Fast Delivery Get it by Tue, Jun 30 to 48236 Add to Cart Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more Services Professional"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderReviewHeader::58708__R_mhablbav5tb5vsmdb_",
+          "data-rtl-id": "reviewsHeaderButton",
+          "data-tracking-metadata": "{\"metadata\":{\"totalReviewCount\":130,\"avgReviewRating\":3.84,\"displayListingId\":\"W110562214\"},\"index\":2,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz13e _6o3atz1bp _6o3atz19h _6o3atz1bd",
+        "id": "",
+        "tag": "button",
+        "text": "3.8 Rated 3.8 out of 5 stars. 130 Reviews"
+      },
+      {
+        "attrs": {
+          "data-rtl-id": "reviewsHeaderReviewStars-rating"
+        },
+        "className": "_1a7ukst7 _1a7ukst3 _1a7ukst8",
+        "id": "",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-test-id": "StandardPricingPrice-PRIMARY"
+        },
+        "className": "",
+        "id": "",
+        "tag": "span",
+        "text": "$314.99"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-name-id": "PriceDisplay",
+          "data-test-id": "PriceDisplay"
+        },
+        "className": "_6o3atzbl _6o3atzc7 _6o3atz1d9 _6o3atz1bd",
+        "id": "",
+        "tag": "span",
+        "text": "$314.99"
+      },
+      {
+        "attrs": {
+          "data-test-id": "StandardPricingPrice-PREVIOUS"
+        },
+        "className": "",
+        "id": "",
+        "tag": "span",
+        "text": "was $329.99"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-name-id": "PriceDisplay",
+          "data-test-id": "PriceDisplay"
+        },
+        "className": "_6o3atzbl _6o3atzc7 _6o3atz1d9 _6o3atz1bd",
+        "id": "",
+        "tag": "s",
+        "text": "$329.99"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "FinancingPriceTransformationMessage",
+          "data-hb-id": "BoxV3",
+          "data-node-id": "WebElement::FinancingPriceTransformationMessage_3b8fa30c-3355-4c30-ad53-b5c26efa293d",
+          "data-test-id": "FinancingPriceTransformationMessage"
+        },
+        "className": "_6o3atz1o _6o3atz1t _6o3atz2a _6o3atz2f _6o3atz13e _6o3atz14s _6o3atz14x _6o3atzhp _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "or {BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "FinancingPriceTransformationCallout",
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderFinancingPriceTransformationMessageCallout::196750_40c088b5-59ab-4e71-958b-5b01161c0c58",
+          "data-test-id": "FinancingPriceTransformationCallout"
+        },
+        "className": "_6o3atz13e _6o3atz158 _6o3atzhp _6o3atz1dd _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "{BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "VisuallyHidden",
+          "data-test-id": "FinancingPriceTransformationCalloutFormattedTitleScreenReaderText"
+        },
+        "className": "mtsvz50",
+        "id": "",
+        "tag": "span",
+        "text": "{BOLD_AS_LOW_AS}"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-test-id": "FinancingPriceTransformationCalloutFormattedTitle"
+        },
+        "className": "_6o3atz1cl _6o3atz1bd",
+        "id": "",
+        "tag": "span",
+        "text": "As low as"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "VisuallyHidden",
+          "data-test-id": "FinancingPriceTransformationCalloutFormattedTitleScreenReaderText"
+        },
+        "className": "mtsvz50",
+        "id": "",
+        "tag": "span",
+        "text": "{BOLD_AFFIRM_REUSE_TITLE_SECTION_1}"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-test-id": "FinancingPriceTransformationCalloutFormattedTitle"
+        },
+        "className": "_6o3atz1cl _6o3atz1bd",
+        "id": "",
+        "tag": "span",
+        "text": "$20/mo."
+      },
+      {
+        "attrs": {
+          "data-hb-id": "VisuallyHidden",
+          "data-test-id": "FinancingPriceTransformationCalloutFormattedTitleScreenReaderText"
+        },
+        "className": "mtsvz50",
+        "id": "",
+        "tag": "span",
+        "text": "or 0% APR with"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-test-id": "FinancingPriceTransformationCalloutFormattedTitle"
+        },
+        "className": "_6o3atz1bd",
+        "id": "",
+        "tag": "span",
+        "text": "or 0% APR with"
+      },
+      {
+        "attrs": {
+          "alt": "Affirm",
+          "data-hb-id": "FixedImage",
+          "data-test-id": "BlockBuilderFinancingPriceTransformationLogo"
+        },
+        "className": "_6o3atz165",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderCollectionCallout::58762__R_73ablbav5tb5vsmdb_",
+          "data-tracking-metadata": "{\"metadata\":{\"imageID\":156101515,\"layout\":\"HORIZONTAL\",\"subtitle\":\"Open Box Available\",\"altText\":\"An Open Box\",\"linkURL\":{\"text\":\"Buy From $162.79\",\"url\":\"https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188&clearance=true\"}},\"index\":0,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz1t _6o3atz2f _6o3atz17 _6o3atz31 _6o3atz12h _6o3atz13e _6o3atz14x _6o3atzhp _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Open Box Available Buy From $162.79"
+      },
+      {
+        "attrs": {
+          "alt": "",
+          "data-hb-id": "FixedImage"
+        },
+        "className": "",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Blonde Wirebrush",
+          "data-hb-id": "FixedImage"
+        },
+        "className": "_6o3atz1bf _1eqhru10",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Pecan Wirebrush selected",
+          "data-hb-id": "FixedImage"
+        },
+        "className": "_6o3atz1bf _1eqhru10",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Seashell Wirebrush",
+          "data-hb-id": "FixedImage"
+        },
+        "className": "_6o3atz1bf _1eqhru10",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "White Sand Wirebrush",
+          "data-hb-id": "FixedImage"
+        },
+        "className": "_6o3atz1bf _1eqhru10",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Wirebrush White Sand is unavailable",
+          "data-hb-id": "FixedImage"
+        },
+        "className": "_6o3atz1bf _1eqhru10",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-name": "PromotionProgramsContainer"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more"
+      },
+      {
+        "attrs": {
+          "data-name": "SecondaryPromotionProgramsContainer"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more"
+      },
+      {
+        "attrs": {
+          "data-name": "ProgramsBlock"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atzix _6o3atzad _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "ProLeadLinkProgram::58774__R_39qblbav5tb5vsmdb_",
+          "data-tracking-metadata": "{\"metadata\":{\"linkText\":\"Enroll your business\",\"linkUrl\":\"https://www.wayfair.com/v/business_account/application/pico?account_method=46\",\"promotionProgramPriority\":\"SECONDARY\"},\"index\":0,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz1dd _6o3atz13e _6o3atzml _6o3atzhp _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items."
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "span",
+        "text": "Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items."
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atzml _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items."
+      },
+      {
+        "attrs": {},
+        "className": "_14vtt3o0 hb-theme-waypro _14vtt3o1",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price:"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz18y _6o3atz5h _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Pro Price:"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Text"
+        },
+        "className": "_6o3atzbl _6o3atz18y",
+        "id": "",
+        "tag": "p",
+        "text": "Pro Price:"
+      },
+      {
+        "attrs": {
+          "alt": "Wayfair Rewards",
+          "data-hb-id": "FixedImage",
+          "data-test-id": "FinancingCalloutIllustration"
+        },
+        "className": "",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-name": "ServicesList"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Services Professional Assembly - $89.99 See Details 5 Year Protection Plan - $52.99 ($10.60/year) See Details"
+      },
+      {
+        "attrs": {
+          "data-node-id": "BlockBuilderServicesList::52063_0beaffa4-b3ad-45cb-85ab-9ed5a2479197"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Professional Assembly - $89.99 See Details 5 Year Protection Plan - $52.99 ($10.60/year) See Details"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-test-id": "ServiceChoiceCheckbox"
+        },
+        "className": "_6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Professional Assembly - $89.99 See Details"
+      },
+      {
+        "attrs": {
+          "data-node-id": "BlockBuilderWebAddOnServiceChoiceAssembly::52146_ab774ee6-1d7b-41be-a9fd-145bd6d8c445"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Professional Assembly - $89.99 See Details"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz1t _6o3atz17 _6o3atz31 _6o3atz196 _6o3atz1bf _6o3atz13e _6o3atz158 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Professional Assembly - $89.99 See Details"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atz14x _6o3atz15u _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Professional Assembly - $89.99 See Details"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Checkbox"
+        },
+        "className": "_1jv15wu3",
+        "id": "",
+        "tag": "label",
+        "text": "Professional Assembly - $89.99"
+      },
+      {
+        "attrs": {},
+        "className": "_1jv15wu0",
+        "id": "",
+        "tag": "span",
+        "text": "Professional Assembly - $89.99"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atzhp _6o3atz9r _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Professional Assembly - $89.99"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz13e _6o3atzml _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Professional Assembly - $89.99"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Text",
+          "data-test-id": "ServiceChoiceTitle"
+        },
+        "className": "_6o3atz5h _6o3atz13e _6o3atzbl _6o3atz18y _6o3atz1cl",
+        "id": "",
+        "tag": "p",
+        "text": "Professional Assembly -"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderCoreListingCollection::190837__R_aqblbav5tb5vsmdbH1_",
+          "data-tracking-metadata": "{\"metadata\":{\"headingTitle\":\"placeholder\",\"headingSubtitle\":null,\"headingImage\":null,\"headingTypeName\":\"TopHeader\",\"layout\":\"CarouselDisplay\",\"listingCardSize\":\"LARGE\",\"totalRowCount\":1,\"displaySKUs\":\"W005270063, W005404956, W001527559, APTE2437\",\"breakpoints\":[{\"breakpoint\":\"BREAKPOINT_640\",\"numberOfVisibleListings\":2,\"numberOfRows\":null,\"__typename\":\"BlockBuilderCarouselDisplay\"},{\"breakpoint\":\"BREAKPOINT_1120\",\"numberOfVisibleListings\":3,\"numberOfRows\":null,\"__typename\":\"BlockBuilderCarouselDisplay\"},{\"breakpoint\":\"BREAKPOINT_1440\",\"numberOfVisibleListings\":4,\"numberOfRows\":null,\"__typename\":\"BlockBuilderCarouselDisplay\"}],\"hasBlockBuilderStyling\":false,\"listingCollectionType\":\"BlockBuilderListingCollectionCarousel\"},\"index\":-1,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atzpn _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Sale Burke Square Manufactured Wood Serving Tray with Handles Add to Cart Larenda Entryway Table with Open Shelf Storage Add to Cart Four-Day Flash Sale Lorraine TV Stand with Sliding Barn Doors Add to Cart Sale Round Furniture Pads for Slider (Set of 128) Add to Cart"
+      },
+      {
+        "attrs": {
+          "data-clio-context": "{\"displayListingId\":\"W005270063\",\"displayListingVariantId\":\"W005270063_1111680813\",\"index\":0,\"isSponsored\":false,\"layout\":\"VERTICAL_SUBGRID\"}",
+          "data-clio-id": "ListingCard::_R_n6qqblbav5tb5vsmdbH1_",
+          "data-clio-signals": "click,in_view",
+          "data-name-id": "CardWrapper",
+          "data-node-id": "RecommendedListingCollectionItem::186482__R_n6qqblbav5tb5vsmdb_",
+          "data-test-id": "CardWrapper",
+          "data-tracking-metadata": "{\"metadata\":{\"displayListingId\":\"W005270063\",\"displayedOptionIDs\":[1111680813],\"recsRequestId\":\"c8f8933c-2ba4-451d-96ca-c230f6fc6d92\",\"listingCardLayout\":\"VERTICAL_SUBGRID\",\"imageId\":376173031,\"useLongFlag\":false,\"showFlag\":true,\"flagLocation\":\"bottomLeft\",\"flagText\":\"Sale\",\"flagVariation\":\"SALE\",\"flagColor\":\"Red\",\"bestValueStamp\":true,\"stampLocation\":\"topLeft\",\"bestValueStampLargeImageId\":410590398,\"bestValueStampSmallImageId\":326871030,\"listingCardName\":\"Burke Square Manufactured Wood Serving Tray with Handles\",\"listingCardNameMaxLines\":\"TWO\",\"hasATC\":true},\"index\":0,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz14b _6o3atzld _6o3atz4v _6o3atz5h _6o3atz1bf _6o3atzd _6o3atzl _6o3atz196 f8l2850",
+        "id": "",
+        "tag": "div",
+        "text": "Sale Burke Square Manufactured Wood Serving Tray with Handles Add to Cart"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "ListingLeadImage-ListingFlag",
+          "data-hb-id": "Flag",
+          "data-name-id": "ListingLeadImageFlag"
+        },
+        "className": "_1diqka30 _1diqka33 _1diqka37",
+        "id": "",
+        "tag": "span",
+        "text": "Sale"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "ListingLeadImage-ListingBestValueStamp"
+        },
+        "className": "_1ski0hc5 _1ski0hc1",
+        "id": "",
+        "tag": "span",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Wayfair Verified",
+          "data-hb-id": "FixedImage",
+          "data-test-id": "bestValueStamp-smallImage"
+        },
+        "className": "_1ski0hc6 _1ski0hc0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Wayfair Verified",
+          "data-hb-id": "FixedImage",
+          "data-test-id": "bestValueStamp-largeImage"
+        },
+        "className": "_1ski0hc7 _1ski0hc0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "alt": "Burke Square Manufactured Wood Serving Tray with Handles",
+          "data-enzyme-id": "ListingLeadImage-Image",
+          "data-hb-id": "FluidImage",
+          "data-name-id": "ListingLeadImage"
+        },
+        "className": "b32ygh0 _1f33b0a0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-clio-context": "{\"displayListingId\":\"W005404956\",\"displayListingVariantId\":\"W005404956_1842618584\",\"index\":1,\"isSponsored\":false,\"layout\":\"VERTICAL_SUBGRID\"}",
+          "data-clio-id": "ListingCard::_R_176qqblbav5tb5vsmdbH1_",
+          "data-clio-signals": "click,in_view",
+          "data-name-id": "CardWrapper",
+          "data-node-id": "RecommendedListingCollectionItem::186482__R_176qqblbav5tb5vsmdb_",
+          "data-test-id": "CardWrapper",
+          "data-tracking-metadata": "{\"metadata\":{\"displayListingId\":\"W005404956\",\"displayedOptionIDs\":[1842618584],\"recsRequestId\":\"c8f8933c-2ba4-451d-96ca-c230f6fc6d92\",\"listingCardLayout\":\"VERTICAL_SUBGRID\",\"imageId\":259130988,\"useLongFlag\":false,\"showFlag\":false,\"listingCardName\":\"Larenda Entryway Table with Open Shelf Storage\",\"listingCardNameMaxLines\":\"TWO\",\"hasATC\":true},\"index\":1,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz14b _6o3atzld _6o3atz4v _6o3atz5h _6o3atz1bf _6o3atzd _6o3atzl _6o3atz196 f8l2850",
+        "id": "",
+        "tag": "div",
+        "text": "Larenda Entryway Table with Open Shelf Storage Add to Cart"
+      },
+      {
+        "attrs": {
+          "alt": "Larenda Entryway Table with Open Shelf Storage",
+          "data-enzyme-id": "ListingLeadImage-Image",
+          "data-hb-id": "FluidImage",
+          "data-name-id": "ListingLeadImage"
+        },
+        "className": "b32ygh0 _1f33b0a0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-clio-context": "{\"displayListingId\":\"W001527559\",\"displayListingVariantId\":\"W001527559_1143879774_1153332056\",\"index\":2,\"isSponsored\":false,\"layout\":\"VERTICAL_SUBGRID\"}",
+          "data-clio-id": "ListingCard::_R_1n6qqblbav5tb5vsmdbH1_",
+          "data-clio-signals": "click,in_view",
+          "data-name-id": "CardWrapper",
+          "data-node-id": "RecommendedListingCollectionItem::186482__R_1n6qqblbav5tb5vsmdb_",
+          "data-test-id": "CardWrapper",
+          "data-tracking-metadata": "{\"metadata\":{\"displayListingId\":\"W001527559\",\"displayedOptionIDs\":[1143879774,1153332056],\"recsRequestId\":\"c8f8933c-2ba4-451d-96ca-c230f6fc6d92\",\"listingCardLayout\":\"VERTICAL_SUBGRID\",\"imageId\":443835480,\"useLongFlag\":false,\"showFlag\":true,\"flagLocation\":\"bottomLeft\",\"flagText\":\"Four-Day Flash Sale\",\"flagVariation\":\"MAJOR_PROMOTION\",\"flagColor\":\"Red\",\"bestValueStamp\":true,\"stampLocation\":\"topLeft\",\"bestValueStampLargeImageId\":410590398,\"bestValueStampSmallImageId\":326871030,\"listingCardName\":\"Lorraine TV Stand with Sliding Barn Doors\",\"listingCardNameMaxLines\":\"TWO\",\"hasATC\":true},\"index\":2,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz14b _6o3atzld _6o3atz4v _6o3atz5h _6o3atz1bf _6o3atzd _6o3atzl _6o3atz196 f8l2850",
+        "id": "",
+        "tag": "div",
+        "text": "Four-Day Flash Sale Lorraine TV Stand with Sliding Barn Doors Add to Cart"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "ListingLeadImage-ListingFlag",
+          "data-hb-id": "Flag",
+          "data-name-id": "ListingLeadImageFlag"
+        },
+        "className": "_1diqka30 _1diqka33 _1diqka37",
+        "id": "",
+        "tag": "span",
+        "text": "Four-Day Flash Sale"
+      },
+      {
+        "attrs": {
+          "alt": "Lorraine TV Stand with Sliding Barn Doors",
+          "data-enzyme-id": "ListingLeadImage-Image",
+          "data-hb-id": "FluidImage",
+          "data-name-id": "ListingLeadImage"
+        },
+        "className": "b32ygh0 _1f33b0a0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-clio-context": "{\"displayListingId\":\"APTE2437\",\"displayListingVariantId\":\"APTE2437\",\"index\":3,\"isSponsored\":false,\"layout\":\"VERTICAL_SUBGRID\"}",
+          "data-clio-id": "ListingCard::_R_276qqblbav5tb5vsmdbH1_",
+          "data-clio-signals": "click,in_view",
+          "data-name-id": "CardWrapper",
+          "data-node-id": "RecommendedListingCollectionItem::186482__R_276qqblbav5tb5vsmdb_",
+          "data-test-id": "CardWrapper",
+          "data-tracking-metadata": "{\"metadata\":{\"displayListingId\":\"APTE2437\",\"displayedOptionIDs\":[],\"recsRequestId\":\"c8f8933c-2ba4-451d-96ca-c230f6fc6d92\",\"listingCardLayout\":\"VERTICAL_SUBGRID\",\"imageId\":253774764,\"useLongFlag\":false,\"showFlag\":true,\"flagLocation\":\"bottomLeft\",\"flagText\":\"Sale\",\"flagVariation\":\"SALE\",\"flagColor\":\"Red\",\"listingCardName\":\"Round Furniture Pads for Slider\",\"listingCardNameMaxLines\":\"TWO\",\"hasATC\":true},\"index\":3,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz14b _6o3atzld _6o3atz4v _6o3atz5h _6o3atz1bf _6o3atzd _6o3atzl _6o3atz196 f8l2850",
+        "id": "",
+        "tag": "div",
+        "text": "Sale Round Furniture Pads for Slider (Set of 128) Add to Cart"
+      },
+      {
+        "attrs": {
+          "alt": "Round Furniture Pads for Slider",
+          "data-enzyme-id": "ListingLeadImage-Image",
+          "data-hb-id": "FluidImage",
+          "data-name-id": "ListingLeadImage"
+        },
+        "className": "b32ygh0 _1f33b0a0",
+        "id": "",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "Collapse-Collapsible"
+        },
+        "className": "",
+        "id": "CollapsePanel-_R_2rqblbav5tb5vsmdb_",
+        "tag": "div",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "ul",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Grid"
+        },
+        "className": "_6o3atz18y _6o3atzml _6o3atz13e",
+        "id": "",
+        "tag": "div",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Grid.Item"
+        },
+        "className": "_6o3atz18y _6o3atz13e _6o3atzml _6o3atze1 gg9tmt3o gg9tmt5 gg9tmt3p",
+        "id": "",
+        "tag": "div",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {
+          "data-name": "Vizcon"
+        },
+        "className": "r3y52o0 r3y52o1 r3y52o3",
+        "id": "",
+        "tag": "li",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {},
+        "className": "r3y52o8 r3y52o9 r3y52ob r3y52oe r3y52of",
+        "id": "",
+        "tag": "p",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {},
+        "className": "r3y52ok r3y52oi",
+        "id": "",
+        "tag": "span",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {
+          "data-node-id": "WebElement::PDPToggleables__R_cqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Description About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart"
+      },
+      {
+        "attrs": {
+          "data-name": "ToggleableContent",
+          "data-node-id": "WebElement::Presentational_ToggleableContent"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Description About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Accordion"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Description About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart"
+      },
+      {
+        "attrs": {},
+        "className": "lcofaz0",
+        "id": "",
+        "tag": "div",
+        "text": "Description About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "collapsePanel",
+          "data-hb-id": "CollapsePanel"
+        },
+        "className": "_1dufoct5 _1dufoctc",
+        "id": "",
+        "tag": "div",
+        "text": "Description About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart"
+      },
+      {
+        "attrs": {
+          "aria-labelledby": "react-collapsed-toggle-_R_9sqblbav5tb5vsmdb_",
+          "data-codeception-id": "collapsePanelContent",
+          "data-enzyme-id": "collapsePanelContent"
+        },
+        "className": "",
+        "id": "react-collapsed-panel-_R_9sqblbav5tb5vsmdb_",
+        "tag": "div",
+        "text": "About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for "
+      },
+      {
+        "attrs": {},
+        "className": "_1dufocti",
+        "id": "",
+        "tag": "div",
+        "text": "About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for "
+      },
+      {
+        "attrs": {},
+        "className": "_1dufoct2",
+        "id": "",
+        "tag": "div",
+        "text": "About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for "
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz5h _6o3atz49 _6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for "
+      },
+      {
+        "attrs": {
+          "data-name": "RomanceCopy",
+          "data-node-id": "BlockBuilderRomanceCopy::58804__R_2t9sqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for "
+      },
+      {
+        "attrs": {},
+        "className": "_1yxomy20",
+        "id": "",
+        "tag": "div",
+        "text": "About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for "
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "About This Product"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Text"
+        },
+        "className": "_6o3atzbl _6o3atz18y _6o3atz1dh",
+        "id": "",
+        "tag": "p",
+        "text": "About This Product"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz1d9 _6o3atzbl _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for those seeking sophi"
+      },
+      {
+        "attrs": {},
+        "className": "_6o3atz63 _1tu06vr1",
+        "id": "",
+        "tag": "li",
+        "text": "Assembly: The medium-sized coffee table for small space is easily assembled anywhere in your room, accompanied by user-friendly instructions. Conveniently, the modern occasional table for the living room arrives in a single box."
+      },
+      {
+        "attrs": {},
+        "className": "_6o3atz63 _1tu06vr1",
+        "id": "",
+        "tag": "li",
+        "text": "Dimensions: The rectangular center table measures 40.25\" L x 20.5\" W x 15\" H."
+      },
+      {
+        "attrs": {
+          "data-anchor-tag": "specifications-toggleable"
+        },
+        "className": "lcofaz0",
+        "id": "",
+        "tag": "div",
+        "text": "Specifications"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "collapsePanel",
+          "data-hb-id": "CollapsePanel"
+        },
+        "className": "_1dufoct5 _1dufoctc",
+        "id": "",
+        "tag": "div",
+        "text": "Specifications"
+      },
+      {
+        "attrs": {},
+        "className": "_1dufoct1",
+        "id": "",
+        "tag": "h2",
+        "text": "Specifications"
+      },
+      {
+        "attrs": {
+          "data-codeception-id": "collapsePanelToggle",
+          "data-enzyme-id": "collapsePanelToggle",
+          "data-index": "1"
+        },
+        "className": "_1dufoctd",
+        "id": "react-collapsed-toggle-_R_hsqblbav5tb5vsmdb_",
+        "tag": "button",
+        "text": "Specifications"
+      },
+      {
+        "attrs": {},
+        "className": "_1dufoct3",
+        "id": "_R_3hsqblbav5tb5vsmdb_",
+        "tag": "span",
+        "text": "Specifications"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Text"
+        },
+        "className": "_6o3atzbl _6o3atz18y _6o3atz1dh",
+        "id": "",
+        "tag": "p",
+        "text": "Specifications"
+      },
+      {
+        "attrs": {
+          "aria-labelledby": "react-collapsed-toggle-_R_hsqblbav5tb5vsmdb_",
+          "data-codeception-id": "collapsePanelContent",
+          "data-enzyme-id": "collapsePanelContent"
+        },
+        "className": "",
+        "id": "react-collapsed-panel-_R_hsqblbav5tb5vsmdb_",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb.DocumentsInstallation And Assembly (pdf)DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelvesAssemblyAssembly RequiredYesWarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb.DocumentsInstallation And Assembly (pdf)DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelvesAssemblyAssembly RequiredYesWarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {},
+        "className": "_1dufoct2",
+        "id": "",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb.DocumentsInstallation And Assembly (pdf)DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelvesAssemblyAssembly RequiredYesWarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {
+          "data-name": "DimensionalImage",
+          "data-node-id": "BlockBuilderDimensionalImage::58797__R_2thsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz5h _6o3atz49 _6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb."
+      },
+      {
+        "attrs": {
+          "data-name": "StructuredDimensions",
+          "data-node-id": "BlockBuilderStructuredDimensions::58809__R_4thsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb."
+      },
+      {
+        "attrs": {},
+        "className": "_17paqpc0",
+        "id": "",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb."
+      },
+      {
+        "attrs": {},
+        "className": "_17paqpc1",
+        "id": "",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb."
+      },
+      {
+        "attrs": {
+          "data-name": "DescriptionSection"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb."
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Other Dimensions"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Text"
+        },
+        "className": "_6o3atzbl _6o3atz18y _6o3atz1dh",
+        "id": "",
+        "tag": "p",
+        "text": "Other Dimensions"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "DescriptionList"
+        },
+        "className": "_6o3atzuj z9wp91",
+        "id": "",
+        "tag": "dl",
+        "text": "Small Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb."
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Overall Dimensions"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Overall Dimensions"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Overall Product Weight"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Overall Product Weight"
+      },
+      {
+        "attrs": {
+          "data-name": "FreeFormDimensions",
+          "data-node-id": "BlockBuilderFreeFormDimensions::58799__R_6thsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz5h _6o3atz49 _6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "DocumentsInstallation And Assembly (pdf)"
+      },
+      {
+        "attrs": {
+          "data-name": "Features_Documents",
+          "data-node-id": "BlockBuilderMarketplaceListingDocuments::83056__R_8thsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "DocumentsInstallation And Assembly (pdf)"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz12h _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "DocumentsInstallation And Assembly (pdf)"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "ul",
+        "text": "Installation And Assembly (pdf)"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "li",
+        "text": "Installation And Assembly (pdf)"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Link"
+        },
+        "className": "rccwc50 rccwc53",
+        "id": "",
+        "tag": "a",
+        "text": "Installation And Assembly (pdf)"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz5h _6o3atz49 _6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelves"
+      },
+      {
+        "attrs": {
+          "data-name": "SpecificationsDetails",
+          "data-node-id": "BlockBuilderSpecificationsDetails::58807__R_athsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelves"
+      },
+      {
+        "attrs": {},
+        "className": "_1gb8m7y0",
+        "id": "",
+        "tag": "div",
+        "text": "DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelves"
+      },
+      {
+        "attrs": {
+          "data-name": "DescriptionSection"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelves"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "DescriptionList"
+        },
+        "className": "_6o3atzuj z9wp91",
+        "id": "",
+        "tag": "dl",
+        "text": "Product TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelves"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Product Type"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Product Type"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Top Material"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Top Material"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Base Material"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Base Material"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Wood Species"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Wood Species"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Overall Shape"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Overall Shape"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz5h _6o3atz49 _6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "AssemblyAssembly RequiredYes"
+      },
+      {
+        "attrs": {
+          "data-name": "SpecificationsAssembly",
+          "data-node-id": "BlockBuilderSpecificationsAssembly::58806__R_ethsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "AssemblyAssembly RequiredYes"
+      },
+      {
+        "attrs": {},
+        "className": "ihwfna0",
+        "id": "",
+        "tag": "div",
+        "text": "AssemblyAssembly RequiredYes"
+      },
+      {
+        "attrs": {
+          "data-name": "DescriptionSection"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "AssemblyAssembly RequiredYes"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Assembly"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "Text"
+        },
+        "className": "_6o3atzbl _6o3atz18y _6o3atz1dh",
+        "id": "",
+        "tag": "p",
+        "text": "Assembly"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "DescriptionList"
+        },
+        "className": "_6o3atzuj z9wp91",
+        "id": "",
+        "tag": "dl",
+        "text": "Assembly RequiredYes"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz5h _6o3atz49 _6o3atz63 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "WarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {
+          "data-name": "SpecificationsWarranty",
+          "data-node-id": "BlockBuilderSpecificationsWarranty::58808__R_gthsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "WarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "WarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {
+          "data-name": "DescriptionSection"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "WarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "DescriptionList"
+        },
+        "className": "_6o3atzuj z9wp91",
+        "id": "",
+        "tag": "dl",
+        "text": "Commercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {},
+        "className": "z9wp95 z9wp96",
+        "id": "",
+        "tag": "dt",
+        "text": "Product Warranty"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Product Warranty"
+      },
+      {
+        "attrs": {
+          "data-name": "SpecificationsPartNumber",
+          "data-node-id": "BlockBuilderSpecificationsPartNumber::140067__R_ithsqblbav5tb5vsmdb_"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-node-id": "PDPDPCSection::190199__R_rlbav5tb5vsmdb_",
+          "data-node-skip": "true"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Customer Reviews 3.8 Rated 3.8 out of 5 stars. 130 Reviews 79 5 star reviews 5 79 11 4 star reviews 4 11 8 3 star reviews 3 8 4 2 star reviews 2 4 28 1 star reviews 1 28 Customers say Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture. AI-generated from customer reviews"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atzhp _6o3atz13e _6o3atz158 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Customer Reviews 3.8 Rated 3.8 out of 5 stars. 130 Reviews 79 5 star reviews 5 79 11 4 star reviews 4 11 8 3 star reviews 3 8 4 2 star reviews 2 4 28 1 star reviews 1 28 Customers say Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture. AI-generated from customer reviews"
+      },
+      {
+        "attrs": {
+          "data-anchor-tag": "reviews",
+          "data-name": "Reviews",
+          "data-node-id": "WebElement::Externals_Reviews__R_frlbav5tb5vsmdb_",
+          "data-tracking-metadata": "{\"metadata\":{},\"index\":6,\"pageNumber\":-1}"
+        },
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Customer Reviews 3.8 Rated 3.8 out of 5 stars. 130 Reviews 79 5 star reviews 5 79 11 4 star reviews 4 11 8 3 star reviews 3 8 4 2 star reviews 2 4 28 1 star reviews 1 28 Customers say Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture. AI-generated from customer reviews"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Customer Reviews 3.8 Rated 3.8 out of 5 stars. 130 Reviews 79 5 star reviews 5 79 11 4 star reviews 4 11 8 3 star reviews 3 8 4 2 star reviews 2 4 28 1 star reviews 1 28 Customers say Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture. AI-generated from customer reviews"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderReviewsRating::58737__R_2jfrlbav5tb5vsmdb_",
+          "data-rtl-id": "trackedReviewsRating",
+          "data-tracking-metadata": "{\"metadata\":{\"totalReviewCount\":130,\"avgReviewRating\":3.84,\"displaySKU\":\"W110562214\",\"displayListingId\":\"W110562214\"},\"index\":-1,\"pageNumber\":-1}"
+        },
+        "className": "_6o3atz17 _6o3atz31 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "3.8 Rated 3.8 out of 5 stars. 130 Reviews"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-rtl-id": "reviewsRatingReviewAverage"
+        },
+        "className": "_6o3atzbl _6o3atz1dh _6o3atzc7 _6o3atz12h _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "3.8"
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "ReviewStars-wrapper",
+          "data-hb-id": "ReviewStars",
+          "data-rtl-id": "reviewsRatingReviewStars"
+        },
+        "className": "_1a7ukst0",
+        "id": "",
+        "tag": "div",
+        "text": "Rated 3.8 out of 5 stars."
+      },
+      {
+        "attrs": {
+          "data-rtl-id": "reviewsRatingReviewStars-rating"
+        },
+        "className": "_1a7ukst7 _1a7ukst3 _1a7ukst9",
+        "id": "",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {
+          "data-hb-id": "VisuallyHidden",
+          "data-rtl-id": "reviewsRatingReviewStars-a11yLabel"
+        },
+        "className": "mtsvz50",
+        "id": "",
+        "tag": "p",
+        "text": "Rated 3.8 out of 5 stars."
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-rtl-id": "reviewsRatingReviewCount"
+        },
+        "className": "_6o3atz49 _6o3atzzf _6o3atz1dh _6o3atzpn _6o3atzrh _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "130 Reviews"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3"
+        },
+        "className": "_6o3atz4v _6o3atz5h _6o3atz63 _6o3atz49 _6o3atzf9 _6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Customers say Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture. AI-generated from customer reviews"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "BlockBuilderReviewSummary::129052_3de45d3c-c359-40d8-b9ba-85e3d6753dcc"
+        },
+        "className": "_6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": "Customers say Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture. AI-generated from customer reviews"
+      },
+      {
+        "attrs": {
+          "data-hb-id": "TextReveal"
+        },
+        "className": "_6o3atz49 _6o3atz63",
+        "id": "",
+        "tag": "div",
+        "text": "Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture."
+      },
+      {
+        "attrs": {
+          "data-enzyme-id": "Collapse-Collapsible"
+        },
+        "className": "",
+        "id": "CollapsePanel-_R_r3frlbav5tb5vsmdb_",
+        "tag": "div",
+        "text": "Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture."
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "div",
+        "text": "Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture."
+      },
+      {
+        "attrs": {
+          "data-hb-id": "BoxV3",
+          "data-node-id": "WebElement::CustomerReviewImageModal_04dbb459-18b8-46a6-9a8e-f0ec398408c9"
+        },
+        "className": "_6o3atz1bd",
+        "id": "",
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"c\\\":[\\\"\\\",\\\"furniture\\\",\\\"pdp\\\",\\\"wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188\\\"],\\\"q\\\":\\\"?piid=1949757955%2C1993679188\\u0026sku=w110562214\\\",\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"(standard)\\\",{\\\"children\\\":[\\\"product-details\\\",{\\\"children\\\":[\\\"__PAGE__?{\\\\\\\"piid\\\\\\\":\\\\\\\"1949757955,1993679188\\\\\\\",\\\\\\\"sku\\\\\\\":\\\\\\\"w110562214\\\\\\\"}\\\",{}]}]}]},\\\"$undefined\\\",\\\"$undefined\\\",16],[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"https://assets.wfcdn.com/webpack/sf-ui-core-funnel/_next/static/css/6570"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"f:[]\\n9:\\\"$Wf\\\"\\nb:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"\\nwindow.__locale__ = \\\"en-US\\\";\\nwindow.__transactionID__ = \\\"ae+jPEYFSN6iVXRxK60Rxg==\\\";\\nwindow.__anchorPageViewID__ = window.__anchorPageViewID__ || \\\"MDAzZGMwNWUtYWNlNS00OA==\\\";\\nwindow.__pageViewID__ = \\\"MDAzZGMwNWUtYWNlNS00OA==\\\";\\nwindow.__hasSession__ = true;\\nwindow.__FETCH_DATA__ = {\\\"application\\\":{\\\"name\\\":\\\"@wayfair/sf-ui-core-funnel\\\",\\\"version\\\":\\\"3112f4261b261c429e95ccb29ff24a2a5ff4829b\\\"},\\\"storeURL\\\":\\\"https://www.wayfair.com\\\",\\\"pageName\\\":\\\"product-details\\\",\\\"isBot\\\":false,\\\"featureToggles\\\":{\\\"enableAuthTokenRefresh\\\":true,\\\"enableDebugLogs\\\":true,\\\"enableErrorLogs\\\":true,\\\"enableFatalLogs\\\":true,"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"2:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"hb-theme-wayfair\\\",\\\"data-app-name\\\":\\\"@wayfair/sf-ui-core-funnel\\\",\\\"children\\\":[[\\\"$\\\",\\\"head\\\",null,{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",null,{\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"https://assets.wfcdn.com/st4/stores/common/wayfair/favicon.ico\\\",\\\"type\\\":\\\"image/x-icon\\\"}],[[\\\"$\\\",\\\"link\\\",\\\"icon192x192\\\",{\\\"rel\\\":\\\"icon\\\",\\\"sizes\\\":\\\"192x192\\\",\\\"href\\\":\\\"https://assets.wfcdn.com/st4/stores/common/mobile/touch_icons/wayfair_192x192.png\\\"}],[\\\"$\\\",\\\"link\\\",\\\"apple-touch-icon-precomposed180x180\\\",{\\\"rel\\\":\\\"apple-touch-icon-precomposed\\\",\\\"sizes\\\":\\\"180x180\\\",\\\"href\\\":\\\"https://"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"19:[\\\"$\\\",\\\"$L17\\\",null,{\\\"id\\\":\\\"inline-logger\\\",\\\"strategy\\\":\\\"beforeInteractive\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"$21\\\"}}]\\n1a:[\\\"$\\\",\\\"$L17\\\",null,{\\\"id\\\":\\\"pre-hydration-tracking-config\\\",\\\"strategy\\\":\\\"beforeInteractive\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"window.__preHydrationConfig__ = {\\\\\\\"fireImpression\\\\\\\":true,\\\\\\\"pageViewID\\\\\\\":\\\\\\\"MDAzZGMwNWUtYWNlNS00OA==\\\\\\\",\\\\\\\"storeID\\\\\\\":49,\\\\\\\"scribeHost\\\\\\\":\\\\\\\"https://s.wayfair.com\\\\\\\",\\\\\\\"storeDomain\\\\\\\":\\\\\\\"wayfair.com\\\\\\\",\\\\\\\"pageType\\\\\\\":\\\\\\\"ProductOptionSku\\\\\\\",\\\\\\\"enableScribe1\\\\\\\":true,\\\\\\\"suppressInView\\\\\\\":true,\\\\\\\"suppressPageView\\\\\\\":true"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"1b:[\\\"$\\\",\\\"$L17\\\",null,{\\\"id\\\":\\\"pre-hydration-tracking\\\",\\\"strategy\\\":\\\"beforeInteractive\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"$22\\\"}}]\\n23:[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"position\\\":\\\"fixed\\\",\\\"top\\\":0,\\\"left\\\":0,\\\"display\\\":\\\"none\\\",\\\"width\\\":1,\\\"height\\\":1},\\\"children\\\":[\\\"$\\\",\\\"img\\\",null,{\\\"src\\\":\\\"https://prx.wayfair.com/px/xhr/api/v1/collector/noScript.gif?appId=PX3Vk96I6i\\\"}]}]\\n1c:[[\\\"$\\\",\\\"script\\\",null,{\\\"data-cy-id\\\":\\\"px-script\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"(function(){\\\\n window._pxAppId = 'PX3Vk96I6i';\\\\n window._pxJsClientSrc = '%2F%2Fclient.perimeterx.net%2FPX3Vk96I6i%2Fmain.min"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"20:[\\\"$\\\",\\\"body\\\",null,{\\\"data-tagg-experience\\\":\\\"taggstar_value_prop_browse_pdp_top-v2\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L25\\\",null,{\\\"brand\\\":\\\"wayfair\\\",\\\"locale\\\":\\\"en-US\\\",\\\"pageType\\\":\\\"ProductOptionSku\\\",\\\"storeId\\\":49,\\\"auth\\\":{\\\"isLoggedIn\\\":true,\\\"isB2BCustomer\\\":false,\\\"isEProcCustomer\\\":false,\\\"hasEmployeePricing\\\":false,\\\"isLoyaltyCustomer\\\":false,\\\"isPaidMember\\\":false,\\\"isCardholderMember\\\":false,\\\"customerID\\\":\\\"6342566213\\\",\\\"tokenExpirationEpochInSeconds\\\":1782434243,\\\"jwtScope\\\":\\\"openid offline_access sf:recognized sf:trusted\\\",\\\"role\\\":[\\\"sf:customer\\\"],\\\"entitlements\\\":[],\\\"authStatus\\\":\\\"TRUSTED\\\",\\\"b2b"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"15:[\\\"$\\\",\\\"$L29\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L2a\\\",null,{\\\"clientName\\\":\\\"global_popups\\\",\\\"initialState\\\":\\\"{}\\\",\\\"children\\\":[\\\"$\\\",\\\"$L2b\\\",null,{\\\"globalPopupsContext\\\":{\\\"isBot\\\":false,\\\"enableReplatformedPopupEvaluate\\\":true,\\\"enableReplatformedPopupEvaluateDetailed\\\":false,\\\"classId\\\":\\\"$undefined\\\"},\\\"isWfPlaywrightTest\\\":false}]}]}]\\n14:[\\\"$\\\",\\\"$L2c\\\",null,{\\\"pageName\\\":\\\"product-details\\\"}]\\n\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"28:[\\\"$\\\",\\\"$L2d\\\",null,{\\\"tracky\\\":false,\\\"children\\\":[\\\"$\\\",\\\"$L2e\\\",null,{\\\"appContext\\\":{\\\"application\\\":{\\\"name\\\":\\\"@wayfair/sf-ui-core-funnel\\\",\\\"version\\\":\\\"3112f4261b261c429e95ccb29ff24a2a5ff4829b\\\"},\\\"brand\\\":\\\"wayfair\\\",\\\"locale\\\":\\\"en-US\\\",\\\"store\\\":{\\\"id\\\":49,\\\"name\\\":\\\"Wayfair\\\",\\\"domain\\\":\\\"wayfair.com\\\",\\\"url\\\":\\\"https://www.wayfair.com\\\",\\\"secureURL\\\":\\\"https://secure.wayfair.com\\\",\\\"brandCatalogID\\\":1},\\\"customerID\\\":\\\"6342566213\\\",\\\"isSPA\\\":false,\\\"route\\\":{\\\"path\\\":\\\"/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html\\\",\\\"index\\\":0,\\\"params\\\":{\\\"0\\\":\\\"furnit"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"{\\\"BlockBuilderBanner:QmxvY2tCdWlsZGVyQmFubmVyOk1ZeHJqTkRKb2xKckh1bXRCamFtWEpsWVMzYzA4ejI3MUFBSGs3Q1JSL0VyeDd0emR6T1pUQjVWRTNUcWdEdzdiL1QvNzlWb2hCNHFFUUovTVFrQWdnPT0=\\\":{\\\"__typename\\\":\\\"BlockBuilderBanner\\\",\\\"id\\\":\\\"QmxvY2tCdWlsZGVyQmFubmVyOk1ZeHJqTkRKb2xKckh1bXRCamFtWEpsWVMzYzA4ejI3MUFBSGs3Q1JSL0VyeDd0emR6T1pUQjVWRTNUcWdEdzdiL1QvNzlWb2hCNHFFUUovTVFrQWdnPT0=\\\",\\\"blockId\\\":23641,\\\"image\\\":{\\\"__typename\\\":\\\"BlockBuilderBannerImage\\\",\\\"backgroundImage\\\":{\\\"__typename\\\":\\\"BlockBuilderImage\\\",\\\"ireId\\\":434165106,\\\"alt\\\":\\\"Don't miss app-exclusive deals and perks; download the app.\\\"},\\\"overlayImage\\\":null,\\\"height\\\":300,\\\"w"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"16:[\\\"$\\\",\\\"$L3e\\\",null,{\\\"brand\\\":\\\"wayfair\\\",\\\"pageType\\\":\\\"ProductOptionSku\\\",\\\"auth\\\":\\\"$20:props:children:0:props:auth\\\",\\\"type\\\":\\\"footer\\\",\\\"children\\\":[\\\"$\\\",\\\"$L3f\\\",null,{\\\"metadata\\\":{\\\"team\\\":\\\"browse-navigation\\\",\\\"experience\\\":\\\"footer\\\"},\\\"children\\\":[\\\"$\\\",\\\"$L40\\\",null,{\\\"initialApolloState\\\":\\\"$41\\\",\\\"shouldUseApolloCache\\\":true,\\\"experienceIdentifier\\\":null,\\\"enableWFCACookieBanner\\\":true,\\\"hasSecGpc\\\":true}]}]}]\\n44:T4f451,\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"{\\\"CoreProductRecsListingCollection:Q29yZVByb2R1Y3RSZWNzTGlzdGluZ0NvbGxlY3Rpb246ZlpZc09PaVZWWGZKc093SEFGL2xLUitFSFdMdXQxWWQxWWdnditVYVlYSWJEaUJqY1BnaDR5ZlVSWERERTRiTUo0OG5kRjB6a0ZvL0dtL2FwRnJpQkF5NkxybTNqWG9rL0JJeWZrSUxHMGFXR1d1WGJsOXJZVi9Mb28zLzVyRlNlN2NHNzBVUUVDOStHU0xuL0JDYjhBPT0=\\\":{\\\"__typename\\\":\\\"CoreProductRecsListingCollection\\\",\\\"id\\\":\\\"Q29yZVByb2R1Y3RSZWNzTGlzdGluZ0NvbGxlY3Rpb246ZlpZc09PaVZWWGZKc093SEFGL2xLUitFSFdMdXQxWWQxWWdnditVYVlYSWJEaUJqY1BnaDR5ZlVSWERERTRiTUo0OG5kRjB6a0ZvL0dtL2FwRnJpQkF5NkxybTNqWG9rL0JJeWZrSUxHMGFXR1d1WGJsOXJZVi9Mb28zLzVyRlNlN2NHNzBVUUVDOStHU0xuL0JDYjhBPT0=\\\",\\\"display\\\":null},\\\"BlockBu"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"12:[\\\"$\\\",\\\"$L3e\\\",null,{\\\"type\\\":\\\"header\\\",\\\"brand\\\":\\\"wayfair\\\",\\\"auth\\\":\\\"$20:props:children:0:props:auth\\\",\\\"pageType\\\":\\\"ProductOptionSku\\\",\\\"children\\\":[\\\"$\\\",\\\"$L3f\\\",null,{\\\"metadata\\\":{\\\"team\\\":\\\"browse-navigation\\\",\\\"experience\\\":\\\"header\\\"},\\\"children\\\":[\\\"$\\\",\\\"$L42\\\",null,{\\\"gambitContext\\\":\\\"$2f:props:gambitData\\\",\\\"children\\\":[\\\"$\\\",\\\"$L43\\\",null,{\\\"initialApolloState\\\":\\\"$44\\\",\\\"enableReplatMinicart\\\":true,\\\"storeId\\\":49,\\\"enableCheckoutRoutingUrlFT\\\":false,\\\"operationalMode\\\":\\\"customer\\\",\\\"children\\\":\\\"$L45\\\"}]}]}]}]\\n\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"45:[\\\"$\\\",\\\"div\\\",null,{\\\"id\\\":\\\"header-experience\\\",\\\"children\\\":[\\\"$\\\",\\\"$L46\\\",null,{\\\"enableMarketingBanner\\\":true,\\\"enableStickyBlocks\\\":false,\\\"experienceIdentifier\\\":null,\\\"isB2BExperience\\\":false,\\\"isLoggedIn\\\":true,\\\"isPhone\\\":false,\\\"isTablet\\\":false,\\\"selectedB2BAisle\\\":\\\"RESIDENTIAL\\\",\\\"url\\\":\\\"https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188\\\",\\\"pageType\\\":\\\"ProductOptionSku\\\",\\\"shouldForceHardcodedIncidentBanner\\\":false,\\\"isDeliveryPlusGroupSelectionEnabled\\\":true,\\\"isPromoStoreLogoEnabled\\\":false}]}]\\n3c:[\\\""
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\":HL[\\\"https://assets.wfcdn.com/im/48178462/resize-h800-w800%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg\\\",\\\"image\\\",{\\\"fetchPriority\\\":\\\"high\\\",\\\"imageSrcSet\\\":\\\"https://assets.wfcdn.com/im/36950466/resize-h300-w300%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 300w, https://assets.wfcdn.com/im/53120350/resize-h600-w600%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 600w, https://assets.wfcdn.com/im/48178462/resize-h800-w800%5Ecompr-r85/27"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"d:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage \\u0026 Reviews | Wayfair\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"You'll love the Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage at Wayfair - Great Deals on all products with Free Shipping on most stuff, even the big stuff.\\\"}],[\\\"$\\\",\\\"link\\\",\\\"2\\\",{\\\"rel\\\":\\\"canonical\\\",\\\"href\\\":\\\"https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html\\\"}],[\\\"$\\\",\\\"link\\\",\\\"3\\\",{\\\"rel\\\":\\\"alternate\\\",\\\"hrefLang\\\":\\\"x-defaul"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"6:[false,false,[\\\"$\\\",\\\"$L47\\\",null,{\\\"metadata\\\":{\\\"team\\\":\\\"pdp\\\",\\\"experience\\\":\\\"product-details\\\"},\\\"children\\\":[[[\\\"$\\\",\\\"div\\\",null,{\\\"id\\\":\\\"PreHydrationTrackingConfig\\\",\\\"data-pre-hydration-tracking\\\":\\\"true\\\",\\\"data-enable-page-view\\\":\\\"true\\\",\\\"data-enable-impressions\\\":\\\"$undefined\\\",\\\"data-tracking-metadata\\\":\\\"{\\\\\\\"displaySku\\\\\\\":\\\\\\\"W110562214\\\\\\\",\\\\\\\"displayChoiceIds\\\\\\\":\\\\\\\"1949757955,1993679188,\\\\\\\"}\\\",\\\"style\\\":{\\\"display\\\":\\\"none\\\"},\\\"aria-hidden\\\":\\\"true\\\"}],[\\\"$\\\",\\\"script\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"window.dispatchEvent(new CustomEvent('preHydrationConfigReady'));\\\"}}]],[\\\"$\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"50:\\\"$Sreact.suspense\\\"\\n4b:[\\\"$\\\",\\\"$50\\\",null,{\\\"fallback\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"height\\\":\\\"60px\\\"}}],\\\"children\\\":\\\"$L51\\\"}]\\n4d:[\\\"$\\\",\\\"$50\\\",null,{\\\"children\\\":\\\"$L52\\\"}]\\n4e:[\\\"$\\\",\\\"$50\\\",null,{\\\"children\\\":\\\"$L53\\\"}]\\n4f:[\\\"$\\\",\\\"$50\\\",null,{\\\"children\\\":\\\"$L54\\\"}]\\n\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"55:[\\\"$\\\",\\\"$L58\\\",\\\"0\\\",{\\\"block\\\":{\\\"placement\\\":\\\"pdp_slim_header\\\",\\\"displayBanners\\\":[],\\\"__typename\\\":\\\"BlockBuilderDisplayBanner\\\",\\\"style\\\":{\\\"marginTop\\\":\\\"$undefined\\\",\\\"marginBottom\\\":\\\"$undefined\\\",\\\"marginLeft\\\":\\\"$undefined\\\",\\\"marginRight\\\":\\\"$undefined\\\",\\\"nextBlockIsCarousel\\\":false}},\\\"displayBannerContext\\\":{\\\"CDN_URL\\\":\\\"https://assets.wfcdn.com/\\\",\\\"IMAGE_KEY\\\":\\\"silt-saLrTfxX*WAiLMp\\\",\\\"DATACENTER\\\":\\\"dsm1\\\",\\\"DEVICE_TYPE\\\":\\\"Desktop\\\",\\\"IS_PHONE\\\":false,\\\"PAGE_TYPE\\\":\\\"ProductOptionSku\\\",\\\"STORE_ID\\\":49,\\\"STORE_URL\\\":\\\"https://www.wayfair.com\\\",\\\"TRANSACTION_ID\\\":\\\"ae+jPEYFSN6iVXRxK60Rxg==\\\"},\\\"st"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"62:T483,{\\\"type\\\":\\\"doc\\\",\\\"content\\\":[{\\\"type\\\":\\\"heading\\\",\\\"attrs\\\":{\\\"textAlign\\\":\\\"center\\\",\\\"variation\\\":\\\"sectionTitle\\\",\\\"id\\\":\\\"we-carefully-inspected-it\\\"},\\\"content\\\":[{\\\"type\\\":\\\"text\\\",\\\"text\\\":\\\"we carefully inspected it.\\\"}]},{\\\"type\\\":\\\"paragraph\\\",\\\"attrs\\\":{\\\"textAlign\\\":\\\"center\\\"},\\\"content\\\":[{\\\"type\\\":\\\"text\\\",\\\"text\\\":\\\"Each Verified item is carefully inspected by hand for quality and ease of assembly.\\\"}]},{\\\"type\\\":\\\"paragraph\\\",\\\"attrs\\\":{\\\"textAlign\\\":\\\"center\\\"}},{\\\"type\\\":\\\"heading\\\",\\\"attrs\\\":{\\\"textAlign\\\":\\\"center\\\",\\\"variation\\\":\\\"sectionTitle\\\",\\\"id\\\":\\\"the-price-its-just-right\\\"},\\\"con"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"57:[\\\"$\\\",\\\"$L60\\\",\\\"0\\\",{\\\"data\\\":{\\\"id\\\":\\\"$61\\\",\\\"__typename\\\":\\\"MarketplaceListingVariant\\\",\\\"displayName\\\":\\\"Casmey Solid Wood Rectangle Coffee Table with Storage\\\",\\\"variantId\\\":\\\"QC72306596\\\",\\\"displayListingVariantId\\\":\\\"W110562214_1949757955_1993679188\\\",\\\"media\\\":{\\\"edges\\\":[{\\\"node\\\":{\\\"imageId\\\":272986285,\\\"imageType\\\":\\\"ENVIRONMENTAL\\\",\\\"selectedOptionsWithNoImageMatch\\\":[],\\\"__typename\\\":\\\"TrayImage\\\"},\\\"__typename\\\":\\\"MediaEdge\\\"},{\\\"node\\\":{\\\"imageId\\\":273199622,\\\"imageType\\\":\\\"ALL_DETAIL\\\",\\\"selectedOptionsWithNoImageMatch\\\":[],\\\"__typename\\\":\\\"TrayImage\\\"},\\\"__typename\\\":\\\"MediaEdge\\\"},{\\\"node\\\":{\\\"ima"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"5d:[\\\"$\\\",\\\"$L63\\\",null,{\\\"contentLeft\\\":[[\\\"$\\\",\\\"div\\\",\\\"PDPSticky_PDPListingThumbnail_0\\\",{\\\"data-name\\\":\\\"PDPSticky_PDPListingThumbnail\\\",\\\"style\\\":{\\\"width\\\":\\\"$undefined\\\",\\\"cursor\\\":\\\"$undefined\\\"},\\\"children\\\":\\\"$L64\\\"}],[\\\"$\\\",\\\"div\\\",\\\"PDPSticky_ListingHeader_1\\\",{\\\"data-name\\\":\\\"PDPSticky_ListingHeader\\\",\\\"style\\\":{\\\"width\\\":\\\"$undefined\\\",\\\"cursor\\\":\\\"pointer\\\"},\\\"children\\\":\\\"$L65\\\"}]],\\\"contentRight\\\":[[\\\"$\\\",\\\"div\\\",\\\"PDPSticky_BlockBuilderRewardsMemberSavingBadge_0\\\",{\\\"data-name\\\":\\\"PDPSticky_BlockBuilderRewardsMemberSavingBadge\\\",\\\"style\\\":{\\\"width\\\":\\\"$undefined\\\",\\\"cursor\\\":\\\"$undefined\\\"},\\\"children"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"69:[\\\"$\\\",\\\"$L6f\\\",\\\"0\\\",{\\\"block\\\":{\\\"__typename\\\":\\\"BlockBuilderAnchorTags\\\",\\\"blockId\\\":242672,\\\"fullWidthThreshold\\\":4,\\\"anchorTags\\\":[{\\\"label\\\":\\\"Specifications\\\",\\\"reference\\\":{\\\"reference\\\":\\\"specifications-toggleable\\\",\\\"shouldInteractAfterEvent\\\":true,\\\"__typename\\\":\\\"BlockBuilderAnchorTagReference\\\"},\\\"__typename\\\":\\\"BlockBuilderAnchorTag\\\"},{\\\"label\\\":\\\"Return Policy\\\",\\\"reference\\\":{\\\"reference\\\":\\\"return-policy-toggleable\\\",\\\"shouldInteractAfterEvent\\\":true,\\\"__typename\\\":\\\"BlockBuilderAnchorTagReference\\\"},\\\"__typename\\\":\\\"BlockBuilderAnchorTag\\\"},{\\\"label\\\":\\\"Compare Similar Items\\\",\\\"reference\\\":{\\\"refe"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"67:[\\\"$\\\",\\\"$L72\\\",\\\"1\\\",{\\\"data\\\":{\\\"displayName\\\":\\\"Casmey Solid Wood Rectangle Coffee Table with Storage\\\",\\\"pricing\\\":{\\\"context\\\":\\\"STANDARD\\\",\\\"contextMessage\\\":\\\"\\\",\\\"percentageOffMessage\\\":\\\"5% Off\\\",\\\"allPrices\\\":[{\\\"priceVariation\\\":\\\"PRIMARY\\\",\\\"label\\\":\\\"\\\",\\\"price\\\":{\\\"__typename\\\":\\\"FixedPrice\\\",\\\"prefix\\\":\\\"\\\",\\\"value\\\":{\\\"amount\\\":\\\"314.99\\\",\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__typename\\\":\\\"Currency\\\"},\\\"__typename\\\":\\\"Money\\\"},\\\"suffix\\\":\\\"\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariantPrice\\\"},{\\\"priceVariation\\\":\\\"PREVIOUS\\\",\\\"label\\\":\\\"\\\",\\\"price\\\":{\\\"__typename\\\":\\\"FixedPrice\\\",\\\"prefix\\\":\\\"\\\",\\\"value\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"75:[\\\"$L76\\\",\\\"$L77\\\",\\\"$L78\\\",\\\"$L79\\\",\\\"$L7a\\\",[\\\"$\\\",\\\"$50\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L7b\\\",null,{\\\"alignItems\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"children\\\":\\\"$L7c\\\"}]}],[\\\"$\\\",\\\"$L7b\\\",null,{\\\"alignItems\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"children\\\":\\\"$L7d\\\"}],\\\"$L7e\\\",[\\\"$\\\",\\\"$50\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L7b\\\",null,{\\\"alignItems\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"children\\\":\\\"$L7f\\\"}]}],null,\\\"$L80\\\",\\\"$L81\\\",[\\\"$\\\",\\\"div\\\",\\\"12\\\",{\\\"style\\\":{\\\"width\\\":\\\"90.5vw\\\",\\\"maxWidth\\\":\\\"1600px\\\",\\\"margin\\\":\\\"0 auto\\\"},\\\"chil"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"7f:[\\\"$\\\",\\\"$L83\\\",\\\"8\\\",{\\\"block\\\":{\\\"__typename\\\":\\\"BlockBuilderRelatedPages\\\",\\\"blockId\\\":58812,\\\"title\\\":\\\"Related Searches\\\",\\\"style\\\":{\\\"marginTop\\\":\\\"16px\\\",\\\"marginBottom\\\":\\\"16px\\\",\\\"marginLeft\\\":\\\"$undefined\\\",\\\"marginRight\\\":\\\"$undefined\\\",\\\"nextBlockIsCarousel\\\":false}},\\\"index\\\":8,\\\"style\\\":{\\\"width\\\":\\\"95vw\\\",\\\"maxWidth\\\":\\\"1600px\\\"}}]\\n7c:[\\\"$\\\",\\\"$L84\\\",\\\"5\\\",{\\\"block\\\":{\\\"__typename\\\":\\\"BlockBuilderHighlights\\\",\\\"blockId\\\":136958,\\\"title\\\":\\\"From the Brand\\\",\\\"hasWaymoreContent\\\":true,\\\"hasSalsifyContent\\\":true,\\\"hasSyndigoContent\\\":true,\\\"anchorTagReference\\\":{\\\"reference\\\":\\\"highlights\\\",\\\"__typename\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"7d:[\\\"$\\\",\\\"$L86\\\",\\\"6\\\",{\\\"nodeId\\\":\\\"$87\\\",\\\"block\\\":{\\\"__typename\\\":\\\"BlockBuilderReviewContainer\\\",\\\"blockId\\\":58735,\\\"content\\\":[{\\\"__typename\\\":\\\"BlockBuilderCustomerReviewImagesCarousel\\\",\\\"blockId\\\":58744,\\\"title\\\":null,\\\"arrowsPlacement\\\":\\\"OFFSET\\\"},{\\\"__typename\\\":\\\"BlockBuilderReviewsHeading\\\",\\\"blockId\\\":58736,\\\"text\\\":\\\"Customer Reviews\\\",\\\"textAlignment\\\":\\\"START\\\"},{\\\"__typename\\\":\\\"BlockBuilderReviewsRating\\\",\\\"blockId\\\":58737,\\\"ratingSize\\\":\\\"STANDARD\\\",\\\"hideText\\\":null,\\\"starRatingCalculationMethodology\\\":null},{\\\"__typename\\\":\\\"BlockBuilderReviewsHistogram\\\",\\\"blockId\\\":58738,\\\"margin\\\":{\\\"mb\\\":8,\\\""
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"76:[\\\"$\\\",\\\"$L88\\\",\\\"0\\\",{\\\"__typename\\\":\\\"BlockBuilderCoreListingCollection\\\",\\\"id\\\":\\\"$89\\\",\\\"blockId\\\":58731,\\\"listingCard\\\":{\\\"__typename\\\":\\\"BlockBuilderListingCard\\\",\\\"blockId\\\":58732,\\\"layout\\\":\\\"VERTICAL_SUBGRID\\\",\\\"urlType\\\":null,\\\"openInNewTab\\\":null,\\\"showBottomBorder\\\":null,\\\"appearance\\\":null,\\\"blocks\\\":[{\\\"__typename\\\":\\\"ListingCardImage\\\",\\\"blockId\\\":58769},{\\\"__typename\\\":\\\"ListingCardName\\\",\\\"blockId\\\":58770},{\\\"__typename\\\":\\\"ListingPricing\\\",\\\"blockId\\\":58746},{\\\"__typename\\\":\\\"ListingCardReviewStars\\\",\\\"blockId\\\":58771},{\\\"__typename\\\":\\\"ListingCardCurrentItem\\\",\\\"blockId\\\":58753},{\\\"__typename\\\":\\\"B"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"77:[\\\"$\\\",\\\"$L88\\\",\\\"1\\\",{\\\"__typename\\\":\\\"BlockBuilderCoreListingCollection\\\",\\\"id\\\":\\\"$8c\\\",\\\"blockId\\\":89524,\\\"listingCard\\\":{\\\"__typename\\\":\\\"BlockBuilderListingCard\\\",\\\"blockId\\\":89527,\\\"layout\\\":\\\"VERTICAL_SUBGRID\\\",\\\"urlType\\\":null,\\\"openInNewTab\\\":null,\\\"showBottomBorder\\\":null,\\\"appearance\\\":null,\\\"blocks\\\":[{\\\"__typename\\\":\\\"ListingCardImage\\\",\\\"blockId\\\":89528},{\\\"__typename\\\":\\\"ListingCardName\\\",\\\"blockId\\\":89530},{\\\"__typename\\\":\\\"ListingPricing\\\",\\\"blockId\\\":89531},{\\\"__typename\\\":\\\"ListingCardReviewStars\\\",\\\"blockId\\\":89532},{\\\"__typename\\\":\\\"BlockBuilderZoneDivider\\\",\\\"blockId\\\":293872},{\\\"__typename\\\":\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"79:[\\\"$\\\",\\\"$L88\\\",\\\"3\\\",{\\\"__typename\\\":\\\"BlockBuilderCoreListingCollection\\\",\\\"id\\\":\\\"$92\\\",\\\"blockId\\\":58779,\\\"listingCard\\\":{\\\"__typename\\\":\\\"BlockBuilderListingCard\\\",\\\"blockId\\\":58781,\\\"layout\\\":\\\"VERTICAL_SUBGRID\\\",\\\"urlType\\\":null,\\\"openInNewTab\\\":null,\\\"showBottomBorder\\\":null,\\\"appearance\\\":null,\\\"blocks\\\":[{\\\"__typename\\\":\\\"ListingCardImage\\\",\\\"blockId\\\":58782},{\\\"__typename\\\":\\\"ListingCardName\\\",\\\"blockId\\\":58783},{\\\"__typename\\\":\\\"ListingPricing\\\",\\\"blockId\\\":58784},{\\\"__typename\\\":\\\"ListingCardReviewStars\\\",\\\"blockId\\\":58786},{\\\"__typename\\\":\\\"BlockBuilderZoneDivider\\\",\\\"blockId\\\":138087},{\\\"__typename\\\":\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"7a:[\\\"$\\\",\\\"$L88\\\",\\\"4\\\",{\\\"__typename\\\":\\\"BlockBuilderCoreListingCollection\\\",\\\"id\\\":\\\"$95\\\",\\\"blockId\\\":125104,\\\"listingCard\\\":{\\\"__typename\\\":\\\"BlockBuilderListingCard\\\",\\\"blockId\\\":128018,\\\"layout\\\":\\\"VERTICAL_SUBGRID\\\",\\\"urlType\\\":null,\\\"openInNewTab\\\":null,\\\"showBottomBorder\\\":null,\\\"appearance\\\":null,\\\"blocks\\\":[{\\\"__typename\\\":\\\"ListingCardImage\\\",\\\"blockId\\\":128060},{\\\"__typename\\\":\\\"ListingCardName\\\",\\\"blockId\\\":128056},{\\\"__typename\\\":\\\"ListingPricing\\\",\\\"blockId\\\":128053},{\\\"__typename\\\":\\\"ListingCardReviewStars\\\",\\\"blockId\\\":127471},{\\\"__typename\\\":\\\"ListingCardCurrentItem\\\",\\\"blockId\\\":128061},{\\\"__typenam"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"7e:[\\\"$\\\",\\\"$L88\\\",\\\"7\\\",{\\\"__typename\\\":\\\"BlockBuilderCoreListingCollection\\\",\\\"id\\\":\\\"$97\\\",\\\"blockId\\\":101594,\\\"listingCard\\\":{\\\"__typename\\\":\\\"BlockBuilderListingCard\\\",\\\"blockId\\\":101656,\\\"layout\\\":null,\\\"urlType\\\":null,\\\"openInNewTab\\\":null,\\\"showBottomBorder\\\":null,\\\"appearance\\\":null,\\\"blocks\\\":[{\\\"__typename\\\":\\\"ListingCardImage\\\",\\\"blockId\\\":101655},{\\\"__typename\\\":\\\"ListingCardHotDealsCallToAction\\\",\\\"blockId\\\":101657},{\\\"__typename\\\":\\\"BlockBuilderSponsored\\\",\\\"blockId\\\":231505}]},\\\"display\\\":{\\\"__typename\\\":\\\"BlockBuilderListingCollectionCarousel\\\",\\\"blockId\\\":101651,\\\"title\\\":\\\"Similar Items You've Viewed\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"52:[\\\"$\\\",\\\"$L9b\\\",null,{\\\"pixelTrackingData\\\":{\\\"pricing\\\":{\\\"context\\\":\\\"STANDARD\\\",\\\"contextMessage\\\":\\\"\\\",\\\"percentageOffMessage\\\":\\\"5% Off\\\",\\\"allPrices\\\":[{\\\"priceVariation\\\":\\\"PRIMARY\\\",\\\"label\\\":\\\"\\\",\\\"price\\\":{\\\"__typename\\\":\\\"FixedPrice\\\",\\\"prefix\\\":\\\"\\\",\\\"value\\\":{\\\"amount\\\":\\\"314.99\\\",\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__typename\\\":\\\"Currency\\\"},\\\"__typename\\\":\\\"Money\\\"},\\\"suffix\\\":\\\"\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariantPrice\\\"},{\\\"priceVariation\\\":\\\"PREVIOUS\\\",\\\"label\\\":\\\"\\\",\\\"price\\\":{\\\"__typename\\\":\\\"FixedPrice\\\",\\\"prefix\\\":\\\"\\\",\\\"value\\\":{\\\"amount\\\":\\\"329.99\\\",\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__ty"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"9c:[\\\"$L9d\\\",\\\"$L9e\\\",\\\"$L9f\\\",\\\"$La0\\\",\\\"$La1\\\",\\\"$La2\\\",null,\\\"$La3\\\",\\\"$La4\\\",[\\\"$\\\",\\\"$50\\\",null,{\\\"children\\\":\\\"$La5\\\"}],\\\"$La6\\\",\\\"$La7\\\",\\\"$La8\\\",null,\\\"$La9\\\",\\\"$Laa\\\",[\\\"$\\\",\\\"$50\\\",null,{\\\"fallback\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"height\\\":\\\"56px\\\"}}],\\\"children\\\":\\\"$Lab\\\"}],[\\\"$\\\",\\\"$50\\\",null,{\\\"children\\\":\\\"$Lac\\\"}],\\\"$Lad\\\",\\\"$Lae\\\",\\\"$Laf\\\",null,\\\"$Lb0\\\",\\\"$Lb1\\\",\\\"$Lb2\\\",\\\"$Lb3\\\",\\\"$Lb4\\\"]\\n\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"b3:[\\\"$\\\",\\\"$Lb8\\\",\\\"25\\\",{\\\"sku\\\":\\\"W110562214\\\",\\\"block\\\":{\\\"__typename\\\":\\\"BlockBuilderBrowseTheFullSet\\\",\\\"blockId\\\":181816,\\\"title\\\":\\\"Browse the Full Set\\\",\\\"price\\\":{\\\"blockId\\\":182532,\\\"showPercentageOffMessage\\\":true,\\\"percentageBadgeSameLineAsSponsoredTag\\\":null,\\\"pricingSize\\\":\\\"COMPACT\\\",\\\"pricingPromoItems\\\":[{\\\"blockId\\\":182533,\\\"valueAddedTaxMessage\\\":null,\\\"isMainPriceBold\\\":null,\\\"showPriceOnly\\\":null,\\\"__typename\\\":\\\"PricingGroup\\\"}],\\\"__typename\\\":\\\"ListingPricing\\\"},\\\"style\\\":{\\\"marginTop\\\":12,\\\"marginBottom\\\":12,\\\"marginLeft\\\":0,\\\"marginRight\\\":0}},\\\"style\\\":{\\\"marginTop\\\":12,\\\"marginBottom\\\":12,\\\"m"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"af:[\\\"$\\\",\\\"$Lbc\\\",\\\"20\\\",{\\\"block\\\":{\\\"collection\\\":{\\\"id\\\":\\\"$bd\\\",\\\"blockId\\\":190837,\\\"__typename\\\":\\\"BlockBuilderCoreListingCollection\\\"},\\\"__typename\\\":\\\"PDPCarousel\\\",\\\"title\\\":\\\"Get Everything You Need\\\",\\\"style\\\":{\\\"marginTop\\\":\\\"$undefined\\\",\\\"marginBottom\\\":\\\"$undefined\\\",\\\"marginLeft\\\":\\\"$undefined\\\",\\\"marginRight\\\":\\\"$undefined\\\"}},\\\"data\\\":{\\\"listingCard\\\":{\\\"__typename\\\":\\\"BlockBuilderListingCard\\\",\\\"blockId\\\":186482,\\\"layout\\\":\\\"VERTICAL_SUBGRID\\\",\\\"urlType\\\":null,\\\"openInNewTab\\\":null,\\\"showBottomBorder\\\":null,\\\"appearance\\\":null,\\\"blocks\\\":[{\\\"__typename\\\":\\\"ListingCardImage\\\",\\\"blockId\\\":186483},{\\\"__t"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"b0:[\\\"$\\\",\\\"$Lbe\\\",\\\"22\\\",{\\\"nodeId\\\":\\\"$bf\\\",\\\"block\\\":{\\\"blockId\\\":58810,\\\"title\\\":\\\"At a Glance\\\",\\\"showMoreText\\\":\\\"See More\\\",\\\"showLessText\\\":\\\"See Less\\\",\\\"maxVisibleVizcons\\\":2,\\\"textOnly\\\":false,\\\"isShowMoreEnabled\\\":true,\\\"headingSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"columnCount\\\":2,\\\"textFontWeight\\\":null,\\\"__typename\\\":\\\"BlockBuilderVisualizationContent\\\",\\\"style\\\":{\\\"marginTop\\\":20,\\\"marginBottom\\\":20,\\\"marginLeft\\\":\\\"$undefined\\\",\\\"marginRight\\\":\\\"$undefined\\\"}},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"vizconHighlights\\\":[{\\\"vizconImageIcon\\\":{\\\"viz"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"b2:[\\\"$\\\",\\\"$Lc2\\\",\\\"24\\\",{\\\"block\\\":{\\\"items\\\":[{\\\"section\\\":{\\\"blocks\\\":[{\\\"blockId\\\":58804,\\\"id\\\":\\\"QmxvY2tCdWlsZGVyUm9tYW5jZUNvcHk6TVl4cmpOREpvbEpySHVtdEJqYW1YQTl5Tmk4UytacWRtWDl6QVNac1JsMWFFT3R1NFc1QmNwRDN0Q01URHUwL25MMFRieDlyaC8vMmNFTDRnWDlMbmc9PQ==\\\",\\\"title\\\":\\\"About This Product\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"textSize\\\":null,\\\"__typename\\\":\\\"BlockBuilderRomanceCopy\\\"},{\\\"blockId\\\":58811,\\\"id\\\":\\\"QmxvY2tCdWlsZGVyV2hhdHNJbmNsdWRlZDpNWXhyak5ESm9sSnJIdW10QmphbVhKZW1mbnVKTDI4SG9qbC9OR1hoWXc4YkhUT3diUk8yZ3Y4OGJqR0NtcEpMb3JhaWlXQ2RFVTQxMjh5eEZDNDh2QT09\\\",\\\"w"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"b4:[\\\"$\\\",\\\"$L58\\\",\\\"26\\\",{\\\"block\\\":{\\\"placement\\\":\\\"pdp_end_of_confidence_zone\\\",\\\"displayBanners\\\":[{\\\"requestId\\\":\\\"3c1f686a-7972-4fd9-856d-12e2cec76e12\\\",\\\"displayBannerId\\\":\\\"470f6b5c-89b1-4bd8-ab24-9201a783e05d\\\",\\\"position\\\":null,\\\"__typename\\\":\\\"DisplayBannerAdPlaceholder\\\"}],\\\"__typename\\\":\\\"BlockBuilderDisplayBanner\\\"},\\\"displayBannerContext\\\":{\\\"CDN_URL\\\":\\\"https://assets.wfcdn.com/\\\",\\\"IMAGE_KEY\\\":\\\"silt-saLrTfxX*WAiLMp\\\",\\\"DATACENTER\\\":\\\"dsm1\\\",\\\"DEVICE_TYPE\\\":\\\"Desktop\\\",\\\"IS_PHONE\\\":false,\\\"PAGE_TYPE\\\":\\\"ProductOptionSku\\\",\\\"STORE_ID\\\":49,\\\"STORE_URL\\\":\\\"https://www.wayfair.com\\\",\\\"TRANSACTION_ID\\\":\\\"ae+"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"{\\\"type\\\":\\\"doc\\\",\\\"content\\\":[{\\\"type\\\":\\\"heading\\\",\\\"attrs\\\":{\\\"textAlign\\\":\\\"left\\\",\\\"variation\\\":\\\"subsectionTitle\\\",\\\"id\\\":\\\"hand-vetted-for-quality-by-product-specialists-using-a-10-point-inspection\\\"},\\\"content\\\":[{\\\"type\\\":\\\"text\\\",\\\"text\\\":\\\"Hand-vetted for quality by product specialists using a 10-point inspection.\\\"}]},{\\\"type\\\":\\\"paragraph\\\",\\\"attrs\\\":{\\\"textAlign\\\":\\\"left\\\"}},{\\\"type\\\":\\\"paragraph\\\",\\\"attrs\\\":{\\\"textAlign\\\":\\\"left\\\"},\\\"content\\\":[{\\\"type\\\":\\\"text\\\",\\\"marks\\\":[{\\\"type\\\":\\\"bold\\\"}],\\\"text\\\":\\\"quality of materials\\\"},{\\\"type\\\":\\\"hardBreak\\\"},{\\\"type\\\":\\\"text\\\",\\\"marks\\\":[{\\\"type\\\":\\\"textStyle\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"9e:[\\\"$\\\",\\\"$L71\\\",\\\"1\\\",{\\\"data\\\":{\\\"displayName\\\":\\\"Casmey Solid Wood Rectangle Coffee Table with Storage\\\",\\\"partNumber\\\":null,\\\"isBestValue\\\":false,\\\"listingUrl\\\":\\\"https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188\\\",\\\"listing\\\":{\\\"manufacturer\\\":{\\\"name\\\":\\\"Wade Logan®\\\",\\\"url\\\":\\\"https://www.wayfair.com/brand/bnd/wade-logan-b36989.html\\\"},\\\"quantityRestrictions\\\":{\\\"forcedQuantityMultiplier\\\":1,\\\"minimumOrderQuantity\\\":1,\\\"quantityPerUnit\\\":1},\\\"reviews\\\":{\\\"averageRating\\\":3.84,\\\"totalCount\\\":130},\\\"manufacturerColle"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"a2:[\\\"$\\\",\\\"$Ld9\\\",\\\"5\\\",{\\\"data\\\":{\\\"pricing\\\":{\\\"allPrices\\\":[{\\\"label\\\":\\\"\\\",\\\"priceVariation\\\":\\\"PRIMARY\\\",\\\"price\\\":{\\\"value\\\":{\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__typename\\\":\\\"Currency\\\"},\\\"amount\\\":\\\"314.99\\\",\\\"__typename\\\":\\\"Money\\\"},\\\"__typename\\\":\\\"FixedPrice\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariantPrice\\\"},{\\\"label\\\":\\\"\\\",\\\"priceVariation\\\":\\\"PREVIOUS\\\",\\\"price\\\":{\\\"value\\\":{\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__typename\\\":\\\"Currency\\\"},\\\"amount\\\":\\\"329.99\\\",\\\"__typename\\\":\\\"Money\\\"},\\\"__typename\\\":\\\"FixedPrice\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariantPrice\\\"}],\\\"__typename\\\":\\\"MarketplaceListingVariantP"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"ad:[\\\"$\\\",\\\"$Ld9\\\",\\\"18\\\",{\\\"data\\\":{\\\"pricing\\\":{\\\"allPrices\\\":[{\\\"label\\\":\\\"\\\",\\\"priceVariation\\\":\\\"PRIMARY\\\",\\\"price\\\":{\\\"value\\\":{\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__typename\\\":\\\"Currency\\\"},\\\"amount\\\":\\\"314.99\\\",\\\"__typename\\\":\\\"Money\\\"},\\\"__typename\\\":\\\"FixedPrice\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariantPrice\\\"},{\\\"label\\\":\\\"\\\",\\\"priceVariation\\\":\\\"PREVIOUS\\\",\\\"price\\\":{\\\"value\\\":{\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__typename\\\":\\\"Currency\\\"},\\\"amount\\\":\\\"329.99\\\",\\\"__typename\\\":\\\"Money\\\"},\\\"__typename\\\":\\\"FixedPrice\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariantPrice\\\"}],\\\"__typename\\\":\\\"MarketplaceListingVariant"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"9f:[\\\"$\\\",\\\"$L72\\\",\\\"2\\\",{\\\"data\\\":{\\\"displayName\\\":\\\"Casmey Solid Wood Rectangle Coffee Table with Storage\\\",\\\"pricing\\\":{\\\"context\\\":\\\"STANDARD\\\",\\\"contextMessage\\\":\\\"\\\",\\\"percentageOffMessage\\\":\\\"5% Off\\\",\\\"allPrices\\\":[{\\\"priceVariation\\\":\\\"PRIMARY\\\",\\\"label\\\":\\\"\\\",\\\"price\\\":{\\\"__typename\\\":\\\"FixedPrice\\\",\\\"prefix\\\":\\\"\\\",\\\"value\\\":{\\\"amount\\\":\\\"314.99\\\",\\\"currency\\\":{\\\"code\\\":\\\"USD\\\",\\\"__typename\\\":\\\"Currency\\\"},\\\"__typename\\\":\\\"Money\\\"},\\\"suffix\\\":\\\"\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariantPrice\\\"},{\\\"priceVariation\\\":\\\"PREVIOUS\\\",\\\"label\\\":\\\"\\\",\\\"price\\\":{\\\"__typename\\\":\\\"FixedPrice\\\",\\\"prefix\\\":\\\"\\\",\\\"value\\"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"d4:[[\\\"$\\\",\\\"$L7b\\\",\\\"0\\\",{\\\"my\\\":\\\"$$1000\\\",\\\"mx\\\":\\\"0\\\",\\\"children\\\":[\\\"$\\\",\\\"$1\\\",\\\"BlockBuilderRomanceCopy\\\",{\\\"children\\\":\\\"$Ldf\\\"}]}],[\\\"$\\\",\\\"$L7b\\\",\\\"1\\\",{\\\"my\\\":\\\"$$1000\\\",\\\"mx\\\":\\\"0\\\",\\\"children\\\":[\\\"$\\\",\\\"$1\\\",\\\"BlockBuilderWhatsIncluded\\\",{\\\"children\\\":\\\"$Le0\\\"}]}],[\\\"$\\\",\\\"$L7b\\\",\\\"2\\\",{\\\"my\\\":\\\"$$1000\\\",\\\"mx\\\":\\\"0\\\",\\\"children\\\":[\\\"$\\\",\\\"$1\\\",\\\"BlockBuilderFeatureBullets\\\",{\\\"children\\\":\\\"$Le1\\\"}]}],[\\\"$\\\",\\\"$L7b\\\",\\\"3\\\",{\\\"my\\\":\\\"$$1000\\\",\\\"mx\\\":\\\"0\\\",\\\"children\\\":[\\\"$\\\",\\\"$1\\\",\\\"ProductDetailsDisplayAdPlaceholder\\\",{\\\"children\\\":\\\"$Le2\\\"}]}]]\\nd5:[[\\\"$\\\",\\\"$L7b\\\",\\\"0\\\",{\\\"my\\\":\\\"$$1000\\\",\\\"mx\\\":\\\"0\\\",\\\"c"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal "
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"df:[\\\"$\\\",\\\"$Lf0\\\",null,{\\\"nodeId\\\":\\\"$f1\\\",\\\"block\\\":{\\\"blockId\\\":58804,\\\"title\\\":\\\"About This Product\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"textSize\\\":null,\\\"__typename\\\":\\\"BlockBuilderRomanceCopy\\\"},\\\"data\\\":{\\\"marketingCopy\\\":\\\"$f2\\\",\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"marketingCopy\\\":\\\"$f3\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariant\\\"},\\\"variables\\\":{\\\"sku\\\":\\\"W110562214\\\",\\\"selections\\\":\\\"$6:2:props:children:1:props:pdpContext:parsedParams:selections\\\"},\\\"isMobile\\\":false,\\\"preferMpLevelContent\\\":false}]\\nf"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e0:[\\\"$\\\",\\\"$Lf4\\\",\\\"1\\\",{\\\"nodeId\\\":\\\"$f5\\\",\\\"block\\\":{\\\"blockId\\\":58811,\\\"whatsIncludedTitle\\\":\\\"What's Included?\\\",\\\"whatsNotIncludedTitle\\\":\\\"Not Included:\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"__typename\\\":\\\"BlockBuilderWhatsIncluded\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"whatsInTheBox\\\":{\\\"includedItems\\\":null,\\\"nonIncludedItems\\\":null,\\\"__typename\\\":\\\"WhatsInTheBoxItem\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariant\\\"},\\\"variables\\\":{\\\"sku\\\":\\\"W110562214\\\",\\\"selections\\\":\\\"$6:2:props:children:1:prop"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e2:[\\\"$\\\",\\\"$L85\\\",\\\"3\\\",{\\\"block\\\":{\\\"placement\\\":\\\"PDP_MODAL_320_50_HYBRID_MOBILE\\\",\\\"__typename\\\":\\\"ProductDetailsDisplayAdPlaceholder\\\",\\\"adBatchId\\\":null},\\\"appContext\\\":\\\"$28:props:children:props:legacyAppContext\\\",\\\"isDesktop\\\":true,\\\"isTablet\\\":false,\\\"isPhone\\\":false,\\\"pageType\\\":\\\"ProductOptionSku\\\",\\\"storeId\\\":49,\\\"storeURL\\\":\\\"https://www.wayfair.com\\\",\\\"transactionId\\\":\\\"ae+jPEYFSN6iVXRxK60Rxg==\\\"}]\\nf9:T660,\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e3:[\\\"$\\\",\\\"$Lf8\\\",\\\"0\\\",{\\\"nodeId\\\":\\\"$f9\\\",\\\"block\\\":{\\\"blockId\\\":58797,\\\"title\\\":\\\"Product Dimensions\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"showBackgroundColor\\\":null,\\\"__typename\\\":\\\"BlockBuilderDimensionalImage\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"dimensionalImage\\\":{\\\"imageId\\\":null,\\\"__typename\\\":\\\"DimensionalImage\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariant\\\"},\\\"variables\\\":{\\\"sku\\\":\\\"W110562214\\\",\\\"selections\\\":\\\"$6:2:props:children:1:props:pdpContext:parsedParams:selections\\\"}}]\\nfb:T660,\"]"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e4:[\\\"$\\\",\\\"$Lfa\\\",\\\"1\\\",{\\\"nodeId\\\":\\\"$fb\\\",\\\"block\\\":{\\\"blockId\\\":58809,\\\"defaultTitle\\\":\\\"Other Dimensions\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"displayType\\\":null,\\\"__typename\\\":\\\"BlockBuilderStructuredDimensions\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"structuredDimensions\\\":[{\\\"name\\\":null,\\\"items\\\":[{\\\"key\\\":\\\"Small Table\\\",\\\"value\\\":\\\"15'' H\\\",\\\"__typename\\\":\\\"ListingVariantStructuredDimension\\\"},{\\\"key\\\":\\\"Overall Dimensions\\\",\\\"value\\\":\\\"15'' H X 24'' D\\\",\\\"__typename\\\":\\\"ListingVariantStructured"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e5:[\\\"$\\\",\\\"$Lfc\\\",\\\"2\\\",{\\\"nodeId\\\":\\\"$fd\\\",\\\"block\\\":{\\\"blockId\\\":58799,\\\"title\\\":null,\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"__typename\\\":\\\"BlockBuilderFreeFormDimensions\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"freeformDimensions\\\":[],\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"__typename\\\":\\\"MarketplaceListingVariant\\\"},\\\"variables\\\":{\\\"sku\\\":\\\"W110562214\\\",\\\"selections\\\":\\\"$6:2:props:children:1:props:pdpContext:parsedParams:selections\\\"}}]\\nff:T660,\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e7:[\\\"$\\\",\\\"$Lfe\\\",\\\"4\\\",{\\\"nodeId\\\":\\\"$ff\\\",\\\"block\\\":{\\\"blockId\\\":58807,\\\"title\\\":\\\"Details\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"displayType\\\":null,\\\"__typename\\\":\\\"BlockBuilderSpecificationsDetails\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"specifications_details\\\":[{\\\"items\\\":[{\\\"key\\\":\\\"Product Type\\\",\\\"value\\\":\\\"Coffee Table\\\",\\\"children\\\":null,\\\"__typename\\\":\\\"ListingVariantSpecification\\\"},{\\\"key\\\":\\\"Table Top Shape\\\",\\\"value\\\":\\\"Rectangular\\\",\\\"children\\\":null,\\\"__typename\\\":\\\"ListingVariantSpecifi"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e8:[\\\"$\\\",\\\"$L100\\\",\\\"5\\\",{\\\"nodeId\\\":\\\"$101\\\",\\\"block\\\":{\\\"blockId\\\":58795,\\\"title\\\":\\\"Certifications\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"displayType\\\":null,\\\"__typename\\\":\\\"BlockBuilderCertifications\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"specifications_certifications\\\":[],\\\"__typename\\\":\\\"MarketplaceListingVariant\\\"},\\\"variables\\\":{\\\"sku\\\":\\\"W110562214\\\",\\\"selections\\\":\\\"$6:2:props:children:1:props:pdpContext:parsedParams:selections\\\"}}]\\n103:T660,\"])"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e9:[\\\"$\\\",\\\"$L102\\\",\\\"6\\\",{\\\"nodeId\\\":\\\"$103\\\",\\\"block\\\":{\\\"blockId\\\":58806,\\\"title\\\":\\\"Assembly\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"displayType\\\":null,\\\"__typename\\\":\\\"BlockBuilderSpecificationsAssembly\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"specifications_assembly\\\":[{\\\"items\\\":[{\\\"key\\\":\\\"Assembly Required\\\",\\\"value\\\":\\\"Yes\\\",\\\"children\\\":null,\\\"__typename\\\":\\\"ListingVariantSpecification\\\"}],\\\"__typename\\\":\\\"ListingVariantSpecificationGroup\\\"}],\\\"__typename\\\":\\\"MarketplaceListingVariant\\\"},\\\"variabl"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"ea:[\\\"$\\\",\\\"$L104\\\",\\\"7\\\",{\\\"nodeId\\\":\\\"$105\\\",\\\"block\\\":{\\\"blockId\\\":58808,\\\"title\\\":\\\"Warranty\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"displayType\\\":null,\\\"__typename\\\":\\\"BlockBuilderSpecificationsWarranty\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"specifications_warranties\\\":[{\\\"items\\\":[{\\\"key\\\":\\\"Commercial Warranty\\\",\\\"value\\\":\\\"No\\\",\\\"children\\\":null,\\\"__typename\\\":\\\"ListingVariantSpecification\\\"},{\\\"key\\\":\\\"Product Warranty\\\",\\\"value\\\":\\\"Yes\\\",\\\"children\\\":null,\\\"__typename\\\":\\\"ListingVariantSpecificat"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"ec:[\\\"$\\\",\\\"$L108\\\",\\\"9\\\",{\\\"nodeId\\\":\\\"$109\\\",\\\"block\\\":{\\\"__typename\\\":\\\"BlockBuilderProposition65Block\\\",\\\"blockId\\\":58710,\\\"proposition65Title\\\":\\\"California's Proposition 65\\\",\\\"warningText\\\":\\\"WARNING\\\"},\\\"data\\\":{\\\"listing\\\":{\\\"displayListingId\\\":\\\"W110562214\\\",\\\"__typename\\\":\\\"MarketplaceListing\\\"},\\\"exposureWarning\\\":null,\\\"__typename\\\":\\\"MarketplaceListingVariant\\\"},\\\"variables\\\":{\\\"sku\\\":\\\"W110562214\\\",\\\"selections\\\":\\\"$6:2:props:children:1:props:pdpContext:parsedParams:selections\\\"}}]\\ned:[\\\"$\\\",\\\"$L85\\\",\\\"10\\\",{\\\"block\\\":{\\\"placement\\\":\\\"PDP_MODAL_320_50_HYBRID_MOBILE\\\",\\\"__typename\\\":\\\"ProductDetailsDispla"
+      },
+      {
+        "attrs": {},
+        "className": "",
+        "id": "",
+        "tag": "script",
+        "text": "self.__next_f.push([1,\"e6:[\\\"$\\\",\\\"$L10a\\\",\\\"3\\\",{\\\"nodeId\\\":\\\"$10b\\\",\\\"block\\\":{\\\"__typename\\\":\\\"BlockBuilderMarketplaceListingDocuments\\\",\\\"titleSizeVariant\\\":\\\"BOLD_TEXT\\\",\\\"smallScreenTitleSizeVariant\\\":\\\"SUBSECTION_TITLE\\\",\\\"title\\\":\\\"Documents\\\",\\\"blockId\\\":83056,\\\"displayNames\\\":{\\\"buyingGuides\\\":\\\"Buying Guides\\\",\\\"certifications\\\":\\\"Certifications\\\",\\\"deliveryInformation\\\":\\\"Delivery Information\\\",\\\"digitalLawLabel\\\":\\\"Digital Law Label\\\",\\\"dimensions\\\":\\\"Dimensions\\\",\\\"disclaimers\\\":\\\"Disclaimers\\\",\\\"energyGuide\\\":\\\"Energy Guide\\\",\\\"installationAndAssembly\\\":\\\"Installation And Assembly\\\",\\\"marketingMaterials\\\":\\\"Marketing Materials\\"
+      }
+    ],
+    "specBlocks": [
+      {
+        "attrs": {
+          "data-name": "SpecificationsDetails",
+          "data-node-id": "BlockBuilderSpecificationsDetails::58807__R_athsqblbav5tb5vsmdb_"
+        },
+        "selector": "[data-name*='Specifications']",
+        "tag": "div",
+        "text": "DetailsProduct TypeCoffee TableTable Top ShapeRectangularTop MaterialSolid WoodBase MaterialSolid WoodTable Base TypeFloor ShelfStorage IncludedYesShelves IncludedYesImportedYesWood SpeciesPineNumber of Shelves1Number of Tables Included1Base TypeFloor ShelfGeneral FeaturesStorage IncludedOverall ShapeRectangularStorage TypeShelves"
+      },
+      {
+        "attrs": {
+          "data-name": "SpecificationsAssembly",
+          "data-node-id": "BlockBuilderSpecificationsAssembly::58806__R_ethsqblbav5tb5vsmdb_"
+        },
+        "selector": "[data-name*='Specifications']",
+        "tag": "div",
+        "text": "AssemblyAssembly RequiredYes"
+      },
+      {
+        "attrs": {
+          "data-name": "SpecificationsWarranty",
+          "data-node-id": "BlockBuilderSpecificationsWarranty::58808__R_gthsqblbav5tb5vsmdb_"
+        },
+        "selector": "[data-name*='Specifications']",
+        "tag": "div",
+        "text": "WarrantyCommercial WarrantyNoProduct WarrantyYesFull or Limited WarrantyLimitedWarranty Length1 YearWarranty DetailsDefects Only"
+      },
+      {
+        "attrs": {
+          "data-name": "StructuredDimensions",
+          "data-node-id": "BlockBuilderStructuredDimensions::58809__R_4thsqblbav5tb5vsmdb_"
+        },
+        "selector": "[data-name*='Dimensions']",
+        "tag": "div",
+        "text": "Other DimensionsSmall Table15'' HOverall Dimensions15'' H X 24'' DOverall Product Weight62.2 lb."
+      },
+      {
+        "attrs": {
+          "data-name": "Vizcon"
+        },
+        "selector": "li",
+        "tag": "li",
+        "text": "Storage Included"
+      },
+      {
+        "attrs": {
+          "data-name": "Vizcon"
+        },
+        "selector": "li",
+        "tag": "li",
+        "text": "Warranty Length: 1 Year"
+      },
+      {
+        "attrs": {
+          "data-name": "Vizcon"
+        },
+        "selector": "li",
+        "tag": "li",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {},
+        "selector": "li",
+        "tag": "li",
+        "text": "Quality wood coffee table with shelf: The rectangular coffee table with storage features a solid pine wood tabletop and legs offering a refined look and exceptional durability. The solid wood 2-tier coffee table for the living room with non-toxic finishes complements your healthy living space."
+      },
+      {
+        "attrs": {},
+        "selector": "li",
+        "tag": "li",
+        "text": "Assembly: The medium-sized coffee table for small space is easily assembled anywhere in your room, accompanied by user-friendly instructions. Conveniently, the modern occasional table for the living room arrives in a single box."
+      },
+      {
+        "attrs": {},
+        "selector": "li",
+        "tag": "li",
+        "text": "Dimensions: The rectangular center table measures 40.25\" L x 20.5\" W x 15\" H."
+      },
+      {
+        "attrs": {},
+        "selector": "li",
+        "tag": "li",
+        "text": "Installation And Assembly (pdf)"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Overall Dimensions"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Overall Product Weight"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Product Type"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Table Top Shape"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Top Material"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Base Material"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Storage Included"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Overall Shape"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Storage Type"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Assembly Required"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Commercial Warranty"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Product Warranty"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Full or Limited Warranty"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Warranty Length"
+      },
+      {
+        "attrs": {},
+        "selector": "dt",
+        "tag": "dt",
+        "text": "Warranty Details"
+      },
+      {
+        "attrs": {},
+        "selector": "dd",
+        "tag": "dd",
+        "text": "Storage Included"
+      }
+    ]
+  },
+  "images": [
+    {
+      "alt": "Burke Square Manufactured Wood Serving Tray with Handles",
+      "className": "b32ygh0 _1f33b0a0",
+      "id": "",
+      "index": 18,
+      "naturalHeight": 1920,
+      "naturalWidth": 1920,
+      "renderedHeight": 175,
+      "renderedWidth": 175,
+      "src": "https://assets.wfcdn.com/im/98138092/resize-h400-w400%5Ecompr-r85/3761/376173031/Burke+Square+Manufactured+Wood+Serving+Tray+with+Handles.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/98138092/resize-h400-w400%5Ecompr-r85/3761/376173031/Burke+Square+Manufactured+Wood+Serving+Tray+with+Handles.jpg",
+      "srcset": "https://assets.wfcdn.com/im/98138092/resize-h400-w400%5Ecompr-r85/3761/376173031/Burke+Square+Manufactured+Wood+Serving+Tray+with+Handles.jpg 400w, https://assets.wfcdn.com/im/96874612/resize-h300-w300%5Ecompr-r85/3761/376173031/Burke+Square+Manufactured+Wood+Serving+Tray+with+Handles.jpg 300w, https://assets.wfcdn.com/im/03079980/resize-h200-w200%5Ecompr-r85/3761/376173031/Burke+Square+Manufactured+Wood+Serving+Tray+with+Handles.jpg 200w"
+    },
+    {
+      "alt": "Larenda Entryway Table with Open Shelf Storage",
+      "className": "b32ygh0 _1f33b0a0",
+      "id": "",
+      "index": 19,
+      "naturalHeight": 1920,
+      "naturalWidth": 1920,
+      "renderedHeight": 175,
+      "renderedWidth": 175,
+      "src": "https://assets.wfcdn.com/im/16362554/resize-h400-w400%5Ecompr-r85/2591/259130988/Larenda+Entryway+Table+with+Open+Shelf+Storage.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/16362554/resize-h400-w400%5Ecompr-r85/2591/259130988/Larenda+Entryway+Table+with+Open+Shelf+Storage.jpg",
+      "srcset": "https://assets.wfcdn.com/im/16362554/resize-h400-w400%5Ecompr-r85/2591/259130988/Larenda+Entryway+Table+with+Open+Shelf+Storage.jpg 400w, https://assets.wfcdn.com/im/78650150/resize-h300-w300%5Ecompr-r85/2591/259130988/Larenda+Entryway+Table+with+Open+Shelf+Storage.jpg 300w, https://assets.wfcdn.com/im/21304442/resize-h200-w200%5Ecompr-r85/2591/259130988/Larenda+Entryway+Table+with+Open+Shelf+Storage.jpg 200w"
+    },
+    {
+      "alt": "Lorraine TV Stand with Sliding Barn Doors",
+      "className": "b32ygh0 _1f33b0a0",
+      "id": "",
+      "index": 22,
+      "naturalHeight": 1920,
+      "naturalWidth": 1920,
+      "renderedHeight": 175,
+      "renderedWidth": 175,
+      "src": "https://assets.wfcdn.com/im/54971842/resize-h400-w400%5Ecompr-r85/4438/443835480/Lorraine+TV+Stand+with+Sliding+Barn+Doors.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/54971842/resize-h400-w400%5Ecompr-r85/4438/443835480/Lorraine+TV+Stand+with+Sliding+Barn+Doors.jpg",
+      "srcset": "https://assets.wfcdn.com/im/54971842/resize-h400-w400%5Ecompr-r85/4438/443835480/Lorraine+TV+Stand+with+Sliding+Barn+Doors.jpg 400w, https://assets.wfcdn.com/im/44982750/resize-h300-w300%5Ecompr-r85/4438/443835480/Lorraine+TV+Stand+with+Sliding+Barn+Doors.jpg 300w, https://assets.wfcdn.com/im/50029954/resize-h200-w200%5Ecompr-r85/4438/443835480/Lorraine+TV+Stand+with+Sliding+Barn+Doors.jpg 200w"
+    },
+    {
+      "alt": "Round Furniture Pads for Slider",
+      "className": "b32ygh0 _1f33b0a0",
+      "id": "",
+      "index": 23,
+      "naturalHeight": 1920,
+      "naturalWidth": 1920,
+      "renderedHeight": 175,
+      "renderedWidth": 175,
+      "src": "https://assets.wfcdn.com/im/82014762/resize-h400-w400%5Ecompr-r85/2537/253774764/Round+Furniture+Pads+for+Slider.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/82014762/resize-h400-w400%5Ecompr-r85/2537/253774764/Round+Furniture+Pads+for+Slider.jpg",
+      "srcset": "https://assets.wfcdn.com/im/82014762/resize-h400-w400%5Ecompr-r85/2537/253774764/Round+Furniture+Pads+for+Slider.jpg 400w, https://assets.wfcdn.com/im/12997942/resize-h300-w300%5Ecompr-r85/2537/253774764/Round+Furniture+Pads+for+Slider.jpg 300w, https://assets.wfcdn.com/im/86956650/resize-h200-w200%5Ecompr-r85/2537/253774764/Round+Furniture+Pads+for+Slider.jpg 200w"
+    },
+    {
+      "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage, Pecan Wirebrush, 48\"",
+      "className": "_6o3atzxl b32ygh0 _1f33b0a0",
+      "id": "",
+      "index": 2,
+      "naturalHeight": 800,
+      "naturalWidth": 800,
+      "renderedHeight": 784,
+      "renderedWidth": 784,
+      "src": "https://assets.wfcdn.com/im/48178462/resize-h800-w800%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/48178462/resize-h800-w800%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcset": "https://assets.wfcdn.com/im/36950466/resize-h300-w300%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 300w, https://assets.wfcdn.com/im/53120350/resize-h600-w600%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 600w, https://assets.wfcdn.com/im/48178462/resize-h800-w800%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 800w, https://assets.wfcdn.com/im/09479688/resize-h1200-w1200%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 1200w"
+    },
+    {
+      "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage, Pecan Wirebrush, 48\"",
+      "className": "b32ygh0 _1f33b0a0",
+      "id": "",
+      "index": 3,
+      "naturalHeight": 600,
+      "naturalWidth": 600,
+      "renderedHeight": 388,
+      "renderedWidth": 388,
+      "src": "https://assets.wfcdn.com/im/18179956/resize-h600-w600%5Ecompr-r85/2731/273199622/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/23121844/resize-h800-w800%5Ecompr-r85/2731/273199622/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcset": "https://assets.wfcdn.com/im/86716524/resize-h300-w300%5Ecompr-r85/2731/273199622/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 300w, https://assets.wfcdn.com/im/18179956/resize-h600-w600%5Ecompr-r85/2731/273199622/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 600w, https://assets.wfcdn.com/im/23121844/resize-h800-w800%5Ecompr-r85/2731/273199622/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 800w, https://assets.wfcdn.com/im/61820618/resize-h1200-w1200%5Ecompr-r85/2731/273199622/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 1200w"
+    },
+    {
+      "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage, Pecan Wirebrush, 48\"",
+      "className": "b32ygh0 _1f33b0a0",
+      "id": "",
+      "index": 4,
+      "naturalHeight": 600,
+      "naturalWidth": 600,
+      "renderedHeight": 388,
+      "renderedWidth": 388,
+      "src": "https://assets.wfcdn.com/im/76630898/resize-h600-w600%5Ecompr-r85/2731/273199617/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/71689010/resize-h800-w800%5Ecompr-r85/2731/273199617/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcset": "https://assets.wfcdn.com/im/13439918/resize-h300-w300%5Ecompr-r85/2731/273199617/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 300w, https://assets.wfcdn.com/im/76630898/resize-h600-w600%5Ecompr-r85/2731/273199617/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 600w, https://assets.wfcdn.com/im/71689010/resize-h800-w800%5Ecompr-r85/2731/273199617/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 800w, https://assets.wfcdn.com/im/61977060/resize-h1200-w1200%5Ecompr-r85/2731/273199617/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 1200w"
+    },
+    {
+      "alt": "",
+      "className": "",
+      "id": "",
+      "index": 9,
+      "naturalHeight": 64,
+      "naturalWidth": 64,
+      "renderedHeight": 64,
+      "renderedWidth": 64,
+      "src": "https://assets.wfcdn.com/im/90174174/resize-h64-w64%5Ecompr-r85/1561/156101515/default_name.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/90174174/resize-h64-w64%5Ecompr-r85/1561/156101515/default_name.jpg",
+      "srcset": "https://assets.wfcdn.com/im/90174174/resize-h64-w64%5Ecompr-r85/1561/156101515/default_name.jpg 1x, https://assets.wfcdn.com/im/80013678/resize-h128-w128%5Ecompr-r85/1561/156101515/default_name.jpg 2x"
+    },
+    {
+      "alt": "Wayfair Rewards",
+      "className": "",
+      "id": "",
+      "index": 15,
+      "naturalHeight": 64,
+      "naturalWidth": 64,
+      "renderedHeight": 64,
+      "renderedWidth": 64,
+      "src": "https://assets.wfcdn.com/im/78370975/resize-h64-w64%5Ecompr-r85/3026/302636901/default_name.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/78370975/resize-h64-w64%5Ecompr-r85/3026/302636901/default_name.jpg",
+      "srcset": "https://assets.wfcdn.com/im/78370975/resize-h64-w64%5Ecompr-r85/3026/302636901/default_name.jpg 1x, https://assets.wfcdn.com/im/88531471/resize-h128-w128%5Ecompr-r85/3026/302636901/default_name.jpg 2x"
+    },
+    {
+      "alt": "Wayfair Verified",
+      "className": "_1ski0hc7 _1ski0hc0",
+      "id": "",
+      "index": 17,
+      "naturalHeight": 70,
+      "naturalWidth": 70,
+      "renderedHeight": 0,
+      "renderedWidth": 0,
+      "src": "https://assets.wfcdn.com/im/35363532/resize-h70-w70%5Ecompr-r85/4105/410590398/default_name.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/35363532/resize-h70-w70%5Ecompr-r85/4105/410590398/default_name.jpg",
+      "srcset": "https://assets.wfcdn.com/im/35363532/resize-h70-w70%5Ecompr-r85/4105/410590398/default_name.jpg 1x, https://assets.wfcdn.com/im/90229518/resize-h140-w140%5Ecompr-r85/4105/410590398/default_name.jpg 2x"
+    },
+    {
+      "alt": "Blonde Wirebrush",
+      "className": "_6o3atz1bf _1eqhru10",
+      "id": "",
+      "index": 10,
+      "naturalHeight": 49,
+      "naturalWidth": 49,
+      "renderedHeight": 49,
+      "renderedWidth": 49,
+      "src": "https://assets.wfcdn.com/im/77227600/resize-h49-w49%5Ecompr-r50/2961/296189853/Blonde+Wirebrush.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/77227600/resize-h49-w49%5Ecompr-r50/2961/296189853/Blonde+Wirebrush.jpg",
+      "srcset": "https://assets.wfcdn.com/im/77227600/resize-h49-w49%5Ecompr-r50/2961/296189853/Blonde+Wirebrush.jpg 1x, https://assets.wfcdn.com/im/78718972/resize-h98-w98%5Ecompr-r50/2961/296189853/Blonde+Wirebrush.jpg 2x"
+    },
+    {
+      "alt": "Pecan Wirebrush selected",
+      "className": "_6o3atz1bf _1eqhru10",
+      "id": "",
+      "index": 11,
+      "naturalHeight": 49,
+      "naturalWidth": 49,
+      "renderedHeight": 49,
+      "renderedWidth": 49,
+      "src": "https://assets.wfcdn.com/im/16206135/resize-h49-w49%5Ecompr-r50/2976/297683492/Pecan+Wirebrush.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/16206135/resize-h49-w49%5Ecompr-r50/2976/297683492/Pecan+Wirebrush.jpg",
+      "srcset": "https://assets.wfcdn.com/im/16206135/resize-h49-w49%5Ecompr-r50/2976/297683492/Pecan+Wirebrush.jpg 1x, https://assets.wfcdn.com/im/39740437/resize-h98-w98%5Ecompr-r50/2976/297683492/Pecan+Wirebrush.jpg 2x"
+    },
+    {
+      "alt": "Seashell Wirebrush",
+      "className": "_6o3atz1bf _1eqhru10",
+      "id": "",
+      "index": 12,
+      "naturalHeight": 49,
+      "naturalWidth": 49,
+      "renderedHeight": 49,
+      "renderedWidth": 49,
+      "src": "https://assets.wfcdn.com/im/56563204/resize-h49-w49%5Ecompr-r50/2989/298959083/Seashell+Wirebrush.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/56563204/resize-h49-w49%5Ecompr-r50/2989/298959083/Seashell+Wirebrush.jpg",
+      "srcset": "https://assets.wfcdn.com/im/56563204/resize-h49-w49%5Ecompr-r50/2989/298959083/Seashell+Wirebrush.jpg 1x, https://assets.wfcdn.com/im/99383368/resize-h98-w98%5Ecompr-r50/2989/298959083/Seashell+Wirebrush.jpg 2x"
+    },
+    {
+      "alt": "White Sand Wirebrush",
+      "className": "_6o3atz1bf _1eqhru10",
+      "id": "",
+      "index": 13,
+      "naturalHeight": 49,
+      "naturalWidth": 49,
+      "renderedHeight": 49,
+      "renderedWidth": 49,
+      "src": "https://assets.wfcdn.com/im/19681511/resize-h49-w49%5Ecompr-r50/2899/289912573/White+Sand+Wirebrush.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/19681511/resize-h49-w49%5Ecompr-r50/2899/289912573/White+Sand+Wirebrush.jpg",
+      "srcset": "https://assets.wfcdn.com/im/19681511/resize-h49-w49%5Ecompr-r50/2899/289912573/White+Sand+Wirebrush.jpg 1x, https://assets.wfcdn.com/im/19339213/resize-h98-w98%5Ecompr-r50/2899/289912573/White+Sand+Wirebrush.jpg 2x"
+    },
+    {
+      "alt": "Wirebrush White Sand is unavailable",
+      "className": "_6o3atz1bf _1eqhru10",
+      "id": "",
+      "index": 14,
+      "naturalHeight": 49,
+      "naturalWidth": 49,
+      "renderedHeight": 49,
+      "renderedWidth": 49,
+      "src": "https://assets.wfcdn.com/im/93963712/resize-h49-w49%5Ecompr-r50/2928/292831075/Wirebrush+White+Sand.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/93963712/resize-h49-w49%5Ecompr-r50/2928/292831075/Wirebrush+White+Sand.jpg",
+      "srcset": "https://assets.wfcdn.com/im/93963712/resize-h49-w49%5Ecompr-r50/2928/292831075/Wirebrush+White+Sand.jpg 1x, https://assets.wfcdn.com/im/45057012/resize-h98-w98%5Ecompr-r50/2928/292831075/Wirebrush+White+Sand.jpg 2x"
+    },
+    {
+      "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage-1949757955-1993679188",
+      "className": "_1f33b0a0",
+      "id": "",
+      "index": 5,
+      "naturalHeight": 48,
+      "naturalWidth": 48,
+      "renderedHeight": 48,
+      "renderedWidth": 48,
+      "src": "https://assets.wfcdn.com/im/26243052/resize-h48-w48%5Ecompr-r65/2731/273199620/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/26243052/resize-h48-w48%5Ecompr-r65/2731/273199620/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcset": "https://assets.wfcdn.com/im/26243052/resize-h48-w48%5Ecompr-r65/2731/273199620/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 1x, https://assets.wfcdn.com/im/49663750/resize-h96-w96%5Ecompr-r65/2731/273199620/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 2x"
+    },
+    {
+      "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage-1949757955-1993679188",
+      "className": "_1f33b0a0",
+      "id": "",
+      "index": 6,
+      "naturalHeight": 48,
+      "naturalWidth": 48,
+      "renderedHeight": 48,
+      "renderedWidth": 48,
+      "src": "https://assets.wfcdn.com/im/37593965/resize-h48-w48%5Ecompr-r65/2731/273199621/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/37593965/resize-h48-w48%5Ecompr-r65/2731/273199621/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcset": "https://assets.wfcdn.com/im/37593965/resize-h48-w48%5Ecompr-r65/2731/273199621/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 1x, https://assets.wfcdn.com/im/38312837/resize-h96-w96%5Ecompr-r65/2731/273199621/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 2x"
+    },
+    {
+      "alt": "Casmey Solid Wood Rectangle Coffee Table with Storage-1949757955-1993679188",
+      "className": "_1f33b0a0",
+      "id": "",
+      "index": 7,
+      "naturalHeight": 48,
+      "naturalWidth": 48,
+      "renderedHeight": 48,
+      "renderedWidth": 48,
+      "src": "https://assets.wfcdn.com/im/60139349/resize-h48-w48%5Ecompr-r65/2731/273199618/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/60139349/resize-h48-w48%5Ecompr-r65/2731/273199618/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+      "srcset": "https://assets.wfcdn.com/im/60139349/resize-h48-w48%5Ecompr-r65/2731/273199618/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 1x, https://assets.wfcdn.com/im/15767453/resize-h96-w96%5Ecompr-r65/2731/273199618/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg 2x"
+    },
+    {
+      "alt": "",
+      "className": "b32ygh0",
+      "id": "",
+      "index": 0,
+      "naturalHeight": 50,
+      "naturalWidth": 50,
+      "renderedHeight": 20,
+      "renderedWidth": 20,
+      "src": "https://assets.wfcdn.com/im/77645905/resize-h50-w50%5Ecompr-r85/3382/338242703/default_name.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/77645905/resize-h50-w50%5Ecompr-r85/3382/338242703/default_name.jpg",
+      "srcset": "https://assets.wfcdn.com/im/77645905/resize-h50-w50%5Ecompr-r85/3382/338242703/default_name.jpg 50w"
+    },
+    {
+      "alt": "",
+      "className": "b32ygh0",
+      "id": "",
+      "index": 1,
+      "naturalHeight": 50,
+      "naturalWidth": 50,
+      "renderedHeight": 20,
+      "renderedWidth": 20,
+      "src": "https://assets.wfcdn.com/im/52466148/resize-h50-w50%5Ecompr-r85/3675/367574113/default_name.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/52466148/resize-h50-w50%5Ecompr-r85/3675/367574113/default_name.jpg",
+      "srcset": "https://assets.wfcdn.com/im/52466148/resize-h50-w50%5Ecompr-r85/3675/367574113/default_name.jpg 50w"
+    },
+    {
+      "alt": "Wayfair Verified",
+      "className": "_1ski0hc6 _1ski0hc0",
+      "id": "",
+      "index": 16,
+      "naturalHeight": 36,
+      "naturalWidth": 36,
+      "renderedHeight": 36,
+      "renderedWidth": 36,
+      "src": "https://assets.wfcdn.com/im/48098897/resize-h36-w36%5Ecompr-r85/3268/326871030/default_name.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/48098897/resize-h36-w36%5Ecompr-r85/3268/326871030/default_name.jpg",
+      "srcset": "https://assets.wfcdn.com/im/48098897/resize-h36-w36%5Ecompr-r85/3268/326871030/default_name.jpg 1x, https://assets.wfcdn.com/im/34820705/resize-h72-w72%5Ecompr-r85/3268/326871030/default_name.jpg 2x"
+    },
+    {
+      "alt": "Affirm",
+      "className": "_6o3atz165",
+      "id": "",
+      "index": 8,
+      "naturalHeight": 26,
+      "naturalWidth": 46,
+      "renderedHeight": 26,
+      "renderedWidth": 46,
+      "src": "https://assets.wfcdn.com/im/92039588/resize-h26-w46%5Ecompr-r85/3745/374514294/default_name.jpg",
+      "srcRaw": "https://assets.wfcdn.com/im/92039588/resize-h26-w46%5Ecompr-r85/3745/374514294/default_name.jpg",
+      "srcset": "https://assets.wfcdn.com/im/92039588/resize-h26-w46%5Ecompr-r85/3745/374514294/default_name.jpg 1x, https://assets.wfcdn.com/im/43841588/resize-h52-w92%5Ecompr-r85/3745/374514294/default_name.jpg 2x"
+    },
+    {
+      "alt": "",
+      "className": "",
+      "id": "",
+      "index": 24,
+      "naturalHeight": 32,
+      "naturalWidth": 32,
+      "renderedHeight": 32,
+      "renderedWidth": 32,
+      "src": "https://assets.wfcdn.com/im/20220428/resize-h32-w32%5Ecompr-r85/7177/71774193/default_name.png",
+      "srcRaw": "https://assets.wfcdn.com/im/20220428/resize-h32-w32%5Ecompr-r85/7177/71774193/default_name.png",
+      "srcset": "https://assets.wfcdn.com/im/20220428/resize-h32-w32%5Ecompr-r85/7177/71774193/default_name.png 1x, https://assets.wfcdn.com/im/42644658/resize-h64-w64%5Ecompr-r85/7177/71774193/default_name.png 2x"
+    },
+    {
+      "alt": "",
+      "className": "",
+      "id": "",
+      "index": 25,
+      "naturalHeight": 32,
+      "naturalWidth": 32,
+      "renderedHeight": 32,
+      "renderedWidth": 32,
+      "src": "https://assets.wfcdn.com/im/20743549/resize-h32-w32%5Ecompr-r85/2051/205169317/default_name.png",
+      "srcRaw": "https://assets.wfcdn.com/im/20743549/resize-h32-w32%5Ecompr-r85/2051/205169317/default_name.png",
+      "srcset": "https://assets.wfcdn.com/im/20743549/resize-h32-w32%5Ecompr-r85/2051/205169317/default_name.png 1x, https://assets.wfcdn.com/im/66239099/resize-h64-w64%5Ecompr-r85/2051/205169317/default_name.png 2x"
+    },
+    {
+      "alt": "",
+      "className": "",
+      "id": "",
+      "index": 26,
+      "naturalHeight": 32,
+      "naturalWidth": 32,
+      "renderedHeight": 32,
+      "renderedWidth": 32,
+      "src": "https://assets.wfcdn.com/im/48642240/resize-h32-w32%5Ecompr-r85/7283/72831239/default_name.png",
+      "srcRaw": "https://assets.wfcdn.com/im/48642240/resize-h32-w32%5Ecompr-r85/7283/72831239/default_name.png",
+      "srcset": "https://assets.wfcdn.com/im/48642240/resize-h32-w32%5Ecompr-r85/7283/72831239/default_name.png 1x, https://assets.wfcdn.com/im/83459970/resize-h64-w64%5Ecompr-r85/7283/72831239/default_name.png 2x"
+    },
+    {
+      "alt": "",
+      "className": "",
+      "id": "",
+      "index": 28,
+      "naturalHeight": 32,
+      "naturalWidth": 32,
+      "renderedHeight": 32,
+      "renderedWidth": 32,
+      "src": "https://assets.wfcdn.com/im/68477191/resize-h32-w32%5Ecompr-r85/7347/73473899/default_name.png",
+      "srcRaw": "https://assets.wfcdn.com/im/68477191/resize-h32-w32%5Ecompr-r85/7347/73473899/default_name.png",
+      "srcset": "https://assets.wfcdn.com/im/68477191/resize-h32-w32%5Ecompr-r85/7347/73473899/default_name.png 1x, https://assets.wfcdn.com/im/36374981/resize-h64-w64%5Ecompr-r85/7347/73473899/default_name.png 2x"
+    }
+  ],
+  "meta": {
+    "darkreader": "3ab5a6b905eb4a0792e738a412a8027f",
+    "description": "You'll love the Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage at Wayfair - Great Deals on all products with Free Shipping on most stuff, even the big stuff.",
+    "fb:app_id": "158742637545893",
+    "format-detection": "telephone=no",
+    "name": "Department Navigation",
+    "og:description": "You'll love the Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage at Wayfair - Great Deals on all products with Free Shipping on most stuff, even the big stuff.",
+    "og:image": "https://assets.wfcdn.com/im/56024507/compr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage.jpg",
+    "og:site_name": "Wayfair",
+    "og:title": "Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage & Reviews | Wayfair",
+    "og:url": "https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188",
+    "referrer": "no-referrer-when-downgrade",
+    "twitter:card": "summary_large_image",
+    "twitter:description": "You'll love the Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage at Wayfair - Great Deals on all products with Free Shipping on most stuff, even the big stuff.",
+    "twitter:image": "https://assets.wfcdn.com/im/46063920/resize-h630-w1200%5Ecompr-r85/3173/317352646/.jpg",
+    "twitter:title": "Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage & Reviews | Wayfair",
+    "viewport": "initial-scale=1.0, maximum-scale=5.0, width=device-width",
+    "x-app-name": "sf-ui-core-funnel"
+  },
+  "page": {
+    "canonical": "https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html",
+    "capturedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "h1": "Casmey Solid Wood Rectangle Coffee Table with Storage",
+    "host": "www.wayfair.com",
+    "pathname": "/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html",
+    "title": "Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage & Reviews | Wayfair",
+    "url": "https://www.wayfair.com/furniture/pdp/wade-logan-casmey-solid-wood-rectangle-coffee-table-with-storage-w110562214.html?piid=1949757955%2C1993679188"
+  },
+  "product": {
+    "brand": "Wade Logan®",
+    "description": "You'll love the Wade Logan® Casmey Solid Wood Rectangle Coffee Table with Storage at Wayfair - Great Deals on all products with Free Shipping on most stuff, even the big stuff.",
+    "image": "https://assets.wfcdn.com/im/48178462/resize-h800-w800%5Ecompr-r85/2729/272986285/Casmey+Solid+Wood+Rectangle+Coffee+Table+with+Storage-1949757955-1993679188.jpg",
+    "measurements": [
+      "Overall Dimensions: 15'' H X 24'' D",
+      "Overall Product Weight: 62.2 lb.",
+      "40.25\" L x 20.5\" W x 15\" H"
+    ],
+    "price": "$314.99",
+    "title": "Casmey Solid Wood Rectangle Coffee Table with Storage"
+  },
+  "rawVisibleText": "Items 1 through 4 of 4 Items 1 through 5 of 5 Skip to Main Content Search for dining table and chairs indoor area rugs living room couch nightstand set of 2 outdoor furniture set queen bedroom set dining table and chairs Search Account | Cart Verified Open Verified Menu Dropdown New Arrivals Best Sellers Trending Open Trending Menu Dropdown Collaborations Open Collaborations Menu Dropdown Shop by Room Open Shop by Room Menu Dropdown Inspiration Services Open Services Menu Dropdown Furniture Open Furniture Menu Dropdown Outdoor Open Outdoor Menu Dropdown Bedding & Bath Open Bedding & Bath Menu Dropdown Mattresses Open Mattresses Menu Dropdown Rugs Open Rugs Menu Dropdown Decor & Pillows Open Decor & Pillows Menu Dropdown Lighting Open Lighting Menu Dropdown Organization Open Organization Menu Dropdown Kitchen Open Kitchen Menu Dropdown Baby & Kids Open Baby & Kids Menu Dropdown Home Improvement Open Home Improvement Menu Dropdown Appliances Open Appliances Menu Dropdown Pet Open Pet Menu Dropdown Holiday Open Holiday Menu Dropdown Sale Open Sale Menu Dropdown VerifiedNew ArrivalsBest SellersShop the LookEarthy InteriorDark and MoodyQuiet Luxury70s RevivalEuropean FarmhouseVintage MaximalismShop by RoomInspiration FurnitureFurniture SaleLiving Room FurnitureSofasSectionalsTV Stands & Entertainment CentersCoffee TablesEnd & Side TablesAccent ChairsLiving Room SetsReclining FurnitureLiving Room Furniture SaleOffice FurnitureDesksBookcasesOffice ChairsFiling CabinetsOffice SetsOffice Furniture SaleBedroom FurnitureBedsDressers & ChestsNightstandsArmoires & WardrobesMattresses & FoundationsBedroom SetsBedroom Furniture SaleEntry & Mudroom FurnitureConsole TablesCabinets & ChestsShoe StorageShoe Racks & CubbiesHall TreesEntry & Mudroom Furniture SaleKitchen & Dining FurnitureDining Tables & SeatingSideboards & BuffetsKitchen Islands & CartsDisplay & China CabinetsBar Stools & Counter StoolsBar FurnitureKitchen & Dining Room SetsKitchen & Dining Furniture SaleGame Room FurnitureGaming ChairsGaming DesksGames & Game TablesBean Bag ChairsGame Room Furniture SalePetCustom FurnitureWayfair Verified™ FurnitureTop-Rated FurnitureFast Delivery FurnitureHang-Out Must HavesModern Dining SetsBoneless SofasDesign ServicesOutdoorOutdoor SaleOutdoor & Patio FurniturePatio Furniture SetsOutdoor Seating & Patio ChairsOutdoor TablesPatio Bar FurnitureOutdoor & Patio Furniture SaleBackyard PlayOutdoor ShadesGazebosPergolasOutdoor CanopiesAwningsOutdoor UmbrellasOutdoor Shades SaleOutdoor HeatingOutdoor DécorOutdoor RugsStatues & SculpturesOutdoor Pillows & CushionsFountainsWreathsOutdoor DoormatsOutdoor Décor SaleOutdoor LightingGardenPlantersGreenhousesTrellisesArborsGarden SaleFront Door Décor & Curb AppealGarage & Outdoor StorageGarage Storage CabinetsBike & Sport RacksTool StorageShedsDeck BoxesStorage Racks & Shelving UnitsOutdoor Storage SaleOutdoor Fencing & FlooringHot Tubs, Saunas & PoolsGrills & Outdoor CookingGrills & AccessoriesOutdoor KitchensOutdoor Serving & TablewareGrills & Outdoor Cooking SaleWayfair Verified™ OutdoorOutdoor Decor FavoritesSunbrellaPOLYWOOD®BlackstoneSuncastBackyard DiscoveryFree Assembly GrillsPergolas & GazebosGet the Garden ReadyAdirondack ChairsBedding & BathBed & Bath SaleBedding & Bedding SetsAll BeddingThrow PillowsThrow BlanketsSheets & PillowcasesBedding SaleBedding EssentialsBed PillowsMattress Pads & ToppersDown Comforters & Duvet InsertsMattress Covers & ProtectorsBed SkirtsBedding Basics SaleMattresses & FoundationsAll MattressesKing MattressesQueen MattressesFull MattressesTwin MattressesAdjustable BedsBox Springs & FoundationsBed FramesBathroom Remodel & FixturesBathroom VanitiesBathroom Sink FaucetsBathroom MirrorsBathroom Remodel SaleBath Rugs & TowelsBath Towels & SetsBath Rugs & MatsBath Rugs & Towels SaleBathroom OrganizationCountertop Bath AccessoriesShower & Bathtub AccessoriesTowel StorageBathroom Organization SaleShower Curtains & AccessoriesShower Curtains & Shower LinersShower Curtain RodsShower Curtains & Accessories SaleWayfair Verified™ BedroomFree Full Service DeliveryRE/FINE™Laura AshleySealyWayfair SleepWayfair BasicsLightweight QuiltsGuest Bath Must HavesCooling BeddingMattressesMattresses & Foundations SaleMattresses & FoundationsAll MattressesKing MattressesQueen MattressesFull MattressesTwin MattressesAdjustable BedsBox Springs & FoundationsBed Frames100-Night Free Trial on All MattressesSpeak with a SpecialistBuy Now, Pay Over TimeCooling BeddingTop-Rated Adjustable BedsOrganic & Sustainable MattressesAdvanced Sleep TechnologySealyBeautyrestCasperPurpleTempur-PedicSertaLeesaHelixRugsRugs SaleRugsArea RugsOutdoor RugsHallway RunnersBath Rugs & MatsWashable RugsKitchen MatsDoormatsOne-of-a-Kind RugsBaby & Kids RugsRug PadsStair Tread RugsCarpet TilesPopular Rug Sizes3' x 5' Rugs5' x 8' Rugs7' x 9' Rugs8' x 10' Rugs9' x 12' Rugs10' x 14' RugsWayfair Verified™ RugsTop-Rated Area RugsQuick Ship FavesMagnolia Home by Joanna Gaines x LoloiRifle Paper Co. x LoloiLauren Ralph LaurenGaley Alix x LivablissMachine Washable RugsJute & Sisal RugsCheck & Striped RugsHigh-Pile RugsDecor & PillowsDecor & Pillows SaleWall DécorWall & Display ShelvesWall AccentsWallpaperPeel & Stick WallpaperTapestriesWall DecalsWall Décor SaleArtAll Wall ArtArt by SubjectArt by TypeArt by RoomWall Art SaleMirrorsAll MirrorsWall MirrorsVanity & Dresser MirrorsFull Length MirrorsMirrors SaleDecorative AccentsVases, Urns, Jars & BottlesDecorative ObjectsDecorative TraysGlobesDecorative BoxesDecorative Accents SaleCandlesPicture FramesFlowers & PlantsFaux PlantsFaux TreesFaux FlowersLive PlantsIndoor PlantersFlowers & Plants SaleWindow TreatmentsCurtains & DrapesBlinds & ShadesWindow Treatments SaleDecorative Pillows & BlanketsThrow PillowsThrow BlanketsDecorative Pillows & Blankets SaleWayfair Verified™ DécorQuick-Ship Mirrors & DecorTop-Rated Decorative ObjectsFresh FindsRE/FINE™Wayfair BasicsSmall Decor, Major StyleSpring Blankets & PillowsDesign ServicesStyle it for under $100LightingLighting SaleCeiling LightsAll Ceiling LightsChandeliersPendant LightingFlush Mount LightingRecessed LightingCeiling Lights SaleTable & Floor LampsTable LampsFloor LampsLamp SetsLamp ShadesDesk LampsTable & Floor Lamps SaleOutdoor LightingAll Outdoor LightsOutdoor Wall LightingOutdoor Ceiling LightsOutdoor Lanterns & LampsString LightsLED Outdoor LightsOutdoor Lighting SaleWall LightsBathroom Vanity LightingWall SconcesSwing Arm Wall SconcesUnder Cabinet LightingPicture LightsWall Lights SaleCeiling FansAll Ceiling FansCeiling Fans With LightsIndoor Ceiling FansOutdoor Ceiling FansCeiling Fans SaleLight Bulbs & HardwareLight BulbsSwitch PlatesLight ShadesSwitches, Dimmers & OutletsLighting ComponentsLight Bulbs & Hardware SaleWayfair Verified™ LightingOutdoor Lighting by Mercury RowTop-Rated LightingQuick Ship Table LampsBreegan Jane x Savoy HouseKuzco LightingLisa McDennon By HinkleyGuest Bathroom Refresh: LightingAlabaster LightingOrganizationOrganization SaleStorage Containers & DrawersAll Storage ContainersWoven BasketsDecorative StorageCube StorageStorage DrawersStorage Tubs & TotesUtility CartsStorage Containers & Drawers SaleStorage FurnitureBookcasesCabinets & ChestsStorage BenchesStorage OttomansStorage Furniture SaleWall Shelving & OrganizationWall & Display ShelvesWall HooksWall Shelving & Organization SaleCloset OrganizationAll Closet SystemsClothes & Garment RacksShoe StorageAll Closet AccessoriesStorage TrunksCloset Organization SaleGarage & Outdoor StorageGarage Storage CabinetsBike & Sport RacksTool StorageShedsDeck BoxesStorage Racks & Shelving UnitsOutdoor Storage SaleOffice OrganizationDesktop OrganizationFile BoxesFiling CabinetsOffice OrganizationBathroom OrganizationBathroom Cabinets & ShelvingCountertop Bath AccessoriesShower & Bathtub AccessoriesBathroom Trash CansBathroom Organization SaleKitchen OrganizationFood PantriesFood Storage ContainersKitchen ShelvingCabinet OrganizationPot RacksSpice Jars & Spice RacksKitchen Organization SaleCleaning & Laundry OrganizationVacuums & Deep CleanersHampers & Laundry BasketsTrash Cans & RecyclingLaundry Organization SaleWayfair BasicsDotted LineClosetMaidBrabantiaOrganize Every SpaceCloset Organization EssentialsUnder-bed StorageThe Best Storage ContainersBuying GuidesKitchenKitchen & Dining SaleTableware & DrinkwareDinnerwareTable AccentsDrinkwareTable & Kitchen LinensFlatware & SilverwareBarwareTableware & Drinkware SaleKitchen & Dining FurnitureGrills & Outdoor CookingGrills & AccessoriesOutdoor KitchensOutdoor Serving & TablewareGrills & Outdoor Cooking SaleCookware & BakewareCookwareBakewarePots, Pans & SkilletsKnives & AccessoriesCooking UtensilsKitchen Utensils & ToolsCookware & Bakeware SaleKitchen Remodel & FixturesKitchen OrganizationFood PantriesKitchen ShelvingCabinet & Pantry OrganizationCountertop OrganizationKitchen Organization SaleSmall Kitchen AppliancesAir FryersMixers & AttachmentsCoffee, Espresso, & TeaIce MakersBlendersToaster OvensSmall Kitchen Appliances SaleKitchen AppliancesCabinetryCustom CabinetryCabinet SamplesReady to Assemble CabinetryNinjaCuisinartCalphalonHENCKELSCocktails in StyleThe Perfect CupMust-Have Spice RacksBaby & KidsBaby & Kids SaleNursery FurnitureCribsCrib MattressesGliders, Rockers, & ReclinersChanging TablesCradles & BassinetsNursery Furniture SetsNursery Furniture SaleNursery BeddingCrib Bedding SetsCrib SheetsBaby Blankets & QuiltsNursery Bedding SaleToddler & Kids PlayroomToddler & Kids Table & Chair SetsPlay Kitchen Sets & AccessoriesIndoor PlayToddler & Kids Playroom SaleToddler & Kids Bedroom FurnitureKids BedsBunk BedsToddler BedsBaby & Kids DressersKids DesksKids Bedroom SetsToddler & Kids Bedroom Furniture SaleBaby & Kids StorageToddler & Kids Bedding & BathBaby & Kids Rugs, Décor & LightingKids' Wall Art & Nursery ArtBaby & Kids RugsBaby & Kids CurtainsBaby & Kids WallpaperBaby & Kids Decor & Lighting SaleBackyard PlaySwing SetsBounce Houses & Inflatable SlidesClimbing Toys & SlidesOutdoor PlayhousesBackyard Play SaleTeen BeddingTeen Decor & LightingTeen Bedroom FurnitureTeen BedsTeen Bunk & Loft BedsTeen Lounge FurnitureTeen Bedroom Furniture SaleWayfair Verified™ Kids FurnitureNew Parent EssentialsCustomer Picks: Kids FurnitureGREENGUARD Gold CertifiedSealy BabyGracoStorkcraftBabylettoDelta ChildrenMust-Have Kids RugsNautical Kids RoomPlayroom Game-ChangersHome ImprovementHome Improvement SaleBathroom Remodel & FixturesBathroom VanitiesBathroom Sink FaucetsBathroom MirrorsBathroom SinksShowers & BathtubsToilets & BidetsBathroom Remodel SaleKitchen Remodel & FixturesKitchen FaucetsKitchen SinksCabinets & Cabinet HardwareKitchen Remodel & Fixtures SaleWindow TreatmentsCurtains & DrapesBlinds & ShadesWindow Treatments SaleFlooring & WallsFloor Tiles & Wall TilesWall PanelingVinyl FlooringFlooring & Walls SaleDoors & Door HardwareInterior DoorsExterior DoorsDoor Hardware & AccessoriesDoors & Door Hardware SaleHardwareCabinet HardwareDoor Hardware & AccessoriesBathroom HardwareHardware SaleOutdoor RemodelHeating, Cooling & Air QualityFireplaces & StovesAir ConditionersHeating, Cooling & Air Quality SaleCabinetryCustom CabinetryCabinet SamplesReady to Assemble CabinetryMoenDeltaAcklandKwiksetRenovate Your Laundry Room Patterned Floor & Wall TileSmart Home EssentialsAppliancesAppliances SaleKitchen AppliancesRefrigerators & FreezersRange HoodsMicrowavesRangesDishwashersWine & Beverage CoolersWall OvensCooktopsKitchen Appliance PackagesKitchen Appliances SaleSmall Kitchen AppliancesAir FryersMixers & AttachmentsCoffee, Espresso, & TeaIce MakersBlendersToaster OvensSmall Kitchen Appliances SaleVacuums & Deep CleanersAll VacuumsStick VacuumsUpright VacuumsCanister VacuumsVacuums & Deep Cleaners SaleWashers & DryersWashing MachinesDryersWasher & Dryer SetsWashers & Dryers SaleHeating, Cooling & Air QualityAir ConditionersAir PurifiersDehumidifiersSpace HeatersHeating, Cooling & Air Quality SaleSamsungBoschGE AppliancesFrigidaireLGSmart AppliancesSummer Cooling CollectionOutdoor Refrigeration & BarPetPet Furniture SaleDogDog Crates & KennelsDog BedsDog HousesDog CarriersDog Ramps & StairsDog StrollersDog Food Storage & Treat JarsDog Furniture SaleFurniture Style CratesLitter Box EnclosuresCatLitter BoxesCat BedsCat Cages & CatiosCat Trees, Perches & ScratchersCat Furniture SalePet Bowls & FeedersPet Gates & DoorsPet-Friendly SlipcoversChickenChicken CoopsChicken RunsChicken Coop AccessoriesBirdFishReptileSmall AnimalLesureBeautyrest & SertaFurHavenZylinaThe Refined FelineAivituvinPet Tech ShopCozy Dog BedsThe Outdoor Pet ShopHolidaySale Furniture/ Living Room Furniture/ Coffee Tables & End Tables/ Coffee Tables/ SKU: W110562214 Casmey Solid Wood Rectangle Coffee Table with Storage By Wade Logan® 3.8 Rated 3.8 out of 5 stars. 130 Reviews $314.99 was $329.99 5% Off or {BOLD_AS_LOW_AS} As low as {BOLD_AFFIRM_REUSE_TITLE_SECTION_1} $20/mo. or 0% APR with or 0% APR with Check your buying power Open Box Available Buy From $162.79 Size: 48\" 40\" 48\" Color: Pecan Wirebrush FREE Fast Delivery Get it by Tue, Jun 30 to 48236 Add to Cart Pro Price: $ Businesses Only Enroll your businessfor FREE to save on select items. Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Earn $15.75 in rewards, with 5% back¹, plus more exclusive perks Learn more Services Professional Assembly - $89.99 See Details 5 Year Protection Plan - $52.99 ($10.60/year) See Details Get Everything You Need Sale Burke Square Manufactured Wood Serving Tray with Handles Add to Cart Larenda Entryway Table with Open Shelf Storage Add to Cart Four-Day Flash Sale Lorraine TV Stand with Sliding Barn Doors Add to Cart Sale Round Furniture Pads for Slider (Set of 128) Add to Cart At a Glance Solid Wood Base Storage Included Warranty Length: 1 Year Solid Wood See More Description About This Product Introducing the modern rectangular coffee table with shelf- a harmonious blend of style and practicality, designed to elevate your living space. Crafted meticulously from solid pine wood, this modern coffee table for the living room with underneath storage ensures both durability and timeless elegance. Its use of non-toxic finishes not only ensures a safe environment but also reflects a commitment to eco-conscious craftsmanship. The distinctive finish creates a textured look that adds depth and uniqueness to the center table's design, making it a standout piece in any room. This attention to detail sets it apart, ideal for those seeking sophistication in their home decor. Designed with versatility in mind, this medium-sized coffee table measures 40.75 inches in length, and 20.25 inches in width, and stands at 15 inches in height. Its sleek rectangular shape maximizes surface area, catering perfectly to smaller living spaces while offering ample room for various seating arrangements. Practicality meets style with the inclusion of a bottom shelf, offering opportunities for storage or displaying your favorite decor pieces. From storing books and magazines to showcasing decorative accents, this shelf amplifies the table's functionality without compromising its sleek aesthetics. Embrace modern design with the modern rectangular coffee table with a shelf - an exquisite addition that seamlessly integrates into your living area, providing both style and utility in a single, sophisticated package. Features Quality wood coffee table with shelf: The rectangular coffee table with storage features a solid pine wood tabletop and legs offering a refined look and exceptional durability. The solid wood 2-tier coffee table for the living room with non-toxic finishes complements your healthy living space. Versatile design: The modern occasional table for the living room has a unique design that allows for easy accommodation in smaller living spaces, making it an exceptional and practical addition to enhance the ambiance of any home. Modern style: Our wooden small tea table with a shelf boasts a sleek, modern design that exudes contemporary elegance, creating an inviting focal point for cherished family gatherings. Enhanced by a wire brush finish, they showcase a unique textured look for added flair. Assembly: The medium-sized coffee table for small space is easily assembled anywhere in your room, accompanied by user-friendly instructions. Conveniently, the modern occasional table for the living room arrives in a single box. Dimensions: The rectangular center table measures 40.25\" L x 20.5\" W x 15\" H. Show More Specifications Return Policy Customer Reviews 3.8 Rated 3.8 out of 5 stars. 130 Reviews 79 5 star reviews 5 79 11 4 star reviews 4 11 8 3 star reviews 3 8 4 2 star reviews 2 4 28 1 star reviews 1 28 Customers say Customers praise this product for its easy assembly, sturdy construction, and attractive color and material. Many appreciate the solid wood and its stylish finish. However, some found the size smaller than expected, and a few noted concerns about the material's susceptibility to damage from moisture. AI-generated from customer reviews",
+  "rawVisibleTextLength": 17014,
+  "schema": "wayfair-page-scrape-full-v2",
+  "scrapeLimits": {
+    "maxImages": 120,
+    "maxRawText": 250000
+  },
+  "scriptHints": []
+}
